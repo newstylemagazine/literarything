@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Facingpage</title>
+    <meta
+      name="description"
+      content="Facingpage is a browsing and reading site for public-domain classics in bilingual facing-page editions."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js" defer></script>
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="halo halo-left" aria-hidden="true"></div>
+    <div class="halo halo-right" aria-hidden="true"></div>
+
+    <header class="masthead">
+      <div class="site-shell masthead-inner">
+        <a class="brand" href="#home" aria-label="Facingpage home">
+          <strong class="brand-name">Facingpage</strong>
+          <small class="brand-sub">Bilingual editions of public-domain classics</small>
+        </a>
+        <nav class="masthead-nav" aria-label="Primary">
+          <a href="#catalog">Catalogue</a>
+          <a href="#reader">Reader</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home" class="site-shell layout">
+      <section id="catalog" class="card catalog-panel">
+        <div class="section-head section-head-search">
+          <div class="catalog-search-wrap">
+            <span class="blink-bar" aria-hidden="true"></span>
+            <input id="searchInput" class="catalog-search" type="search" placeholder="Title, author, language, era…" aria-label="Search the catalogue" />
+          </div>
+        </div>
+        <div id="catalogGrid" class="catalog-list" aria-live="polite"></div>
+      </section>
+
+      <section id="reader" class="card reader-panel">
+        <div class="book-header">
+          <div class="book-header-copy">
+            <p class="eyebrow" id="currentLanguage">Select a text above</p>
+            <h2 id="workTitle">The reader opens when you select a text</h2>
+            <p class="work-meta" id="workMeta">Choose any title from the catalogue to read its bilingual facing-page edition here.</p>
+            <p class="work-credit" id="workCredit"></p>
+          </div>
+          <div class="reader-actions reader-actions-top" id="pdf">
+            <button class="button button-primary" id="downloadPdf" type="button">Download PDF</button>
+            <a class="button button-secondary" id="sourceLink" href="#catalog" rel="noreferrer">Browse catalogue</a>
+          </div>
+        </div>
+
+        <div class="reader-settings" id="readerSettingsPanel" aria-label="Reader settings">
+          <div class="rs-group">
+            <span class="rs-label">Size</span>
+            <button class="rs-btn" id="fontDecrease" aria-label="Smaller text">A−</button>
+            <span class="rs-size-display" id="fontSizeDisplay">18</span>
+            <button class="rs-btn" id="fontIncrease" aria-label="Larger text">A+</button>
+          </div>
+          <span class="rs-sep"></span>
+          <div class="rs-group">
+            <span class="rs-label">Typeface</span>
+            <button class="rs-btn rs-font-btn" data-font="garamond" aria-pressed="true">Garamond</button>
+            <button class="rs-btn rs-font-btn" data-font="georgia" aria-pressed="false">Georgia</button>
+            <button class="rs-btn rs-font-btn" data-font="palatino" aria-pressed="false">Palatino</button>
+          </div>
+          <span class="rs-sep"></span>
+          <div class="rs-group">
+            <span class="rs-label">Theme</span>
+            <button class="rs-btn rs-theme-btn" data-theme="light" aria-pressed="true">Light</button>
+            <button class="rs-btn rs-theme-btn" data-theme="sepia" aria-pressed="false">Sepia</button>
+            <button class="rs-btn rs-theme-btn" data-theme="dark" aria-pressed="false">Dark</button>
+          </div>
+        </div>
+
+        <div class="reader-frame">
+          <article class="reader-spread faux-book is-empty" id="spread"></article>
+          <div class="reader-pagination" id="readerPagination" aria-label="Page navigation">
+            <button class="page-btn" id="prevPage" type="button" aria-label="Previous page">Previous</button>
+            <p class="page-label" id="pageLabel">Page 0 of 0</p>
+            <button class="page-btn" id="nextPage" type="button" aria-label="Next page">Next</button>
+          </div>
+          <div class="reader-progress" id="readerProgress" aria-hidden="true">
+            <span class="reader-progress-fill" id="readerProgressFill"></span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <template id="catalogCardTemplate">
+      <button class="catalog-row" type="button">
+        <span class="row-primary">
+          <span class="row-title"></span>
+          <span class="row-author"></span>
+        </span>
+        <span class="row-details"></span>
+        <span class="row-trans"></span>
+      </button>
+    </template>
+
+    <template id="spreadTemplate">
+      <section class="spread-column">
+        <p class="column-label"></p>
+        <div class="column-text"></div>
+      </section>
+    </template>
+
+    <div id="glossPopup" class="gloss-popup" hidden role="status" aria-live="polite">
+      <p class="gloss-label">Gloss</p>
+      <p class="gloss-source" id="glossSource"></p>
+      <hr class="gloss-divider" />
+      <p class="gloss-result" id="glossResult"></p>
+    </div>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

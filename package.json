@@ -1,0 +1,41 @@
+{
+  "name": "literarything",
+  "version": "1.0.0",
+  "description": "Facingpage is a polished browser prototype for public-domain bilingual reading editions.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newstylemagazine/literarything.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newstylemagazine/literarything/issues"
+  },
+  "homepage": "https://github.com/newstylemagazine/literarything#readme",
+  "dependencies": {
+    "@tanstack/react-query": "^5.101.0",
+    "@types/node": "^25.9.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.5.0",
+    "clsx": "^2.1.1",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.9",
+    "next": "^16.2.9",
+    "postcss": "^8.5.15",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "tailwind-merge": "^3.6.0",
+    "tailwindcss": "^4.3.1",
+    "typescript": "^6.0.3",
+    "zustand": "^5.0.14"
+  }
+}
