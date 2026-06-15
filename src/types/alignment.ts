@@ -103,7 +103,7 @@ export interface ReaderState {
   currentSegmentIndex: number;
   theme: "light" | "sepia" | "dark";
   fontSize: number;
-  fontFamily: serif;
+  fontFamily: string;
   showLineNumbers: boolean;
   highlightAlignment: boolean;
 }

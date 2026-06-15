@@ -35,8 +35,8 @@ interface AlignmentStore {
 const defaultReaderState: ReaderState = {
   currentSegmentIndex: 0,
   theme: 'light',
-  fontSize: 18,
-  fontFamily: 'Georgia',
+  fontSize: 19,
+  fontFamily: 'garamond',
   showLineNumbers: false,
   highlightAlignment: true,
 };
