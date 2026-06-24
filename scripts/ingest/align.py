@@ -210,12 +210,34 @@ def _paginate(paragraphs: list[str], target: int) -> list[list[str]]:
 
 
 def _slice_proportional(paragraphs: list[str], n_pages: int) -> list[list[str]]:
+    """Split paragraphs into n_pages chunks balanced by character count.
+
+    Slicing by character mass (rather than paragraph index) keeps the two
+    columns reading the same moment: a page that is a short heading on one side
+    no longer absorbs a whole proportional share of the other side.
+    """
+    if n_pages <= 1:
+        return [paragraphs]
+    total = sum(len(p) for p in paragraphs) or 1
     out: list[list[str]] = []
-    total = len(paragraphs)
-    for i in range(n_pages):
-        lo = round(i / n_pages * total)
-        hi = round((i + 1) / n_pages * total)
-        out.append(paragraphs[lo:hi])
+    cur: list[str] = []
+    acc = 0
+    page = 0
+    for p in paragraphs:
+        cur.append(p)
+        acc += len(p)
+        # Close the page once we've accumulated this page's char-share, while
+        # leaving enough paragraphs for the remaining pages.
+        boundary = (page + 1) / n_pages * total
+        remaining_pages = n_pages - len(out)
+        if acc >= boundary and len(cur) >= 1 and remaining_pages > 1:
+            out.append(cur)
+            cur = []
+            page += 1
+    if cur:
+        out.append(cur)
+    while len(out) < n_pages:
+        out.append([])
     return out
 
 
