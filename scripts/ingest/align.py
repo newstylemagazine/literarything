@@ -194,14 +194,160 @@ def _to_paragraphs_already(paras: list[str]) -> list[str]:
     return [p for p in paras if p.strip()]
 
 
-def _paginate(paragraphs: list[str], target: int) -> list[list[str]]:
-    pages: list[list[str]] = []
-    cur: list[str] = []
-    size = 0
+# --- Fine-grained (stanza / numbered-line) anchoring ----------------------
+#
+# Verse and many numbered editions carry a per-stanza or per-line number that is
+# present in *both* editions (e.g. Italian "17" vs English "XVII"). These make
+# excellent automatic anchors: matching them lines a stanza up with its exact
+# counterpart, where proportional slicing alone drifts. A "unit" is one such
+# stanza/paragraph, optionally tagged with its detected number.
+
+_STANDALONE_NUM = re.compile(r"^\d{1,4}$")
+_STANDALONE_ROMAN = re.compile(r"^[IVXLCDM]{1,7}$")
+
+
+def _inline_marker(text: str) -> int | None:
+    """Detect a stanza/line number at the very start of a paragraph.
+
+    Accepts a leading arabic number ("17 Cominciar ...") or an *uppercase*
+    roman numeral ("XVII Thus ..."). Requiring uppercase for romans avoids
+    treating an English sentence that opens with "I" as a stanza marker; stray
+    false positives are additionally filtered out by the increasing-run check in
+    `_marker_index`.
+    """
+    head = text.lstrip()
+    parts = head.split(None, 1)
+    if len(parts) < 2:
+        return None
+    tok = parts[0].strip(".:)(]")
+    if tok.isdigit() and len(tok) <= 4:
+        return int(tok)
+    if tok and tok == tok.upper() and re.fullmatch(r"[IVXLCDM]+", tok):
+        return roman_to_int(tok)
+    return None
+
+
+def _build_units(paragraphs: list[str]) -> list[dict]:
+    """Group paragraphs into stanza/line "units", each tagged with a number.
+
+    A paragraph that is *only* a number (arabic or roman) labels the paragraph
+    that follows it; the number is folded into that unit's text so both columns
+    display it inline. Otherwise the unit's number is read from its leading
+    token, if any.
+    """
+    units: list[dict] = []
+    pending: int | None = None
     for p in paragraphs:
-        cur.append(p)
-        size += len(p)
-        if size >= target:
+        t = p.strip()
+        if not t:
+            continue
+        if _STANDALONE_NUM.fullmatch(t):
+            pending = int(t)
+            continue
+        rom = _STANDALONE_ROMAN.fullmatch(t)
+        if rom and roman_to_int(t):
+            pending = roman_to_int(t)
+            continue
+        if pending is not None:
+            units.append({"marker": pending, "text": f"{pending} {t}"})
+            pending = None
+        else:
+            units.append({"marker": _inline_marker(t), "text": t})
+    return units
+
+
+def _marker_index(units: list[dict]) -> dict[int, int]:
+    """Map each stanza number to its unit index, keeping only an increasing run.
+
+    Greedily discarding any marker not strictly greater than the last kept one
+    removes noise (e.g. a paragraph that happens to open with a year) so the two
+    sides match on a clean, monotonically increasing sequence.
+    """
+    idx: dict[int, int] = {}
+    last = 0
+    for i, u in enumerate(units):
+        m = u["marker"]
+        if m is not None and m > last:
+            idx[m] = i
+            last = m
+    return idx
+
+
+def _proportional_pair(o_units: list[dict], e_units: list[dict]) -> list[dict]:
+    """Pair two runs of units into rows balanced by count (merge-to-min).
+
+    Mirrors the reader's runtime pairing: equal counts pair 1:1; otherwise the
+    shorter side keeps one unit per row and the longer side merges consecutive
+    units proportionally, so paragraph starts still correspond generally.
+    """
+    if not o_units and not e_units:
+        return []
+    if not o_units:
+        return [{"original": "", "english": u["text"]} for u in e_units]
+    if not e_units:
+        return [{"original": u["text"], "english": ""} for u in o_units]
+    n = min(len(o_units), len(e_units))
+    rows: list[dict] = []
+    for i in range(n):
+        o_lo = round(i / n * len(o_units))
+        o_hi = round((i + 1) / n * len(o_units))
+        e_lo = round(i / n * len(e_units))
+        e_hi = round((i + 1) / n * len(e_units))
+        rows.append({
+            "original": "\n\n".join(u["text"] for u in o_units[o_lo:o_hi]),
+            "english": "\n\n".join(u["text"] for u in e_units[e_lo:e_hi]),
+        })
+    return rows
+
+
+def _rows_for_segment(orig: list[str], eng: list[str]) -> tuple[list[dict], bool]:
+    """Build aligned rows for one segment. Returns (rows, used_markers).
+
+    Anchors on shared stanza/line numbers when both sides expose a strong
+    increasing sequence; between anchors (and when no markers exist) it pairs
+    proportionally.
+    """
+    o_units = _build_units(orig)
+    e_units = _build_units(eng)
+    if not o_units or not e_units:
+        return _proportional_pair(o_units, e_units), False
+
+    o_idx = _marker_index(o_units)
+    e_idx = _marker_index(e_units)
+    shared = sorted(set(o_idx) & set(e_idx))
+    strong = len(shared) >= 4 and len(shared) >= 0.5 * min(len(o_units), len(e_units))
+
+    if not strong:
+        return _proportional_pair(o_units, e_units), False
+
+    # Walk anchor points (plus the implicit segment start/end), pairing the
+    # units between each consecutive pair of anchors proportionally.
+    points: list[tuple[int, int]] = [(0, 0)]
+    for n in shared:
+        pt = (o_idx[n], e_idx[n])
+        if pt[0] > points[-1][0] and pt[1] > points[-1][1]:
+            points.append(pt)
+    points.append((len(o_units), len(e_units)))
+
+    rows: list[dict] = []
+    for (o_s, e_s), (o_e, e_e) in zip(points, points[1:]):
+        rows.extend(_proportional_pair(o_units[o_s:o_e], e_units[e_s:e_e]))
+    return rows, True
+
+
+def _paginate_rows(rows: list[dict], target: int) -> list[list[dict]]:
+    """Group aligned rows into facing-page openings by combined char mass.
+
+    Rows are atomic (never split), so an opening always contains whole aligned
+    stanzas/paragraphs and the columns stay anchored across page turns.
+    """
+    pages: list[list[dict]] = []
+    cur: list[dict] = []
+    size = 0
+    for r in rows:
+        cur.append(r)
+        size += len(r["original"]) + len(r["english"])
+        if size >= target * 2:
             pages.append(cur)
             cur, size = [], 0
     if cur:
@@ -209,45 +355,21 @@ def _paginate(paragraphs: list[str], target: int) -> list[list[str]]:
     return pages or [[]]
 
 
-def _slice_proportional(paragraphs: list[str], n_pages: int) -> list[list[str]]:
-    """Split paragraphs into n_pages chunks balanced by character count.
-
-    Slicing by character mass (rather than paragraph index) keeps the two
-    columns reading the same moment: a page that is a short heading on one side
-    no longer absorbs a whole proportional share of the other side.
-    """
-    if n_pages <= 1:
-        return [paragraphs]
-    total = sum(len(p) for p in paragraphs) or 1
-    out: list[list[str]] = []
-    cur: list[str] = []
-    acc = 0
-    page = 0
-    for p in paragraphs:
-        cur.append(p)
-        acc += len(p)
-        # Close the page once we've accumulated this page's char-share, while
-        # leaving enough paragraphs for the remaining pages.
-        boundary = (page + 1) / n_pages * total
-        remaining_pages = n_pages - len(out)
-        if acc >= boundary and len(cur) >= 1 and remaining_pages > 1:
-            out.append(cur)
-            cur = []
-            page += 1
-    if cur:
-        out.append(cur)
-    while len(out) < n_pages:
-        out.append([])
-    return out
+def _spreads_from_rows(rows: list[dict]) -> list[dict]:
+    """Turn aligned rows into spreads, each carrying its explicit row pairing."""
+    spreads: list[dict] = []
+    for page in _paginate_rows(rows, TARGET_CHARS):
+        spreads.append({
+            "original": "\n\n".join(r["original"] for r in page if r["original"]),
+            "english": "\n\n".join(r["english"] for r in page if r["english"]),
+            "rows": page,
+        })
+    return spreads
 
 
 def _spreads_for_segment(orig: list[str], eng: list[str]) -> list[dict]:
-    orig_pages = _paginate(orig, TARGET_CHARS)
-    eng_pages = _slice_proportional(eng, len(orig_pages))
-    return [
-        {"original": "\n\n".join(o), "english": "\n\n".join(e)}
-        for o, e in zip(orig_pages, eng_pages)
-    ]
+    rows, _ = _rows_for_segment(orig, eng)
+    return _spreads_from_rows(rows)
 
 
 def _match_segments(
@@ -315,15 +437,16 @@ def build_spreads(orig_paras: list[str], eng_paras: list[str]) -> tuple[list[dic
     anchors = _match_segments(orig_div, eng_div) if orig_div and eng_div else None
 
     if anchors:
-        spreads: list[dict] = []
+        rows_all: list[dict] = []
         for k, (o_start, e_start) in enumerate(anchors):
             o_end = anchors[k + 1][0] if k + 1 < len(anchors) else len(orig_paras)
             e_end = anchors[k + 1][1] if k + 1 < len(anchors) else len(eng_paras)
-            spreads.extend(
-                _spreads_for_segment(orig_paras[o_start:o_end], eng_paras[e_start:e_end])
+            seg_rows, _ = _rows_for_segment(
+                orig_paras[o_start:o_end], eng_paras[e_start:e_end]
             )
-        if spreads:
-            return spreads, "structural"
+            rows_all.extend(seg_rows)
+        if rows_all:
+            return _spreads_from_rows(rows_all), "structural"
 
     # Fallback: whole-text proportional. The two editions could not be matched
     # segment-by-segment, but if each independently exposes a first division we
@@ -334,4 +457,10 @@ def build_spreads(orig_paras: list[str], eng_paras: list[str]) -> tuple[list[dic
         orig_paras = orig_paras[orig_div[0][0]:]
         eng_paras = eng_paras[eng_div[0][0]:]
         method = "proportional+trim"
-    return _spreads_for_segment(orig_paras, eng_paras), method
+
+    rows_all, used_markers = _rows_for_segment(orig_paras, eng_paras)
+    # A poem with no chapter/canto divisions can still be anchored stanza by
+    # stanza on its line numbers -- that is genuine structural alignment.
+    if used_markers and method == "proportional":
+        method = "structural"
+    return _spreads_from_rows(rows_all), method

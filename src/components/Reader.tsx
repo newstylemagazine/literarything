@@ -1,6 +1,13 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import {
+  Fragment,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import Link from "next/link";
 import type { CuratedWork } from "@/lib/catalog";
 import { useReaderStore } from "@/lib/store";
@@ -45,6 +52,40 @@ function toParagraphs(text: string): string[] {
     .filter(Boolean);
 }
 
+interface ParaRow {
+  original: string;
+  english: string;
+}
+
+/**
+ * Pair the two columns paragraph-by-paragraph so each paragraph's first line
+ * faces its counterpart. When both editions have the same number of paragraphs
+ * they pair 1:1; when they differ, the shorter side keeps one paragraph per row
+ * and the longer side merges consecutive paragraphs proportionally, so the
+ * paragraph starts still correspond generally.
+ */
+function pairParagraphs(original: string[], english: string[]): ParaRow[] {
+  if (original.length === 0 && english.length === 0) return [];
+  if (original.length === 0)
+    return english.map((e) => ({ original: "", english: e }));
+  if (english.length === 0)
+    return original.map((o) => ({ original: o, english: "" }));
+
+  const rows = Math.min(original.length, english.length);
+  const out: ParaRow[] = [];
+  for (let i = 0; i < rows; i++) {
+    const oLo = Math.round((i / rows) * original.length);
+    const oHi = Math.round(((i + 1) / rows) * original.length);
+    const eLo = Math.round((i / rows) * english.length);
+    const eHi = Math.round(((i + 1) / rows) * english.length);
+    out.push({
+      original: original.slice(oLo, oHi).join("\n\n"),
+      english: english.slice(eLo, eHi).join("\n\n"),
+    });
+  }
+  return out;
+}
+
 export function Reader({ work }: ReaderProps) {
   const [mounted, setMounted] = useState(false);
   const [pageIndex, setPageIndex] = useState(0);
@@ -55,15 +96,11 @@ export function Reader({ work }: ReaderProps) {
   const theme = useReaderStore((s) => s.theme);
   const fontSize = useReaderStore((s) => s.fontSize);
   const fontFamily = useReaderStore((s) => s.fontFamily);
-  const scrollSync = useReaderStore((s) => s.scrollSync);
   const setTheme = useReaderStore((s) => s.setTheme);
   const setFontSize = useReaderStore((s) => s.setFontSize);
   const setFontFamily = useReaderStore((s) => s.setFontFamily);
-  const setScrollSync = useReaderStore((s) => s.setScrollSync);
 
-  const versoRef = useRef<HTMLDivElement>(null);
-  const rectoRef = useRef<HTMLDivElement>(null);
-  const syncingRef = useRef(false);
+  const scrollRef = useRef<HTMLDivElement>(null);
   const pageIndexRef = useRef(pageIndex);
 
   const total = work.spreads.length;
@@ -100,8 +137,7 @@ export function Reader({ work }: ReaderProps) {
         const target = Math.min(Math.max(next, 0), total - 1);
         if (target !== current) {
           setGloss(null);
-          versoRef.current?.scrollTo({ top: 0 });
-          rectoRef.current?.scrollTo({ top: 0 });
+          scrollRef.current?.scrollTo({ top: 0 });
         }
         return target;
       });
@@ -148,39 +184,9 @@ export function Reader({ work }: ReaderProps) {
     return () => document.removeEventListener("mousedown", onDown);
   }, []);
 
-  // Mirror scrolling between the two columns, proportional to each column's
-  // length (original and translation rarely match in height).
-  useEffect(() => {
-    if (!scrollSync) return;
-    const verso = versoRef.current;
-    const recto = rectoRef.current;
-    if (!verso || !recto) return;
-
-    const mirror = (src: HTMLDivElement, dst: HTMLDivElement) => () => {
-      if (syncingRef.current) return;
-      syncingRef.current = true;
-      const srcMax = src.scrollHeight - src.clientHeight;
-      const dstMax = dst.scrollHeight - dst.clientHeight;
-      dst.scrollTop = srcMax > 0 ? (src.scrollTop / srcMax) * dstMax : 0;
-      requestAnimationFrame(() => {
-        syncingRef.current = false;
-      });
-    };
-
-    const onVerso = mirror(verso, recto);
-    const onRecto = mirror(recto, verso);
-    verso.addEventListener("scroll", onVerso, { passive: true });
-    recto.addEventListener("scroll", onRecto, { passive: true });
-    return () => {
-      verso.removeEventListener("scroll", onVerso);
-      recto.removeEventListener("scroll", onRecto);
-    };
-  }, [scrollSync, pageIndex]);
-
   const effectiveTheme = mounted ? theme : "light";
   const effectiveFontSize = mounted ? fontSize : 19;
   const effectiveFont = mounted ? fontFamily : "garamond";
-  const effectiveScrollSync = mounted ? scrollSync : true;
 
   const isDark = effectiveTheme === "dark";
 
@@ -191,6 +197,15 @@ export function Reader({ work }: ReaderProps) {
   const englishParagraphs = useMemo(
     () => toParagraphs(spread.english),
     [spread.english],
+  );
+  // Prefer the build-time anchored pairing (verse stanza/line numbers, chapter
+  // structure); fall back to runtime proportional pairing for curated works.
+  const rows = useMemo(
+    () =>
+      spread.rows && spread.rows.length > 0
+        ? spread.rows
+        : pairParagraphs(originalParagraphs, englishParagraphs),
+    [spread.rows, originalParagraphs, englishParagraphs],
   );
 
   async function exportPdf() {
@@ -429,26 +444,67 @@ export function Reader({ work }: ReaderProps) {
           className="overflow-hidden rounded-xl shadow-book ring-1 ring-black/5"
           onMouseUp={handleSelection}
         >
-          <div className="grid md:grid-cols-2">
-            <Page
-              ref={versoRef}
-              label={work.originalLabel}
-              lang={work.language}
-              paragraphs={originalParagraphs}
-              fontFamily={FONT_MAP[effectiveFont] ?? FONT_MAP.garamond}
-              fontSize={effectiveFontSize}
-              side="verso"
-            />
-            <Page
-              ref={rectoRef}
-              label={work.englishLabel}
-              sublabel={`Translated by ${work.translator}`}
-              lang="English"
-              paragraphs={englishParagraphs}
-              fontFamily={FONT_MAP[effectiveFont] ?? FONT_MAP.garamond}
-              fontSize={effectiveFontSize}
-              side="recto"
-            />
+          {/* Column headers */}
+          <div
+            className="reader-page grid md:grid-cols-2"
+            style={{ color: "var(--page-muted)" }}
+          >
+            <div
+              className="flex items-start justify-between border-b px-6 pb-3 pt-6 sm:px-9 md:border-b-0 md:border-r"
+              style={{ borderColor: "var(--page-line)" }}
+            >
+              <span className="block text-[11px] font-semibold uppercase tracking-[0.16em]">
+                {work.originalLabel}
+              </span>
+              <span className="shrink-0 text-[11px] uppercase tracking-[0.12em]">
+                {work.language}
+              </span>
+            </div>
+            <div
+              className="flex items-start justify-between border-b px-6 pb-3 pt-6 sm:px-9"
+              style={{ borderColor: "var(--page-line)" }}
+            >
+              <div className="min-w-0">
+                <span className="block text-[11px] font-semibold uppercase tracking-[0.16em]">
+                  {work.englishLabel}
+                </span>
+                <span
+                  className="mt-0.5 block truncate font-serif text-sm italic"
+                  style={{ color: "var(--page-ink)" }}
+                >
+                  Translated by {work.translator}
+                </span>
+              </div>
+              <span className="shrink-0 text-[11px] uppercase tracking-[0.12em]">
+                English
+              </span>
+            </div>
+          </div>
+
+          {/* Paragraph-paired body: each paragraph's first line faces its
+              translation, in one shared scroll so the columns stay aligned. */}
+          <div
+            ref={scrollRef}
+            className="reader-page max-h-[58vh] overflow-y-auto"
+            style={{
+              fontFamily: FONT_MAP[effectiveFont] ?? FONT_MAP.garamond,
+              fontSize: effectiveFontSize,
+              lineHeight: 1.7,
+            }}
+          >
+            <div className="relative grid py-5 sm:py-6 md:grid-cols-2">
+              <div
+                aria-hidden
+                className="pointer-events-none absolute inset-y-0 left-1/2 hidden w-px md:block"
+                style={{ background: "var(--page-line)" }}
+              />
+              {rows.map((row, index) => (
+                <Fragment key={index}>
+                  <ParaCell side="verso" text={row.original} first={index === 0} />
+                  <ParaCell side="recto" text={row.english} first={index === 0} />
+                </Fragment>
+              ))}
+            </div>
           </div>
         </div>
 
@@ -554,42 +610,6 @@ export function Reader({ work }: ReaderProps) {
         </div>
       </main>
 
-      {/* Scroll-sync toggle */}
-      <button
-        type="button"
-        onClick={() => setScrollSync(!scrollSync)}
-        aria-pressed={effectiveScrollSync}
-        className={cn(
-          "fixed bottom-5 right-5 z-40 inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-semibold shadow-card backdrop-blur-md transition-colors",
-          isDark
-            ? "border-night-line bg-night/85 text-night-ink hover:border-night-soft"
-            : "border-line-strong bg-paper/90 text-ink hover:border-ink-faint",
-        )}
-      >
-        <svg
-          className="h-4 w-4"
-          viewBox="0 0 20 20"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth={1.7}
-        >
-          {effectiveScrollSync ? (
-            <path
-              d="M7 6 4 9l3 3M13 6l3 3-3 3M4 9h12"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          ) : (
-            <path
-              d="M7 6 4 9l3 3M13 6l3 3-3 3M4 9h4m4 0h4"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          )}
-        </svg>
-        {effectiveScrollSync ? "Unsync scroll" : "Sync scroll"}
-      </button>
-
       {showCite && (
         <CitationDialog
           work={work}
@@ -617,80 +637,41 @@ export function Reader({ work }: ReaderProps) {
   );
 }
 
-interface PageProps {
-  label: string;
-  sublabel?: string;
-  lang: string;
-  paragraphs: string[];
-  fontFamily: string;
-  fontSize: number;
-  side: "verso" | "recto";
-}
-
-const Page = ({
-  ref,
-  label,
-  sublabel,
-  lang,
-  paragraphs,
-  fontFamily,
-  fontSize,
+const ParaCell = ({
   side,
-}: PageProps & { ref: React.Ref<HTMLDivElement> }) => {
+  text,
+  first,
+}: {
+  side: "verso" | "recto";
+  text: string;
+  first: boolean;
+}) => {
+  const paras = toParagraphs(text);
   return (
-    <div
-      className={cn(
-        "reader-page relative flex flex-col",
-        side === "verso"
-          ? "border-b md:border-b-0 md:border-r"
-          : "",
-      )}
-      style={{ borderColor: "var(--page-line)" }}
-    >
-      <div
-        className="flex items-start justify-between px-6 pt-6 sm:px-9"
-        style={{ color: "var(--page-muted)" }}
-      >
-        <div className="min-w-0">
-          <span className="block text-[11px] font-semibold uppercase tracking-[0.16em]">
-            {label}
-          </span>
-          {sublabel && (
-            <span
-              className="mt-0.5 block truncate font-serif text-sm italic"
-              style={{ color: "var(--page-ink)" }}
-            >
-              {sublabel}
-            </span>
-          )}
-        </div>
-        <span className="shrink-0 text-[11px] uppercase tracking-[0.12em]">
-          {lang}
-        </span>
-      </div>
-      <div
-        ref={ref}
-        className="max-h-[58vh] flex-1 overflow-y-auto px-6 py-5 sm:px-9 sm:py-6"
-        style={{ fontFamily, fontSize, lineHeight: 1.7 }}
-      >
-        {paragraphs.map((para, index) => (
+    <div className={cn("px-6 sm:px-9", side === "verso" ? "md:pr-9" : "")}>
+      {paras.length === 0 ? (
+        <p className="mb-[0.9em] last:mb-0" aria-hidden>
+          &nbsp;
+        </p>
+      ) : (
+        paras.map((para, index) => (
           <p
             key={index}
             className="mb-[0.9em] last:mb-0"
             style={{
               textAlign: "justify",
               hyphens: "auto",
-              textIndent: index === 0 ? 0 : "1.6em",
+              textIndent: first && index === 0 ? 0 : "1.6em",
             }}
           >
             {para}
           </p>
-        ))}
-      </div>
+        ))
+      )}
     </div>
   );
 };
-Page.displayName = "Page";
+ParaCell.displayName = "ParaCell";
 
 function EditionRow({
   term,

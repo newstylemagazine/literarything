@@ -1,9 +1,21 @@
 import catalogData from "@/data/catalog.json";
 
-/** A single facing-page opening: original text beside its English translation. */
+/** One aligned pair within an opening: an original paragraph/stanza and its
+ * translation, anchored so their first lines face each other. */
+export interface AlignedRow {
+  original: string;
+  english: string;
+}
+
+/** A single facing-page opening: original text beside its English translation.
+ *
+ * `original`/`english` hold the full opening text (used for PDF export and as a
+ * fallback). `rows`, when present, is the pre-computed paragraph/stanza pairing
+ * the reader renders so each first line faces its counterpart. */
 export interface Spread {
   original: string;
   english: string;
+  rows?: AlignedRow[];
 }
 
 /** A curated bilingual work with its facing-page content. */
