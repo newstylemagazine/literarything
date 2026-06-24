@@ -2,7 +2,11 @@ import type { Metadata } from "next";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { CatalogBrowser } from "@/components/CatalogBrowser";
-import { getSummaries, languages } from "@/lib/catalog";
+import {
+  getBrowseItems,
+  getLibraryLanguages,
+  libraryStats,
+} from "@/lib/library";
 
 export const metadata: Metadata = {
   title: "Library — LiteraryThing",
@@ -11,7 +15,8 @@ export const metadata: Metadata = {
 };
 
 export default function CatalogPage() {
-  const works = getSummaries();
+  const works = getBrowseItems();
+  const languages = getLibraryLanguages();
 
   return (
     <div className="flex min-h-screen flex-col">
@@ -22,8 +27,10 @@ export default function CatalogPage() {
             The Library
           </h1>
           <p className="mt-3 text-ink-soft">
-            Facing-page bilingual editions, original beside English. More titles
-            are added as Project Gutenberg pairs are indexed.
+            {libraryStats.totalPairs.toLocaleString()} bilingual pairs keyed from
+            Project Gutenberg across {libraryStats.languages} languages —
+            original beside English. {libraryStats.readable} are readable on-site
+            today; the rest link to Gutenberg as full text is indexed.
           </p>
         </header>
         <CatalogBrowser works={works} languages={languages} />

@@ -1,0 +1,7941 @@
+[
+{
+"id": "pg-3747-615",
+"originalId": 3747,
+"englishId": 615,
+"title": "Orlando Furioso",
+"englishTitle": "Orlando Furioso",
+"author": "Ariosto, Lodovico, 1474-1533",
+"authorBirthYear": 1474,
+"languageCode": "it",
+"language": "Italian",
+"year": 2003,
+"hasTranslatorCredit": true,
+"confidence": 1.0,
+"subjects": [
+"Roland (Legendary character) -- Romances"
+]
+},
+{
+"id": "pg-65217-20572",
+"originalId": 65217,
+"englishId": 20572,
+"title": "Marie-Claire: Romaani",
+"englishTitle": "Marie Claire",
+"author": "Audoux, Marguerite, 1863-1937",
+"authorBirthYear": 1863,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 1.0,
+"subjects": [
+"French fiction -- Translations into Finnish"
+]
+},
+{
+"id": "pg-57787-57869",
+"originalId": 57787,
+"englishId": 57869,
+"title": "Orlando innamorato",
+"englishTitle": "The Orlando Innamorato",
+"author": "Boiardo, Matteo Maria, 1441?-1494",
+"authorBirthYear": 1441,
+"languageCode": "it",
+"language": "Italian",
+"year": 2018,
+"hasTranslatorCredit": true,
+"confidence": 1.0,
+"subjects": [
+"Epic poetry, Italian"
+]
+},
+{
+"id": "pg-23600-48698",
+"originalId": 23600,
+"englishId": 48698,
+"title": "La gaviota",
+"englishTitle": "La Gaviota: A Spanish novel",
+"author": "Caballero, Fernán, 1796-1877",
+"authorBirthYear": 1796,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2007,
+"hasTranslatorCredit": true,
+"confidence": 1.0,
+"subjects": [
+"Spanish fiction -- 19th century",
+"Women -- Spain -- Fiction"
+]
+},
+{
+"id": "pg-61965-64720",
+"originalId": 61965,
+"englishId": 64720,
+"title": "Lettres d'un innocent",
+"englishTitle": "Lettres d'un Innocent: The Letters of Captain Dreyfus to His Wife",
+"author": "Dreyfus, Alfred, 1859-1935",
+"authorBirthYear": 1859,
+"languageCode": "fr",
+"language": "French",
+"year": 2020,
+"hasTranslatorCredit": true,
+"confidence": 1.0,
+"subjects": [
+"Dreyfus, Alfred, 1859-1935"
+]
+},
+{
+"id": "pg-39694-36199",
+"originalId": 39694,
+"englishId": 36199,
+"title": "Bijou",
+"englishTitle": "Bijou",
+"author": "Gyp, 1849-1932",
+"authorBirthYear": 1849,
+"languageCode": "fr",
+"language": "French",
+"year": 2012,
+"hasTranslatorCredit": true,
+"confidence": 1.0,
+"subjects": [
+"Fiction"
+]
+},
+{
+"id": "pg-60748-59441",
+"originalId": 60748,
+"englishId": 59441,
+"title": "Nacha Regules: Novela",
+"englishTitle": "Nacha Regules",
+"author": "Gálvez, Manuel, 1882-1962",
+"authorBirthYear": 1882,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2019,
+"hasTranslatorCredit": true,
+"confidence": 1.0,
+"subjects": [
+"Poverty -- Fiction",
+"Prostitution -- Fiction",
+"Argentina -- Social conditions -- 20th century -- Fiction"
+]
+},
+{
+"id": "pg-64986-76058",
+"originalId": 64986,
+"englishId": 76058,
+"title": "Aspasia",
+"englishTitle": "Aspasia",
+"author": "Hamerling, Robert, 1830-1889",
+"authorBirthYear": 1830,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 1.0,
+"subjects": [
+"Mistresses -- Fiction",
+"Athens (Greece) -- Fiction",
+"Aspasia -- Fiction",
+"Pericles, approximately 495 B.C.-429 B.C. -- Fiction",
+"Greece -- History -- Athenian supremacy, 479-431 B.C. -- Fiction",
+"Statesmen -- Fiction"
+]
+},
+{
+"id": "pg-13525-4383",
+"originalId": 13525,
+"englishId": 4383,
+"title": "Maria Chapdelaine",
+"englishTitle": "Maria Chapdelaine: A Tale of the Lake St. John Country",
+"author": "Hémon, Louis, 1880-1913",
+"authorBirthYear": 1880,
+"languageCode": "fr",
+"language": "French",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 1.0,
+"subjects": [
+"Love stories",
+"Québec (Province) -- Fiction",
+"French-Canadians -- Fiction",
+"Frontier and pioneer life -- Québec (Province) -- Fiction"
+]
+},
+{
+"id": "pg-6712-40155",
+"originalId": 6712,
+"englishId": 40155,
+"title": "Akbar: een oosterse roman",
+"englishTitle": "Akbar: An Eastern Romance",
+"author": "Limburg Brouwer, P. A. S. van (Petrus Abraham Samuel), 1829-1873",
+"authorBirthYear": 1829,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 1.0,
+"subjects": [
+"Akbar, Emperor of Hindustan, 1542-1605 -- Fiction",
+"Brouwer, P. A. S. van Limburg (Petrus Abraham Samuel van Limburg), 1829-1873"
+]
+},
+{
+"id": "pg-56645-60771",
+"originalId": 56645,
+"englishId": 60771,
+"title": "Le poète assassiné",
+"englishTitle": "The Poet Assassinated",
+"author": "Apollinaire, Guillaume, 1880-1918",
+"authorBirthYear": 1880,
+"languageCode": "fr",
+"language": "French",
+"year": 2018,
+"hasTranslatorCredit": true,
+"confidence": 0.981,
+"subjects": [
+"Short stories, French",
+"French fiction -- 20th century"
+]
+},
+{
+"id": "pg-55301-9866",
+"originalId": 55301,
+"englishId": 9866,
+"title": "Freiland: Ein sociales Zukunftsbild",
+"englishTitle": "Freeland: A Social Anticipation",
+"author": "Hertzka, Theodor, 1845-1924",
+"authorBirthYear": 1845,
+"languageCode": "de",
+"language": "German",
+"year": 2017,
+"hasTranslatorCredit": true,
+"confidence": 0.981,
+"subjects": [
+"Utopias"
+]
+},
+{
+"id": "pg-20794-27425",
+"originalId": 20794,
+"englishId": 27425,
+"title": "Majoor Frans",
+"englishTitle": "Major Frank",
+"author": "Bosboom-Toussaint, A. L. G. (Anna Louisa Geertruida), 1812-1886",
+"authorBirthYear": 1812,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2007,
+"hasTranslatorCredit": true,
+"confidence": 0.978,
+"subjects": [
+"Dutch fiction"
+]
+},
+{
+"id": "pg-36909-2401",
+"originalId": 36909,
+"englishId": 2401,
+"title": "Mémoires du général baron de Marbot (1/3)",
+"englishTitle": "The Memoirs of General Baron de Marbot",
+"author": "Marbot, Jean-Baptiste-Antoine-Marcelin, baron de, 1782-1854",
+"authorBirthYear": 1782,
+"languageCode": "fr",
+"language": "French",
+"year": 2011,
+"hasTranslatorCredit": true,
+"confidence": 0.976,
+"subjects": [
+"Marbot, Jean-Baptiste-Antoine-Marcelin, baron de, 1782-1854",
+"France. Armée",
+"Generals -- France -- Biography",
+"Napoleonic Wars, 1800-1815 -- Personal narratives, French",
+"Napoleonic Wars, 1800-1815 -- Campaigns",
+"France -- History, Military -- 1789-1815"
+]
+},
+{
+"id": "pg-14913-9105",
+"originalId": 14913,
+"englishId": 9105,
+"title": "Réflexions ou sentences et maximes morales",
+"englishTitle": "Reflections; or Sentences and Moral Maxims",
+"author": "La Rochefoucauld, François duc de, 1613-1680",
+"authorBirthYear": 1613,
+"languageCode": "fr",
+"language": "French",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.971,
+"subjects": [
+"Maxims"
+]
+},
+{
+"id": "pg-44699-1977",
+"originalId": 44699,
+"englishId": 1977,
+"title": "Phaidra: 5-näytöksinen runomittainen murhenäytelmä",
+"englishTitle": "Phaedra",
+"author": "Racine, Jean, 1639-1699",
+"authorBirthYear": 1639,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2014,
+"hasTranslatorCredit": true,
+"confidence": 0.971,
+"subjects": [
+"Phaedra (Greek mythology) -- Drama",
+"Tragedies (Drama)"
+]
+},
+{
+"id": "pg-69007-47582",
+"originalId": 69007,
+"englishId": 47582,
+"title": "Les aventures du capitaine Magon\nou une exploration phénicienne mille ans avant l'ère chrétienne",
+"englishTitle": "The adventures of Captain Mago; or, a Phoenician expedition, B.C. 1000",
+"author": "Cahun, David-Léon, 1841-1900",
+"authorBirthYear": 1841,
+"languageCode": "fr",
+"language": "French",
+"year": 2022,
+"hasTranslatorCredit": true,
+"confidence": 0.969,
+"subjects": [
+"Phoenicia -- Civilization -- Juvenile fiction"
+]
+},
+{
+"id": "pg-57909-9051",
+"originalId": 57909,
+"englishId": 9051,
+"title": "Ssanin: Roman",
+"englishTitle": "Sanine",
+"author": "Artsybashev, M. (Mikhail), 1878-1927",
+"authorBirthYear": 1878,
+"languageCode": "de",
+"language": "German",
+"year": 2018,
+"hasTranslatorCredit": true,
+"confidence": 0.958,
+"subjects": [
+"Russian fiction -- Translations into German"
+]
+},
+{
+"id": "pg-41903-68462",
+"originalId": 41903,
+"englishId": 68462,
+"title": "Einstein et l'univers: Une lueur dans le mystère des choses",
+"englishTitle": "Einstein and the universe: A popular exposition of the famous theory",
+"author": "Nordmann, Charles, 1881-1940",
+"authorBirthYear": 1881,
+"languageCode": "fr",
+"language": "French",
+"year": 2013,
+"hasTranslatorCredit": true,
+"confidence": 0.945,
+"subjects": [
+"Relativity (Physics)",
+"Gravitation",
+"Einstein, Albert, 1879-1955"
+]
+},
+{
+"id": "pg-21013-70033",
+"originalId": 21013,
+"englishId": 70033,
+"title": "Histoire de la magie",
+"englishTitle": "The history of magic",
+"author": "Lévi, Éliphas, 1810-1875",
+"authorBirthYear": 1810,
+"languageCode": "fr",
+"language": "French",
+"year": 2007,
+"hasTranslatorCredit": true,
+"confidence": 0.903,
+"subjects": [
+"Magic -- History"
+]
+},
+{
+"id": "pg-49293-65709",
+"originalId": 49293,
+"englishId": 65709,
+"title": "La maison des hommes vivants",
+"englishTitle": "The House of the Secret (La maison des hommes vivants)",
+"author": "Farrère, Claude, 1876-1957",
+"authorBirthYear": 1876,
+"languageCode": "fr",
+"language": "French",
+"year": 2015,
+"hasTranslatorCredit": true,
+"confidence": 0.898,
+"subjects": [
+"Vampires -- Fiction",
+"Immortalism -- Fiction",
+"Fantasy fiction, French"
+]
+},
+{
+"id": "pg-66883-29637",
+"originalId": 66883,
+"englishId": 29637,
+"title": "Introduction aux études historiques",
+"englishTitle": "Introduction to the study of history",
+"author": "Langlois, Charles Victor, 1863-1929",
+"authorBirthYear": 1863,
+"languageCode": "fr",
+"language": "French",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 0.894,
+"subjects": [
+"History -- Philosophy",
+"History -- Study and teaching",
+"Historiography"
+]
+},
+{
+"id": "pg-69165-33867",
+"originalId": 69165,
+"englishId": 33867,
+"title": "Roi de Camargue",
+"englishTitle": "King of Camargue",
+"author": "Aicard, Jean, 1848-1921",
+"authorBirthYear": 1848,
+"languageCode": "fr",
+"language": "French",
+"year": 2022,
+"hasTranslatorCredit": true,
+"confidence": 0.893,
+"subjects": [
+"French fiction -- 19th century"
+]
+},
+{
+"id": "pg-54679-66566",
+"originalId": 54679,
+"englishId": 66566,
+"title": "Geschichte der Philosophie im Islam",
+"englishTitle": "The History of Philosophy in Islam",
+"author": "Boer, T. J. de (Tjitze J.), 1866-1942",
+"authorBirthYear": 1866,
+"languageCode": "de",
+"language": "German",
+"year": 2017,
+"hasTranslatorCredit": true,
+"confidence": 0.879,
+"subjects": [
+"Islamic philosophy -- History"
+]
+},
+{
+"id": "pg-37401-37400",
+"originalId": 37401,
+"englishId": 37400,
+"title": "Voyages et Avantures de Jaques Massé",
+"englishTitle": "The Travels and Adventures of James Massey",
+"author": "Tyssot de Patot, Simon, 1655-1738",
+"authorBirthYear": 1655,
+"languageCode": "fr",
+"language": "French",
+"year": 2011,
+"hasTranslatorCredit": true,
+"confidence": 0.872,
+"subjects": [
+"Voyages, Imaginary -- Early works to 1800",
+"Utopias -- Early works to 1800"
+]
+},
+{
+"id": "pg-64453-54701",
+"originalId": 64453,
+"englishId": 54701,
+"title": "L'Architecture romane",
+"englishTitle": "Gothic Architecture",
+"author": "Corroyer, Édouard, 1837?-1904",
+"authorBirthYear": 1837,
+"languageCode": "fr",
+"language": "French",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 0.857,
+"subjects": [
+"Architecture, Romanesque"
+]
+},
+{
+"id": "pg-30175-30174",
+"originalId": 30175,
+"englishId": 30174,
+"title": "Los Principios Matemático-Históricos y la Evolución de la Libertad",
+"englishTitle": "The Mathematical-Historical Principles and the Evolution of Liberty",
+"author": "Fernández Bolívar, Víctor José, 1923-",
+"authorBirthYear": 1923,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2009,
+"hasTranslatorCredit": true,
+"confidence": 0.854,
+"subjects": [
+"History -- Philosophy"
+]
+},
+{
+"id": "pg-11049-1715",
+"originalId": 11049,
+"englishId": 1715,
+"title": "Eugénie Grandet",
+"englishTitle": "Eugenie Grandet",
+"author": "Balzac, Honoré de, 1799-1850",
+"authorBirthYear": 1799,
+"languageCode": "fr",
+"language": "French",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Fathers and daughters -- Fiction",
+"Misers -- Fiction",
+"France -- Social life and customs -- 19th century -- Fiction",
+"French fiction -- 19th century"
+]
+},
+{
+"id": "pg-52306-33683",
+"originalId": 52306,
+"englishId": 33683,
+"title": "Magnhild: Kertomus",
+"englishTitle": "Magnhild; Dust",
+"author": "Bjørnson, Bjørnstjerne, 1832-1910",
+"authorBirthYear": 1832,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Norwegian fiction -- Translations into Finnish"
+]
+},
+{
+"id": "pg-53759-33300",
+"originalId": 53759,
+"englishId": 33300,
+"title": "Mary",
+"englishTitle": "Mary",
+"author": "Bjørnson, Bjørnstjerne, 1832-1910",
+"authorBirthYear": 1832,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Norway -- Fiction",
+"Norwegian fiction -- Translations into Finnish"
+]
+},
+{
+"id": "pg-48667-14954",
+"originalId": 48667,
+"englishId": 14954,
+"title": "Cid: 5-näytöksinen näytelmä",
+"englishTitle": "The Cid",
+"author": "Corneille, Pierre, 1606-1684",
+"authorBirthYear": 1606,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2015,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Cid, approximately 1043-1099 -- Drama"
+]
+},
+{
+"id": "pg-19563-66911",
+"originalId": 19563,
+"englishId": 66911,
+"title": "Eline Vere: Een Haagsche roman",
+"englishTitle": "Eline Vere",
+"author": "Couperus, Louis, 1863-1923",
+"authorBirthYear": 1863,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Hague (Netherlands) -- Fiction"
+]
+},
+{
+"id": "pg-58116-32222",
+"originalId": 58116,
+"englishId": 32222,
+"title": "Felicitas: Historiallinen romaani kansainvaelluksen ajoilta (v. 476 j.Kr.)",
+"englishTitle": "Felicitas: A Tale of the German Migrations: A.D. 476",
+"author": "Dahn, Felix, 1834-1912",
+"authorBirthYear": 1834,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2018,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Migrations of nations -- Fiction",
+"Salzburg (Austria : Land) -- History -- Fiction"
+]
+},
+{
+"id": "pg-16848-69808",
+"originalId": 16848,
+"englishId": 69808,
+"title": "Numa Roumestan: Moeurs Parisiennes",
+"englishTitle": "Numa Roumestan",
+"author": "Daudet, Alphonse, 1840-1897",
+"authorBirthYear": 1840,
+"languageCode": "fr",
+"language": "French",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Politicians -- Fiction",
+"Social classes -- Fiction",
+"Man-woman relationships -- Fiction",
+"French fiction -- 19th century",
+"Spouses -- Fiction",
+"France -- History -- Third Republic, 1870-1940 -- Fiction"
+]
+},
+{
+"id": "pg-10687-2375",
+"originalId": 10687,
+"englishId": 2375,
+"title": "Tartarin de Tarascon",
+"englishTitle": "Tartarin de Tarascon",
+"author": "Daudet, Alphonse, 1840-1897",
+"authorBirthYear": 1840,
+"languageCode": "fr",
+"language": "French",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Algeria -- Fiction",
+"Lion hunting -- Fiction"
+]
+},
+{
+"id": "pg-14155-2413",
+"originalId": 14155,
+"englishId": 2413,
+"title": "Madame Bovary",
+"englishTitle": "Madame Bovary",
+"author": "Flaubert, Gustave, 1821-1880",
+"authorBirthYear": 1821,
+"languageCode": "fr",
+"language": "French",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Adultery -- Fiction",
+"Domestic fiction",
+"Married women -- Fiction",
+"France -- Fiction",
+"Middle class -- Fiction",
+"Physicians' spouses -- Fiction"
+]
+},
+{
+"id": "pg-50664-50670",
+"originalId": 50664,
+"englishId": 50670,
+"title": "Clio",
+"englishTitle": "Clio",
+"author": "France, Anatole, 1844-1924",
+"authorBirthYear": 1844,
+"languageCode": "fr",
+"language": "French",
+"year": 2015,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"France -- Social life and customs -- Fiction"
+]
+},
+{
+"id": "pg-6377-2078",
+"originalId": 6377,
+"englishId": 2078,
+"title": "Thaïs",
+"englishTitle": "Thais",
+"author": "France, Anatole, 1844-1924",
+"authorBirthYear": 1844,
+"languageCode": "fr",
+"language": "French",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Egypt -- Fiction",
+"Christianity, Conversion to -- Fiction",
+"Courtesans -- Fiction",
+"Hermits -- Fiction",
+"Christian women saints -- Fiction"
+]
+},
+{
+"id": "pg-53399-53398",
+"originalId": 53399,
+"englishId": 53398,
+"title": "Honoré de Balzac",
+"englishTitle": "Honoré de Balzac",
+"author": "Gautier, Théophile, 1811-1872",
+"authorBirthYear": 1811,
+"languageCode": "fr",
+"language": "French",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Balzac, Honoré de, 1799-1850",
+"Novelists, French -- 19th century -- Biography"
+]
+},
+{
+"id": "pg-2146-1945",
+"originalId": 2146,
+"englishId": 1945,
+"title": "Egmont",
+"englishTitle": "Egmont",
+"author": "Goethe, Johann Wolfgang von, 1749-1832",
+"authorBirthYear": 1749,
+"languageCode": "de",
+"language": "German",
+"year": 2000,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Egmont, Lamoraal, Graaf van, 1522-1568 -- Drama",
+"Tragedies (Drama)"
+]
+},
+{
+"id": "pg-2229-14460",
+"originalId": 2229,
+"englishId": 14460,
+"title": "Faust: Der Tragödie erster Teil",
+"englishTitle": "Faust: a Tragedy [part 1], Translated from the German of Goethe",
+"author": "Goethe, Johann Wolfgang von, 1749-1832",
+"authorBirthYear": 1749,
+"languageCode": "de",
+"language": "German",
+"year": 2000,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"German poetry",
+"Legends -- Germany -- Drama",
+"Faust, -approximately 1540 -- Drama",
+"Magicians -- Drama"
+]
+},
+{
+"id": "pg-18291-8387",
+"originalId": 18291,
+"englishId": 8387,
+"title": "Hunger: Book One",
+"englishTitle": "Hunger",
+"author": "Hamsun, Knut, 1859-1952",
+"authorBirthYear": 1859,
+"languageCode": "he",
+"language": "Hebrew",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Authors -- Fiction",
+"Norway -- Fiction",
+"Hunger -- Fiction",
+"Starvation -- Fiction",
+"Urban poor -- Fiction"
+]
+},
+{
+"id": "pg-46290-7214",
+"originalId": 46290,
+"englishId": 7214,
+"title": "Pan",
+"englishTitle": "Pan",
+"author": "Hamsun, Knut, 1859-1952",
+"authorBirthYear": 1859,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2014,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Norway -- Fiction"
+]
+},
+{
+"id": "pg-65535-36307",
+"originalId": 65535,
+"englishId": 36307,
+"title": "Ghetto: Burgerlijk Treurspel in 3 Bedrijven",
+"englishTitle": "The Ghetto: A Drama in Four Acts",
+"author": "Heijermans, Herman, 1864-1924",
+"authorBirthYear": 1864,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Dutch drama",
+"Jews -- Drama",
+"Religious drama"
+]
+},
+{
+"id": "pg-75802-75756",
+"originalId": 75802,
+"englishId": 75756,
+"title": "Der Steppenwolf",
+"englishTitle": "Steppenwolf",
+"author": "Hesse, Hermann, 1877-1962",
+"authorBirthYear": 1877,
+"languageCode": "de",
+"language": "German",
+"year": 2025,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Psychological fiction",
+"Germany -- Social life and customs -- 20th century -- Fiction",
+"Life -- Fiction",
+"Civilization, Western -- Fiction",
+"Men -- Germany -- Psychology -- Fiction",
+"Intellectuals -- Germany -- Fiction"
+]
+},
+{
+"id": "pg-2499-58344",
+"originalId": 2499,
+"englishId": 58344,
+"title": "Siddhartha: eine indische Dichtung",
+"englishTitle": "Siddhartha: A Poem of India",
+"author": "Hesse, Hermann, 1877-1962",
+"authorBirthYear": 1877,
+"languageCode": "de",
+"language": "German",
+"year": 2001,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Gautama Buddha -- Fiction",
+"India -- Social life and customs -- Fiction",
+"Spiritual life -- Fiction",
+"Self-realization -- Fiction",
+"Buddhism -- Fiction",
+"Buddhist philosophy -- Fiction"
+]
+},
+{
+"id": "pg-9059-3156",
+"originalId": 9059,
+"englishId": 3156,
+"title": "Andrea Delfin: Eine venezianische Novelle",
+"englishTitle": "Andrea Delfin",
+"author": "Heyse, Paul, 1830-1914",
+"authorBirthYear": 1830,
+"languageCode": "de",
+"language": "German",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Italy -- Fiction"
+]
+},
+{
+"id": "pg-19657-2610",
+"originalId": 19657,
+"englishId": 2610,
+"title": "Notre-Dame de Paris",
+"englishTitle": "Notre-Dame de Paris",
+"author": "Hugo, Victor, 1802-1885",
+"authorBirthYear": 1802,
+"languageCode": "fr",
+"language": "French",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Historical fiction",
+"People with disabilities -- Fiction",
+"France -- History -- Louis XI, 1461-1483 -- Fiction",
+"Clergy -- Fiction",
+"Paris (France) -- History -- To 1515 -- Fiction",
+"Notre-Dame de Paris (Cathedral) -- Fiction"
+]
+},
+{
+"id": "pg-19183-4093",
+"originalId": 19183,
+"englishId": 4093,
+"title": "Hedda Gabler",
+"englishTitle": "Hedda Gabler",
+"author": "Ibsen, Henrik, 1828-1906",
+"authorBirthYear": 1828,
+"languageCode": "eo",
+"language": "Esperanto",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Man-woman relationships -- Drama",
+"Women -- Social conditions -- Drama",
+"Identity (Psychology) -- Drama",
+"Norwegian drama -- Translations into Esperanto"
+]
+},
+{
+"id": "pg-20178-18792",
+"originalId": 20178,
+"englishId": 18792,
+"title": "John Gabriel Borkman",
+"englishTitle": "John Gabriel Borkman",
+"author": "Ibsen, Henrik, 1828-1906",
+"authorBirthYear": 1828,
+"languageCode": "eo",
+"language": "Esperanto",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Norwegian drama -- Translations into Esperanto"
+]
+},
+{
+"id": "pg-24355-2289",
+"originalId": 24355,
+"englishId": 2289,
+"title": "Rosmersholm: Dramo en kvar aktoj",
+"englishTitle": "Rosmersholm",
+"author": "Ibsen, Henrik, 1828-1906",
+"authorBirthYear": 1828,
+"languageCode": "eo",
+"language": "Esperanto",
+"year": 2008,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Europe -- Social conditions -- 19th century -- Drama",
+"Suicide -- Drama",
+"Norwegian drama -- Translations into Esperanto"
+]
+},
+{
+"id": "pg-76129-66906",
+"originalId": 76129,
+"englishId": 66906,
+"title": "Mårbacka",
+"englishTitle": "Mårbacka",
+"author": "Lagerlöf, Selma, 1858-1940",
+"authorBirthYear": 1858,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2025,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Authors, Swedish -- 19th century -- Biography",
+"Lagerlöf, Selma, 1858-1940",
+"Sweden -- Social life and customs -- 19th century"
+]
+},
+{
+"id": "pg-55203-34758",
+"originalId": 55203,
+"englishId": 34758,
+"title": "813: Arsène Lupinin merkilliset seikkailut",
+"englishTitle": "813",
+"author": "Leblanc, Maurice, 1864-1941",
+"authorBirthYear": 1864,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2017,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Burglars -- Fiction",
+"Lupin, Arsène (Fictitious character) -- Fiction"
+]
+},
+{
+"id": "pg-9187-2663",
+"originalId": 9187,
+"englishId": 2663,
+"title": "Minna von Barnhelm",
+"englishTitle": "Minna Von Barnhelm",
+"author": "Lessing, Gotthold Ephraim, 1729-1781",
+"authorBirthYear": 1729,
+"languageCode": "de",
+"language": "German",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Comedy plays"
+]
+},
+{
+"id": "pg-18358-15335",
+"originalId": 18358,
+"englishId": 15335,
+"title": "Madame Chrysanthème",
+"englishTitle": "Madame Chrysanthème",
+"author": "Loti, Pierre, 1850-1923",
+"authorBirthYear": 1850,
+"languageCode": "fr",
+"language": "French",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Japan -- Fiction"
+]
+},
+{
+"id": "pg-7000-5184",
+"originalId": 7000,
+"englishId": 5184,
+"title": "Kalevala",
+"englishTitle": "Kalevala : the Epic Poem of Finland — Volume 01",
+"author": "Lönnrot, Elias, 1802-1884 [Compiler]",
+"authorBirthYear": 1802,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Finnish poetry"
+]
+},
+{
+"id": "pg-59781-64118",
+"originalId": 59781,
+"englishId": 64118,
+"title": "Ariel: ou, La vie de Shelley",
+"englishTitle": "Ariel: A Shelley Romance",
+"author": "Maurois, André, 1885-1967",
+"authorBirthYear": 1885,
+"languageCode": "fr",
+"language": "French",
+"year": 2019,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Shelley, Percy Bysshe, 1792-1822",
+"Poets, English -- 19th century -- Biography"
+]
+},
+{
+"id": "pg-41486-31420",
+"originalId": 41486,
+"englishId": 31420,
+"title": "La Sorcière",
+"englishTitle": "La Sorcière: The Witch of the Middle Ages",
+"author": "Michelet, Jules, 1798-1874",
+"authorBirthYear": 1798,
+"languageCode": "fr",
+"language": "French",
+"year": 2012,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Satanism -- History -- To 1500",
+"Witchcraft -- History -- To 1500",
+"Demonomania -- History -- To 1500",
+"Superstition -- History -- To 1500"
+]
+},
+{
+"id": "pg-78857-2536",
+"originalId": 78857,
+"englishId": 2536,
+"title": "Amphitryon",
+"englishTitle": "Amphitryon",
+"author": "Molière, 1622-1673",
+"authorBirthYear": 1622,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2026,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Comedy plays",
+"Amphitryon (Greek mythology) -- Drama",
+"French drama -- Translations into Finnish"
+]
+},
+{
+"id": "pg-52807-2027",
+"originalId": 52807,
+"englishId": 2027,
+"title": "Tartuffe: Viisinäytöksinen huvinäytelmä",
+"englishTitle": "Tartuffe; Or, The Hypocrite",
+"author": "Molière, 1622-1673",
+"authorBirthYear": 1622,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Comedy plays",
+"French drama -- 17th century -- Translations into Finnish"
+]
+},
+{
+"id": "pg-73823-48749",
+"originalId": 73823,
+"englishId": 48749,
+"title": "Liliom",
+"englishTitle": "Liliom",
+"author": "Molnár, Ferenc, 1878-1952",
+"authorBirthYear": 1878,
+"languageCode": "hu",
+"language": "Hungarian",
+"year": 2024,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Hungary -- Drama",
+"Purgatory -- Drama",
+"Hungarian drama -- 20th century"
+]
+},
+{
+"id": "pg-31527-70128",
+"originalId": 31527,
+"englishId": 70128,
+"title": "Max Havelaar",
+"englishTitle": "Max Havelaar;",
+"author": "Multatuli, 1820-1887",
+"authorBirthYear": 1820,
+"languageCode": "de",
+"language": "German",
+"year": 2010,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Culture conflict -- Fiction",
+"Colonies -- Oceania -- Fiction",
+"Dutch -- Indonesia -- Fiction",
+"Java (Indonesia) -- Fiction",
+"Persona (Literature)",
+"Coffee industry -- Fiction"
+]
+},
+{
+"id": "pg-34643-2465",
+"originalId": 34643,
+"englishId": 2465,
+"title": "Carmen",
+"englishTitle": "Carmen",
+"author": "Mérimée, Prosper, 1803-1870",
+"authorBirthYear": 1803,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2010,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Spain -- Social life and customs -- 19th century -- Fiction",
+"Carmen (Fictitious character) -- Fiction"
+]
+},
+{
+"id": "pg-16239-2708",
+"originalId": 16239,
+"englishId": 2708,
+"title": "Colomba",
+"englishTitle": "Colomba",
+"author": "Mérimée, Prosper, 1803-1870",
+"authorBirthYear": 1803,
+"languageCode": "fr",
+"language": "French",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Revenge -- Fiction",
+"Murder -- Fiction",
+"Vendetta -- Fiction",
+"Corsica (France) -- History -- 19th century -- Fiction"
+]
+},
+{
+"id": "pg-68015-47676",
+"originalId": 68015,
+"englishId": 47676,
+"title": "Amores: elegías amatorias",
+"englishTitle": "The Amores; or, Amours\nLiterally Translated into English Prose, with Copious Notes",
+"author": "Ovid, 44 BCE-18?",
+"authorBirthYear": null,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2022,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Love poetry, Latin -- Translations into Spanish"
+]
+},
+{
+"id": "pg-40810-33244",
+"originalId": 40810,
+"englishId": 33244,
+"title": "Maximina",
+"englishTitle": "Maximina",
+"author": "Palacio Valdés, Armando, 1853-1938",
+"authorBirthYear": 1853,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2012,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Spanish fiction"
+]
+},
+{
+"id": "pg-65832-60751",
+"originalId": 65832,
+"englishId": 60751,
+"title": "Baboe Dalima",
+"englishTitle": "Baboe Dalima; or, The Opium Fiend",
+"author": "Perelaer, M. T. H. (Michael Theophile Hubert), 1831-1901",
+"authorBirthYear": 1831,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Opium abuse -- Fiction",
+"Java (Indonesia) -- History -- 19th century -- Fiction",
+"Opium trade -- Indonesia -- Fiction"
+]
+},
+{
+"id": "pg-51220-1657",
+"originalId": 51220,
+"englishId": 1657,
+"title": "Crito",
+"englishTitle": "Crito",
+"author": "Plato, 428? BCE-348? BCE",
+"authorBirthYear": -428,
+"languageCode": "la",
+"language": "Latin",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Classical literature",
+"Philosophy, Ancient",
+"Justice -- Early works to 1800",
+"Dialogues, Greek -- Translations into Latin"
+]
+},
+{
+"id": "pg-57145-1672",
+"originalId": 57145,
+"englishId": 1672,
+"title": "Gorgias",
+"englishTitle": "Gorgias",
+"author": "Plato, 428? BCE-348? BCE",
+"authorBirthYear": -428,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2018,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Classical literature",
+"Political science -- Early works to 1800",
+"Ethics -- Early works to 1800"
+]
+},
+{
+"id": "pg-72108-1726",
+"originalId": 72108,
+"englishId": 1726,
+"title": "Theaetetus",
+"englishTitle": "Theaetetus",
+"author": "Plato, 428? BCE-348? BCE",
+"authorBirthYear": -428,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2023,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Knowledge, Theory of -- Early works to 1800"
+]
+},
+{
+"id": "pg-69089-2462",
+"originalId": 69089,
+"englishId": 2462,
+"title": "Doña Perfecta",
+"englishTitle": "Doña Perfecta",
+"author": "Pérez Galdós, Benito, 1843-1920",
+"authorBirthYear": 1843,
+"languageCode": "fr",
+"language": "French",
+"year": 2022,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Married women -- Fiction",
+"Spain -- Social life and customs -- 19th century -- Fiction",
+"Religion and politics -- Spain -- History -- 19th century -- Fiction",
+"Liberalism -- Spain -- History -- 19th century -- Fiction",
+"Social conflict -- Spain -- History -- 19th century -- Fiction"
+]
+},
+{
+"id": "pg-17340-48818",
+"originalId": 17340,
+"englishId": 48818,
+"title": "Marianela",
+"englishTitle": "Marianela",
+"author": "Pérez Galdós, Benito, 1843-1920",
+"authorBirthYear": 1843,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Spanish fiction"
+]
+},
+{
+"id": "pg-74914-55941",
+"originalId": 74914,
+"englishId": 55941,
+"title": "Beethoven",
+"englishTitle": "Beethoven",
+"author": "Rolland, Romain, 1866-1944",
+"authorBirthYear": 1866,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2024,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Beethoven, Ludwig van, 1770-1827"
+]
+},
+{
+"id": "pg-66532-10868",
+"originalId": 66532,
+"englishId": 10868,
+"title": "Clerambault: Geschichte eines freien Gewissens im Kriege",
+"englishTitle": "Clerambault: The Story of an Independent Spirit During the War",
+"author": "Rolland, Romain, 1866-1944",
+"authorBirthYear": 1866,
+"languageCode": "de",
+"language": "German",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"World War, 1914-1918 -- Fiction"
+]
+},
+{
+"id": "pg-27854-70371",
+"originalId": 27854,
+"englishId": 70371,
+"title": "Colas Breugnon: Récit bourguignon",
+"englishTitle": "Colas Breugnon",
+"author": "Rolland, Romain, 1866-1944",
+"authorBirthYear": 1866,
+"languageCode": "fr",
+"language": "French",
+"year": 2009,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"French fiction -- 20th century"
+]
+},
+{
+"id": "pg-67205-61575",
+"originalId": 67205,
+"englishId": 61575,
+"title": "Mahatma Gandhi",
+"englishTitle": "Mahatma Gandhi: The Man Who Became One With the Universal Being",
+"author": "Rolland, Romain, 1866-1944",
+"authorBirthYear": 1866,
+"languageCode": "fr",
+"language": "French",
+"year": 2022,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"India -- Politics and government -- 1919-1947",
+"Gandhi, Mahatma, 1869-1948",
+"Nationalists -- India -- Biography",
+"Statesmen -- India -- Biography"
+]
+},
+{
+"id": "pg-1256-1254",
+"originalId": 1256,
+"englishId": 1254,
+"title": "Cyrano de Bergerac",
+"englishTitle": "Cyrano de Bergerac",
+"author": "Rostand, Edmond, 1868-1918",
+"authorBirthYear": 1868,
+"languageCode": "fr",
+"language": "French",
+"year": 1998,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Cyrano de Bergerac, 1619-1655 -- Drama",
+"Authors, French -- 17th century -- Drama",
+"France -- History -- 17th century -- Drama"
+]
+},
+{
+"id": "pg-66793-30012",
+"originalId": 66793,
+"englishId": 30012,
+"title": "L'Aiglon: Drame en six actes, en vers",
+"englishTitle": "L'Aiglon",
+"author": "Rostand, Edmond, 1868-1918",
+"authorBirthYear": 1868,
+"languageCode": "fr",
+"language": "French",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Bonaparte, François-Charles-Joseph, Herzog von Reichstadt, 1811-1832 -- Drama"
+]
+},
+{
+"id": "pg-62787-2194",
+"originalId": 62787,
+"englishId": 2194,
+"title": "Mauprat",
+"englishTitle": "Mauprat",
+"author": "Sand, George, 1804-1876",
+"authorBirthYear": 1804,
+"languageCode": "fr",
+"language": "French",
+"year": 2020,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Love stories",
+"France -- Fiction"
+]
+},
+{
+"id": "pg-47777-35846",
+"originalId": 47777,
+"englishId": 35846,
+"title": "Ekkehard: Kertoelma kymmenenneltä vuosisadalta",
+"englishTitle": "Ekkehard: A Tale of the Tenth Century. Vol. 1 (of 2)",
+"author": "Scheffel, Joseph Victor von, 1826-1886",
+"authorBirthYear": 1826,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2014,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Hedwig, Herzogin von Schwaben, approximately 938-994 -- Fiction"
+]
+},
+{
+"id": "pg-6525-6786",
+"originalId": 6525,
+"englishId": 6786,
+"title": "Die Piccolomini",
+"englishTitle": "The Piccolomini: A Play",
+"author": "Schiller, Friedrich, 1759-1805",
+"authorBirthYear": 1759,
+"languageCode": "de",
+"language": "German",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Wallenstein, Albrecht Wenzel Eusebius von, Herzog von Friedland, 1583-1634 -- Drama",
+"Thirty Years' War, 1618-1648 -- Drama"
+]
+},
+{
+"id": "pg-45378-2782",
+"originalId": 45378,
+"englishId": 2782,
+"title": "Wilhelm Tell",
+"englishTitle": "Wilhelm Tell",
+"author": "Schiller, Friedrich, 1759-1805",
+"authorBirthYear": 1759,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2014,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Tell, Wilhelm -- Drama"
+]
+},
+{
+"id": "pg-35560-2853",
+"originalId": 35560,
+"englishId": 2853,
+"title": "Quo Vadis (Πού πηγαίνεις): Μυθιστόρημα της Νερωνικής Εποχής",
+"englishTitle": "Quo Vadis: A Narrative of the Time of Nero",
+"author": "Sienkiewicz, Henryk, 1846-1916",
+"authorBirthYear": 1846,
+"languageCode": "el",
+"language": "Greek",
+"year": 2011,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Historical fiction",
+"Church history -- Primitive and early church, ca. 30-600 -- Fiction",
+"Rome -- History -- Nero, 54-68 -- Fiction",
+"Christian fiction"
+]
+},
+{
+"id": "pg-61493-806",
+"originalId": 61493,
+"englishId": 806,
+"title": "Philoktetes",
+"englishTitle": "Philoktetes",
+"author": "Sophocles, 496? BCE-407 BCE",
+"authorBirthYear": -496,
+"languageCode": "hu",
+"language": "Hungarian",
+"year": 2020,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Tragedies (Drama)",
+"Trojan War -- Drama",
+"Philoctetes (Mythological character) -- Drama"
+]
+},
+{
+"id": "pg-60810-52077",
+"originalId": 60810,
+"englishId": 52077,
+"title": "Corinne; ou, l'Italie\nNouvelle édition revue avec soin et précédée d'observations par Mme Necker de Saussure et M. Sainte-Beuve de l'Académie française",
+"englishTitle": "Corinne; or, Italy",
+"author": "Staël, Madame de (Anne-Louise-Germaine), 1766-1817",
+"authorBirthYear": 1766,
+"languageCode": "fr",
+"language": "French",
+"year": 2019,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Nobility -- Scotland -- Fiction",
+"Italy -- History -- 1789-1815 -- Fiction",
+"Women poets -- Fiction"
+]
+},
+{
+"id": "pg-29935-44108",
+"originalId": 29935,
+"englishId": 44108,
+"title": "Inferno",
+"englishTitle": "The Inferno",
+"author": "Strindberg, August, 1849-1912",
+"authorBirthYear": 1849,
+"languageCode": "sv",
+"language": "Swedish",
+"year": 2009,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Autobiographical fiction",
+"Authors, Swedish -- 19th century -- Biography",
+"Strindberg, August, 1849-1912"
+]
+},
+{
+"id": "pg-13214-1399",
+"originalId": 13214,
+"englishId": 1399,
+"title": "Anna Karenina",
+"englishTitle": "Anna Karenina",
+"author": "Tolstoy, Leo, graf, 1828-1910",
+"authorBirthYear": 1828,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Adultery -- Fiction",
+"Didactic fiction",
+"Love stories",
+"Married women -- Fiction",
+"Russia -- Fiction"
+]
+},
+{
+"id": "pg-70892-6900",
+"originalId": 70892,
+"englishId": 6900,
+"title": "Rudin",
+"englishTitle": "Rudin: A Novel",
+"author": "Turgenev, Ivan Sergeevich, 1818-1883",
+"authorBirthYear": 1818,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2023,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Man-woman relationships -- Fiction",
+"Russia -- Intellectual life -- 1801-1917 -- Fiction",
+"Upper class -- Russia -- Fiction",
+"Turgenev, Ivan Sergeevich, 1818-1883 -- Translations into Finnish"
+]
+},
+{
+"id": "pg-32245-60741",
+"originalId": 32245,
+"englishId": 60741,
+"title": "Jenny: Roman",
+"englishTitle": "Jenny: A Novel",
+"author": "Undset, Sigrid, 1882-1949",
+"authorBirthYear": 1882,
+"languageCode": "no",
+"language": "Norwegian",
+"year": 2010,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Adultery -- Fiction",
+"Young women -- Fiction",
+"Illegitimate children -- Fiction",
+"Artists -- Fiction",
+"Painters -- Fiction"
+]
+},
+{
+"id": "pg-4649-30123",
+"originalId": 4649,
+"englishId": 30123,
+"title": "Micromégas",
+"englishTitle": "Micromegas",
+"author": "Voltaire, 1694-1778",
+"authorBirthYear": 1694,
+"languageCode": "fr",
+"language": "French",
+"year": 2003,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"French fiction -- 18th century"
+]
+},
+{
+"id": "pg-1339-42704",
+"originalId": 1339,
+"englishId": 42704,
+"title": "Salomé",
+"englishTitle": "Salomé: A Tragedy in One Act",
+"author": "Wilde, Oscar, 1854-1900",
+"authorBirthYear": 1854,
+"languageCode": "fr",
+"language": "French",
+"year": 1998,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Salome (Biblical figure) -- Drama",
+"Tragedies (Drama)"
+]
+},
+{
+"id": "pg-5711-56528",
+"originalId": 5711,
+"englishId": 56528,
+"title": "Germinal",
+"englishTitle": "Germinal",
+"author": "Zola, Émile, 1840-1902",
+"authorBirthYear": 1840,
+"languageCode": "fr",
+"language": "French",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.85,
+"subjects": [
+"Coal miners -- Fiction",
+"Coal mines and mining -- Fiction",
+"Political fiction",
+"Strikes and lockouts -- Fiction",
+"Labor disputes -- Fiction",
+"France, Northern -- Fiction"
+]
+},
+{
+"id": "pg-56156-6852",
+"originalId": 56156,
+"englishId": 6852,
+"title": "Venus im Pelz",
+"englishTitle": "Venus in Furs",
+"author": "Sacher-Masoch, Leopold, Ritter von, 1835-1895",
+"authorBirthYear": 1835,
+"languageCode": "de",
+"language": "German",
+"year": 2017,
+"hasTranslatorCredit": true,
+"confidence": 0.838,
+"subjects": [
+"Erotic fiction",
+"Sadomasochism -- Fiction"
+]
+},
+{
+"id": "pg-17076-37659",
+"originalId": 17076,
+"englishId": 37659,
+"title": "Lucifer: Treurspel",
+"englishTitle": "Vondel's Lucifer",
+"author": "Vondel, Joost van den, 1587-1679",
+"authorBirthYear": 1587,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.835,
+"subjects": [
+"Dutch drama"
+]
+},
+{
+"id": "pg-75397-77582",
+"originalId": 75397,
+"englishId": 77582,
+"title": "Der Skorpion. Band 1",
+"englishTitle": "The scorpion",
+"author": "Weirauch, Anna Elisabet, 1887-1970",
+"authorBirthYear": 1887,
+"languageCode": "de",
+"language": "German",
+"year": 2025,
+"hasTranslatorCredit": true,
+"confidence": 0.835,
+"subjects": [
+"Lesbians -- Fiction"
+]
+},
+{
+"id": "pg-9186-3820",
+"originalId": 9186,
+"englishId": 3820,
+"title": "Nathan der Weise: Ein Dramatisches Gedicht, in fünf Aufzügen",
+"englishTitle": "Nathan the Wise; a dramatic poem in five acts",
+"author": "Lessing, Gotthold Ephraim, 1729-1781",
+"authorBirthYear": 1729,
+"languageCode": "de",
+"language": "German",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.826,
+"subjects": [
+"Drama"
+]
+},
+{
+"id": "pg-50285-75967",
+"originalId": 50285,
+"englishId": 75967,
+"title": "Dr. Mabuse, der Spieler",
+"englishTitle": "Dr. Mabuse, master of mystery",
+"author": "Jacques, Norbert, 1880-1954",
+"authorBirthYear": 1880,
+"languageCode": "de",
+"language": "German",
+"year": 2015,
+"hasTranslatorCredit": true,
+"confidence": 0.825,
+"subjects": [
+"Germany -- Fiction",
+"Gamblers -- Fiction",
+"Murderers -- Fiction",
+"Criminals -- Fiction",
+"Hypnotism and crime -- Fiction"
+]
+},
+{
+"id": "pg-52774-47197",
+"originalId": 52774,
+"englishId": 47197,
+"title": "Sevastopoli",
+"englishTitle": "Sevastopol",
+"author": "Tolstoy, Leo, graf, 1828-1910",
+"authorBirthYear": 1828,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.824,
+"subjects": [
+"Sevastopol (Ukraine) -- History -- Siege, 1854-1855 -- Fiction"
+]
+},
+{
+"id": "pg-2312-1958",
+"originalId": 2312,
+"englishId": 1958,
+"title": "Hermann und Dorothea",
+"englishTitle": "Hermann and Dorothea",
+"author": "Goethe, Johann Wolfgang von, 1749-1832",
+"authorBirthYear": 1749,
+"languageCode": "de",
+"language": "German",
+"year": 2000,
+"hasTranslatorCredit": true,
+"confidence": 0.823,
+"subjects": [
+"German poetry -- 18th century",
+"Epic poetry, German",
+"Love poetry, German"
+]
+},
+{
+"id": "pg-38298-46967",
+"originalId": 38298,
+"englishId": 46967,
+"title": "Isabella Orsini, duchessa di Bracciano",
+"englishTitle": "Isabella Orsini: A Historical Novel of the Fifteenth Century",
+"author": "Guerrazzi, Francesco Domenico, 1804-1873",
+"authorBirthYear": 1804,
+"languageCode": "it",
+"language": "Italian",
+"year": 2011,
+"hasTranslatorCredit": true,
+"confidence": 0.817,
+"subjects": [
+"Medici, Isabella Romola de', 1542-1576 -- Fiction"
+]
+},
+{
+"id": "pg-7268-49414",
+"originalId": 7268,
+"englishId": 49414,
+"title": "Monsieur Bergeret à Paris: Histoire Contemporaine",
+"englishTitle": "Monsieur Bergeret in Paris",
+"author": "France, Anatole, 1844-1924",
+"authorBirthYear": 1844,
+"languageCode": "fr",
+"language": "French",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.816,
+"subjects": [
+"Paris (France) -- Intellectual life -- 19th century -- Fiction",
+"Middle class -- France -- Paris -- Intellectual life -- 19th century -- Fiction",
+"Antisemitism -- France -- Fiction"
+]
+},
+{
+"id": "pg-44323-23092",
+"originalId": 44323,
+"englishId": 23092,
+"title": "La vie simple",
+"englishTitle": "The Simple Life",
+"author": "Wagner, Charles, 1852-1918",
+"authorBirthYear": 1852,
+"languageCode": "fr",
+"language": "French",
+"year": 2013,
+"hasTranslatorCredit": true,
+"confidence": 0.814,
+"subjects": [
+"Conduct of life",
+"Simplicity"
+]
+},
+{
+"id": "pg-72124-71496",
+"originalId": 72124,
+"englishId": 71496,
+"title": "Negerleben in Ostafrika",
+"englishTitle": "Native life in East Africa",
+"author": "Weule, Karl, 1864-1926",
+"authorBirthYear": 1864,
+"languageCode": "de",
+"language": "German",
+"year": 2023,
+"hasTranslatorCredit": true,
+"confidence": 0.814,
+"subjects": [
+"Africa, East -- Description and travel",
+"Ethnology -- Tanzania",
+"Ethnology -- Africa, East"
+]
+},
+{
+"id": "pg-7461-6626",
+"originalId": 7461,
+"englishId": 6626,
+"title": "Thérèse Raquin",
+"englishTitle": "Theresa Raquin",
+"author": "Zola, Émile, 1840-1902",
+"authorBirthYear": 1840,
+"languageCode": "fr",
+"language": "French",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.811,
+"subjects": [
+"Adultery -- Fiction",
+"Guilt -- Fiction",
+"Murder -- Fiction",
+"Paris (France) -- Social life and customs -- Fiction"
+]
+},
+{
+"id": "pg-53977-228",
+"originalId": 53977,
+"englishId": 228,
+"title": "Aeneidi",
+"englishTitle": "The Aeneid",
+"author": "Virgil, 71 BCE-20 BCE",
+"authorBirthYear": null,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2017,
+"hasTranslatorCredit": true,
+"confidence": 0.808,
+"subjects": [
+"Aeneas (Legendary character) -- Poetry",
+"Epic poetry, Latin -- Translations into Finnish"
+]
+},
+{
+"id": "pg-48902-26348",
+"originalId": 48902,
+"englishId": 26348,
+"title": "Sidsel Langröckchen",
+"englishTitle": "Lisbeth Longfrock",
+"author": "Aanrud, Hans, 1863-1953",
+"authorBirthYear": 1863,
+"languageCode": "de",
+"language": "German",
+"year": 2015,
+"hasTranslatorCredit": true,
+"confidence": 0.806,
+"subjects": [
+"Girls -- Juvenile fiction",
+"Country life -- Juvenile fiction",
+"Farm life -- Juvenile fiction",
+"Norway -- Juvenile fiction"
+]
+},
+{
+"id": "pg-69561-2792",
+"originalId": 69561,
+"englishId": 2792,
+"title": "Mes Prisons",
+"englishTitle": "My Ten Years' Imprisonment",
+"author": "Pellico, Silvio, 1789-1854",
+"authorBirthYear": 1789,
+"languageCode": "fr",
+"language": "French",
+"year": 2022,
+"hasTranslatorCredit": true,
+"confidence": 0.806,
+"subjects": [
+"Pellico, Silvio, 1789-1854 -- Imprisonment",
+"Authors, Italian -- 19th century -- Biography",
+"Political prisoners -- Italy -- Biography",
+"Milan (Italy) -- History -- 1535-1859 -- Sources",
+"Spilberk (Brno, Czech Republic : Castle)",
+"Carbonari -- History -- Sources"
+]
+},
+{
+"id": "pg-2000-996",
+"originalId": 2000,
+"englishId": 996,
+"title": "Don Quijote",
+"englishTitle": "Don Quixote",
+"author": "Cervantes Saavedra, Miguel de, 1547-1616",
+"authorBirthYear": 1547,
+"languageCode": "es",
+"language": "Spanish",
+"year": 1999,
+"hasTranslatorCredit": true,
+"confidence": 0.8,
+"subjects": [
+"Spain -- Social life and customs -- 16th century -- Fiction",
+"Knights and knighthood -- Spain -- Fiction",
+"Picaresque literature",
+"Romances"
+]
+},
+{
+"id": "pg-17713-21197",
+"originalId": 17713,
+"englishId": 21197,
+"title": "Ars grammaticae Iaponicae linguae",
+"englishTitle": "Diego Collado's Grammar of the Japanese Language",
+"author": "Collado, Diego, -1638",
+"authorBirthYear": null,
+"languageCode": "la",
+"language": "Latin",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.8,
+"subjects": [
+"Japanese language -- Grammar -- Early works to 1800"
+]
+},
+{
+"id": "pg-57654-2199",
+"originalId": 57654,
+"englishId": 2199,
+"title": "La Ilíada",
+"englishTitle": "The Iliad",
+"author": "Homer, 751? BCE-651? BCE",
+"authorBirthYear": -751,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2018,
+"hasTranslatorCredit": true,
+"confidence": 0.8,
+"subjects": [
+"Achilles (Mythological character)",
+"Trojan War",
+"Epic poetry, Greek -- Translations into Spanish"
+]
+},
+{
+"id": "pg-23020-31934",
+"originalId": 23020,
+"englishId": 31934,
+"title": "Souvenirs de Madame Louise-Élisabeth Vigée-Lebrun, Tome second",
+"englishTitle": "The Memoirs of Madame Vigée Lebrun",
+"author": "Vigée-Lebrun, Louise-Elisabeth, 1755-1842",
+"authorBirthYear": 1755,
+"languageCode": "fr",
+"language": "French",
+"year": 2007,
+"hasTranslatorCredit": true,
+"confidence": 0.8,
+"subjects": [
+"Vigée-Lebrun, Louise-Elisabeth, 1755-1842",
+"Painters -- France -- Biography"
+]
+},
+{
+"id": "pg-61357-40306",
+"originalId": 61357,
+"englishId": 40306,
+"title": "Coins de Paris",
+"englishTitle": "Nooks & Corners of Old Paris",
+"author": "Cain, Georges, 1856-1919",
+"authorBirthYear": 1856,
+"languageCode": "fr",
+"language": "French",
+"year": 2020,
+"hasTranslatorCredit": true,
+"confidence": 0.797,
+"subjects": [
+"Paris (France) -- Description and travel"
+]
+},
+{
+"id": "pg-41517-41518",
+"originalId": 41517,
+"englishId": 41518,
+"title": "Die Schlacht bei Sempach",
+"englishTitle": "The Battle of Sempach",
+"author": "Walser, Robert, 1878-1956",
+"authorBirthYear": 1878,
+"languageCode": "de",
+"language": "German",
+"year": 2012,
+"hasTranslatorCredit": true,
+"confidence": 0.797,
+"subjects": [
+"Sempach, Battle of, Switzerland, 1386 -- Fiction"
+]
+},
+{
+"id": "pg-44719-31248",
+"originalId": 44719,
+"englishId": 31248,
+"title": "Aus einer kleinen Garnison: Ein militärisches Zeitbild",
+"englishTitle": "A Little Garrison: A Realistic Novel of German Army Life of To-day",
+"author": "Bilse, Fritz Oswald, 1878-1951",
+"authorBirthYear": 1878,
+"languageCode": "de",
+"language": "German",
+"year": 2014,
+"hasTranslatorCredit": true,
+"confidence": 0.795,
+"subjects": [
+"Soldiers -- Fiction",
+"Germany. Heer -- Military life -- Fiction"
+]
+},
+{
+"id": "pg-76395-27368",
+"originalId": 76395,
+"englishId": 27368,
+"title": "Le culte de l'incompétence",
+"englishTitle": "The cult of incompetence",
+"author": "Faguet, Émile, 1847-1916",
+"authorBirthYear": 1847,
+"languageCode": "fr",
+"language": "French",
+"year": 2025,
+"hasTranslatorCredit": true,
+"confidence": 0.795,
+"subjects": [
+"Democracy",
+"France -- Politics and government",
+"Mental efficiency"
+]
+},
+{
+"id": "pg-44749-46407",
+"originalId": 44749,
+"englishId": 46407,
+"title": "Mémoires de l'Impératrice Catherine II.\nÉcrits par elle-même",
+"englishTitle": "Memoirs of the Empress Catherine II.\nWritten by Herself",
+"author": "Catherine II, Empress of Russia, 1729-1796",
+"authorBirthYear": 1729,
+"languageCode": "fr",
+"language": "French",
+"year": 2014,
+"hasTranslatorCredit": true,
+"confidence": 0.791,
+"subjects": [
+"Catherine II, Empress of Russia, 1729-1796",
+"Empresses -- Russia -- Biography",
+"Russia -- History -- Catherine II, 1762-1796"
+]
+},
+{
+"id": "pg-18106-13916",
+"originalId": 18106,
+"englishId": 13916,
+"title": "Lettres de Marie Bashkirtseff\nPréface de François Coppée",
+"englishTitle": "Marie Bashkirtseff (From Childhood to Girlhood)",
+"author": "Bashkirtseff, Marie, 1860?-1884",
+"authorBirthYear": 1860,
+"languageCode": "fr",
+"language": "French",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.789,
+"subjects": [
+"Bashkirtseff, Marie, 1860-1884 -- Correspondence",
+"Artists -- Russia -- Correspondence"
+]
+},
+{
+"id": "pg-22741-5434",
+"originalId": 22741,
+"englishId": 5434,
+"title": "Physiologie du goût",
+"englishTitle": "The Physiology of Taste; Or, Transcendental Gastronomy",
+"author": "Brillat-Savarin, 1755-1826",
+"authorBirthYear": 1755,
+"languageCode": "fr",
+"language": "French",
+"year": 2007,
+"hasTranslatorCredit": true,
+"confidence": 0.789,
+"subjects": [
+"Gastronomy"
+]
+},
+{
+"id": "pg-66949-1174",
+"originalId": 66949,
+"englishId": 1174,
+"title": "Las Helénicas; ó, Historia griega desde el año 411 hasta el 362 antes de Jesucristo",
+"englishTitle": "Hellenica",
+"author": "Xenophon, 432 BCE-351? BCE",
+"authorBirthYear": -432,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 0.789,
+"subjects": [
+"Greece -- History -- To 146 B.C."
+]
+},
+{
+"id": "pg-8560-10720",
+"originalId": 8560,
+"englishId": 10720,
+"title": "Le Docteur Pascal",
+"englishTitle": "Doctor Pascal",
+"author": "Zola, Émile, 1840-1902",
+"authorBirthYear": 1840,
+"languageCode": "fr",
+"language": "French",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.789,
+"subjects": [
+"Physicians -- Fiction",
+"France -- Social life and customs -- 19th century -- Fiction"
+]
+},
+{
+"id": "pg-20577-64953",
+"originalId": 20577,
+"englishId": 64953,
+"title": "La Folle Journée ou le Mariage de Figaro",
+"englishTitle": "The Follies of a Day; or, The Marriage of Figaro\nA comedy, as it is now performing at the Theatre-Royal, Covent-Garden. From the French of M. de Beaumarchais",
+"author": "Beaumarchais, Pierre Augustin Caron de, 1732-1799",
+"authorBirthYear": 1732,
+"languageCode": "fr",
+"language": "French",
+"year": 2007,
+"hasTranslatorCredit": true,
+"confidence": 0.785,
+"subjects": [
+"Comedy plays",
+"French drama -- 18th century"
+]
+},
+{
+"id": "pg-44260-45857",
+"originalId": 44260,
+"englishId": 45857,
+"title": "Les Deux Rives: Roman",
+"englishTitle": "Two banks of the Seine (Les Deux Rives)",
+"author": "Vandérem, Fernand, 1864-1939",
+"authorBirthYear": 1864,
+"languageCode": "fr",
+"language": "French",
+"year": 2013,
+"hasTranslatorCredit": true,
+"confidence": 0.782,
+"subjects": [
+"Paris (France) -- Social life and customs -- 19th century -- Fiction"
+]
+},
+{
+"id": "pg-64205-2074",
+"originalId": 64205,
+"englishId": 2074,
+"title": "La civiltà del secolo del Rinascimento in Italia, Volume I",
+"englishTitle": "The Civilisation of the Renaissance in Italy",
+"author": "Burckhardt, Jacob, 1818-1897",
+"authorBirthYear": 1818,
+"languageCode": "it",
+"language": "Italian",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 0.781,
+"subjects": [
+"Renaissance -- Italy",
+"Italy -- Civilization"
+]
+},
+{
+"id": "pg-40564-39402",
+"originalId": 40564,
+"englishId": 39402,
+"title": "Jeremias: Eine dramatische Dichtung in neun Bildern",
+"englishTitle": "Jeremiah: A Drama in Nine Scenes",
+"author": "Zweig, Stefan, 1881-1942",
+"authorBirthYear": 1881,
+"languageCode": "de",
+"language": "German",
+"year": 2012,
+"hasTranslatorCredit": true,
+"confidence": 0.781,
+"subjects": [
+"Jeremiah (Biblical prophet) -- Drama"
+]
+},
+{
+"id": "pg-38336-8578",
+"originalId": 38336,
+"englishId": 8578,
+"title": "Der Großinquisitor",
+"englishTitle": "The Grand Inquisitor",
+"author": "Dostoyevsky, Fyodor, 1821-1881",
+"authorBirthYear": 1821,
+"languageCode": "de",
+"language": "German",
+"year": 2011,
+"hasTranslatorCredit": true,
+"confidence": 0.777,
+"subjects": [
+"Jesus Christ -- Fiction",
+"Christian fiction",
+"Russian fiction -- Translations into German"
+]
+},
+{
+"id": "pg-78479-9069",
+"originalId": 78479,
+"englishId": 9069,
+"title": "Sainte Thérèse",
+"englishTitle": "Saint Augustin",
+"author": "Bertrand, Louis, 1866-1941",
+"authorBirthYear": 1866,
+"languageCode": "fr",
+"language": "French",
+"year": 2026,
+"hasTranslatorCredit": true,
+"confidence": 0.775,
+"subjects": [
+"Teresa, of Avila, Saint, 1515-1582"
+]
+},
+{
+"id": "pg-24677-31799",
+"originalId": 24677,
+"englishId": 31799,
+"title": "Entwurf einer neuen Ästhetik der Tonkunst",
+"englishTitle": "Sketch of a New Esthetic of Music",
+"author": "Busoni, Ferruccio, 1866-1924",
+"authorBirthYear": 1866,
+"languageCode": "de",
+"language": "German",
+"year": 2008,
+"hasTranslatorCredit": true,
+"confidence": 0.775,
+"subjects": [
+"Music -- Philosophy and aesthetics"
+]
+},
+{
+"id": "pg-17980-46633",
+"originalId": 17980,
+"englishId": 46633,
+"title": "Les caractères",
+"englishTitle": "The \"Characters\" of Jean de La Bruyère",
+"author": "La Bruyère, Jean de, 1645-1696",
+"authorBirthYear": 1645,
+"languageCode": "fr",
+"language": "French",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.775,
+"subjects": [
+"Characters and characteristics",
+"Character sketches -- Early works to 1800"
+]
+},
+{
+"id": "pg-51405-50179",
+"originalId": 51405,
+"englishId": 50179,
+"title": "La bêtise humaine (Eusèbe Martin)",
+"englishTitle": "Human Follies (La Bêtise Humaine.)",
+"author": "Noriac, Jules, 1827-1882",
+"authorBirthYear": 1827,
+"languageCode": "fr",
+"language": "French",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.775,
+"subjects": [
+"French fiction -- 19th century"
+]
+},
+{
+"id": "pg-60702-4963",
+"originalId": 60702,
+"englishId": 4963,
+"title": "Krawall: Lustige Geschichten",
+"englishTitle": "Moral",
+"author": "Thoma, Ludwig, 1867-1921",
+"authorBirthYear": 1867,
+"languageCode": "de",
+"language": "German",
+"year": 2019,
+"hasTranslatorCredit": true,
+"confidence": 0.775,
+"subjects": [
+"Short stories, German",
+"German fiction -- 20th century"
+]
+},
+{
+"id": "pg-64775-32528",
+"originalId": 64775,
+"englishId": 32528,
+"title": "Los Lusíadas: Poema épico en diez cantos",
+"englishTitle": "The Lusiad; Or, The Discovery of India, an Epic Poem",
+"author": "Camões, Luís de, 1524?-1580",
+"authorBirthYear": 1524,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 0.771,
+"subjects": [
+"Gama, Vasco da, 1469-1524 -- Poetry",
+"Explorers -- Portugal -- Poetry",
+"India -- Discovery and exploration -- Poetry",
+"Portugal -- Colonies -- Asia -- Poetry",
+"Epic poetry, Portuguese -- Translations into Spanish",
+"Portuguese poetry -- Classical period, 1500-1700 -- Translations into Spanish"
+]
+},
+{
+"id": "pg-6889-73078",
+"originalId": 6889,
+"englishId": 73078,
+"title": "Laokoon: Oder, Über die Grenzen der Malerei und Poesie",
+"englishTitle": "Laocoon",
+"author": "Lessing, Gotthold Ephraim, 1729-1781",
+"authorBirthYear": 1729,
+"languageCode": "de",
+"language": "German",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.771,
+"subjects": [
+"Aesthetics -- Early works to 1800"
+]
+},
+{
+"id": "pg-24572-41159",
+"originalId": 24572,
+"englishId": 41159,
+"title": "Der rote Kampfflieger",
+"englishTitle": "The Red Battle Flyer",
+"author": "Richthofen, Manfred, Freiherr von, 1892-1918",
+"authorBirthYear": 1892,
+"languageCode": "de",
+"language": "German",
+"year": 2008,
+"hasTranslatorCredit": true,
+"confidence": 0.767,
+"subjects": [
+"Richthofen, Manfred, Freiherr von, 1892-1918",
+"World War, 1914-1918 -- Aerial operations, German",
+"World War, 1914-1918 -- Personal narratives, German",
+"Fighter pilots -- Germany -- Biography"
+]
+},
+{
+"id": "pg-44911-65620",
+"originalId": 44911,
+"englishId": 65620,
+"title": "Cruelle Énigme",
+"englishTitle": "A Cruel Enigma",
+"author": "Bourget, Paul, 1852-1935",
+"authorBirthYear": 1852,
+"languageCode": "fr",
+"language": "French",
+"year": 2014,
+"hasTranslatorCredit": true,
+"confidence": 0.765,
+"subjects": [
+"Man-woman relationships -- Fiction",
+"French fiction -- 19th century"
+]
+},
+{
+"id": "pg-66817-48504",
+"originalId": 66817,
+"englishId": 48504,
+"title": "Le Double Jardin",
+"englishTitle": "The Double Garden",
+"author": "Maeterlinck, Maurice, 1862-1949",
+"authorBirthYear": 1862,
+"languageCode": "fr",
+"language": "French",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 0.765,
+"subjects": [
+"Essays"
+]
+},
+{
+"id": "pg-52484-500",
+"originalId": 52484,
+"englishId": 500,
+"title": "Le avventure di Pinocchio: Storia di un burattino",
+"englishTitle": "The Adventures of Pinocchio",
+"author": "Collodi, Carlo, 1826-1890",
+"authorBirthYear": 1826,
+"languageCode": "it",
+"language": "Italian",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.764,
+"subjects": [
+"Fairy tales",
+"Puppets -- Juvenile fiction",
+"Pinocchio (Fictitious character) -- Juvenile fiction"
+]
+},
+{
+"id": "pg-58675-8149",
+"originalId": 58675,
+"englishId": 8149,
+"title": "Jean-Christophe I\nSarastus",
+"englishTitle": "Jean-Christophe in Paris: The Market-Place, Antoinette, the House",
+"author": "Rolland, Romain, 1866-1944",
+"authorBirthYear": 1866,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2019,
+"hasTranslatorCredit": true,
+"confidence": 0.762,
+"subjects": [
+"Psychological fiction",
+"Epic literature",
+"Musicians -- Fiction",
+"French fiction -- Translations into Finnish"
+]
+},
+{
+"id": "pg-10689-73192",
+"originalId": 10689,
+"englishId": 73192,
+"title": "La Cour de Louis XIV",
+"englishTitle": "The court of Louis XV",
+"author": "Imbert de Saint-Amand, 1834-1900",
+"authorBirthYear": 1834,
+"languageCode": "fr",
+"language": "French",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.761,
+"subjects": [
+"France -- Court and courtiers",
+"France -- History -- Louis XIV, 1643-1715"
+]
+},
+{
+"id": "pg-19591-23700",
+"originalId": 19591,
+"englishId": 23700,
+"title": "De Decamerone van Boccaccio",
+"englishTitle": "The Decameron of Giovanni Boccaccio",
+"author": "Boccaccio, Giovanni, 1313-1375",
+"authorBirthYear": 1313,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.76,
+"subjects": [
+"Plague -- Europe -- History -- Fiction",
+"Storytelling -- Fiction",
+"Allegories",
+"Frame stories"
+]
+},
+{
+"id": "pg-52933-41941",
+"originalId": 52933,
+"englishId": 41941,
+"title": "Uranie",
+"englishTitle": "Urania",
+"author": "Flammarion, Camille, 1842-1925",
+"authorBirthYear": 1842,
+"languageCode": "fr",
+"language": "French",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.758,
+"subjects": [
+"Science fiction",
+"French fiction -- 19th century"
+]
+},
+{
+"id": "pg-46538-16422",
+"originalId": 46538,
+"englishId": 16422,
+"title": "Familjen i dalen: Berättelse",
+"englishTitle": "The Home in the Valley",
+"author": "Flygare-Carlén, Emilie, 1807-1892",
+"authorBirthYear": 1807,
+"languageCode": "sv",
+"language": "Swedish",
+"year": 2014,
+"hasTranslatorCredit": true,
+"confidence": 0.757,
+"subjects": [
+"Domestic fiction",
+"Sweden -- Fiction",
+"Swedish fiction"
+]
+},
+{
+"id": "pg-11131-3804",
+"originalId": 11131,
+"englishId": 3804,
+"title": "Pierre et Jean",
+"englishTitle": "Pierre and Jean",
+"author": "Maupassant, Guy de, 1850-1893",
+"authorBirthYear": 1850,
+"languageCode": "fr",
+"language": "French",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.755,
+"subjects": [
+"Inheritance and succession -- Fiction",
+"France -- Social life and customs -- Fiction",
+"Brothers -- Fiction",
+"Normandy (France) -- Fiction",
+"Sibling rivalry -- Fiction"
+]
+},
+{
+"id": "pg-64274-31542",
+"originalId": 64274,
+"englishId": 31542,
+"title": "Pierre et Luce",
+"englishTitle": "Pierre and Luce",
+"author": "Rolland, Romain, 1866-1944",
+"authorBirthYear": 1866,
+"languageCode": "fr",
+"language": "French",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 0.755,
+"subjects": [
+"Paris (France) -- Fiction",
+"Man-woman relationships -- Fiction",
+"World War, 1914-1918 -- France -- Fiction"
+]
+},
+{
+"id": "pg-5105-25768",
+"originalId": 5105,
+"englishId": 25768,
+"title": "Tartarin sur les Alpes",
+"englishTitle": "Tartarin on the Alps",
+"author": "Daudet, Alphonse, 1840-1897",
+"authorBirthYear": 1840,
+"languageCode": "fr",
+"language": "French",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.753,
+"subjects": [
+"Alps -- Fiction"
+]
+},
+{
+"id": "pg-231-232",
+"originalId": 231,
+"englishId": 232,
+"title": "Georgicon",
+"englishTitle": "The Georgics",
+"author": "Virgil, 71 BCE-20 BCE",
+"authorBirthYear": null,
+"languageCode": "la",
+"language": "Latin",
+"year": 1995,
+"hasTranslatorCredit": true,
+"confidence": 0.753,
+"subjects": [
+"Didactic poetry, Latin",
+"Agriculture -- Poetry"
+]
+},
+{
+"id": "pg-2054-15850",
+"originalId": 2054,
+"englishId": 15850,
+"title": "Iphigenie auf Tauris",
+"englishTitle": "Iphigenia in Tauris",
+"author": "Goethe, Johann Wolfgang von, 1749-1832",
+"authorBirthYear": 1749,
+"languageCode": "de",
+"language": "German",
+"year": 2000,
+"hasTranslatorCredit": true,
+"confidence": 0.751,
+"subjects": [
+"Iphigenia (Mythological character) -- Drama"
+]
+},
+{
+"id": "pg-25981-69331",
+"originalId": 25981,
+"englishId": 69331,
+"title": "Les beaux messieurs de Bois-Doré",
+"englishTitle": "Les beaux messieurs de Bois-Doré Vol. 1 (of 2)",
+"author": "Sand, George, 1804-1876",
+"authorBirthYear": 1804,
+"languageCode": "fr",
+"language": "French",
+"year": 2008,
+"hasTranslatorCredit": true,
+"confidence": 0.751,
+"subjects": [
+"France -- History -- Louis XIII, 1610-1643 -- Fiction"
+]
+},
+{
+"id": "pg-26820-49315",
+"originalId": 26820,
+"englishId": 49315,
+"title": "Ourika",
+"englishTitle": "Ourika",
+"author": "Duras, Claire de Durfort, duchesse de, 1777-1828",
+"authorBirthYear": 1777,
+"languageCode": "fr",
+"language": "French",
+"year": 2008,
+"hasTranslatorCredit": false,
+"confidence": 0.75,
+"subjects": [
+"France -- Fiction",
+"Race relations -- Fiction",
+"Women, Black -- Fiction",
+"Africans -- France -- Fiction"
+]
+},
+{
+"id": "pg-17983-468",
+"originalId": 17983,
+"englishId": 468,
+"title": "Manon Lescaut",
+"englishTitle": "Manon Lescaut",
+"author": "Prévost, abbé, 1697-1763",
+"authorBirthYear": 1697,
+"languageCode": "fr",
+"language": "French",
+"year": 2006,
+"hasTranslatorCredit": false,
+"confidence": 0.75,
+"subjects": [
+"Adventure stories",
+"Man-woman relationships -- Fiction",
+"Lescaut, Manon, 1689-1721 -- Fiction"
+]
+},
+{
+"id": "pg-6651-6650",
+"originalId": 6651,
+"englishId": 6650,
+"title": "Immensee",
+"englishTitle": "Immensee",
+"author": "Storm, Theodor, 1817-1888",
+"authorBirthYear": 1817,
+"languageCode": "de",
+"language": "German",
+"year": 2004,
+"hasTranslatorCredit": false,
+"confidence": 0.75,
+"subjects": [
+"Love stories",
+"Germany, Northern -- Fiction"
+]
+},
+{
+"id": "pg-41072-38128",
+"originalId": 41072,
+"englishId": 38128,
+"title": "Leonora Christina Ulfeldt's \"Jammers-minde\". En egenhændig skildring af hendes fangenskab i Blaataarn i aarene 1663-1685",
+"englishTitle": "Memoirs of Leonora Christina, Daughter of Christian IV. of Denmark\nWritten During Her Imprisonment in the Blue Tower at Copenhagen 1663-1685",
+"author": "Ulfeldt, Leonora Christina, grevinde, 1621-1698",
+"authorBirthYear": 1621,
+"languageCode": "da",
+"language": "Danish",
+"year": 2012,
+"hasTranslatorCredit": true,
+"confidence": 0.75,
+"subjects": [
+"Ulfeldt, Leonora Christina, grevinde, 1621-1698"
+]
+},
+{
+"id": "pg-16187-8800",
+"originalId": 16187,
+"englishId": 8800,
+"title": "La Divina Comèdia: Infièr\n(Dante's Inferno)",
+"englishTitle": "The divine comedy",
+"author": "Dante Alighieri, 1265-1321",
+"authorBirthYear": 1265,
+"languageCode": "fur",
+"language": "Friulian",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.748,
+"subjects": [
+"Hell -- Poetry"
+]
+},
+{
+"id": "pg-17557-56654",
+"originalId": 17557,
+"englishId": 56654,
+"title": "Son Excellence Eugène Rougon",
+"englishTitle": "His Excellency [Son Exc. Eugène Rougon]",
+"author": "Zola, Émile, 1840-1902",
+"authorBirthYear": 1840,
+"languageCode": "fr",
+"language": "French",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.747,
+"subjects": [
+"France -- History -- Second Empire, 1852-1870 -- Fiction"
+]
+},
+{
+"id": "pg-28029-41085",
+"originalId": 28029,
+"englishId": 41085,
+"title": "Het Nieuwe Leven (La Vita Nuova)",
+"englishTitle": "The New Life (La Vita Nuova)",
+"author": "Dante Alighieri, 1265-1321",
+"authorBirthYear": 1265,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2009,
+"hasTranslatorCredit": true,
+"confidence": 0.745,
+"subjects": [
+"Italian literature -- Translations into Dutch"
+]
+},
+{
+"id": "pg-49159-61172",
+"originalId": 49159,
+"englishId": 61172,
+"title": "Novellen",
+"englishTitle": "The Steel Flea",
+"author": "Leskov, N. S. (Nikolai Semenovich), 1831-1895",
+"authorBirthYear": 1831,
+"languageCode": "de",
+"language": "German",
+"year": 2015,
+"hasTranslatorCredit": true,
+"confidence": 0.744,
+"subjects": [
+"Russian fiction -- Translations into German"
+]
+},
+{
+"id": "pg-29396-58838",
+"originalId": 29396,
+"englishId": 58838,
+"title": "Kypron prinsessa: 4-näytöksinen satunäytelmä",
+"englishTitle": "The king's ring",
+"author": "Topelius, Zacharias, 1818-1898",
+"authorBirthYear": 1818,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2009,
+"hasTranslatorCredit": true,
+"confidence": 0.744,
+"subjects": [
+"Drama"
+]
+},
+{
+"id": "pg-34469-14301",
+"originalId": 34469,
+"englishId": 14301,
+"title": "L'Atlantide",
+"englishTitle": "Atlantida",
+"author": "Benoît, Pierre, 1886-1962",
+"authorBirthYear": 1886,
+"languageCode": "fr",
+"language": "French",
+"year": 2010,
+"hasTranslatorCredit": true,
+"confidence": 0.74,
+"subjects": [
+"Science fiction",
+"Fantasy fiction",
+"Atlantis (Legendary place) -- Fiction"
+]
+},
+{
+"id": "pg-41943-77579",
+"originalId": 41943,
+"englishId": 77579,
+"title": "Madame de Longueville: La Jeunesse de Madame de Longueville",
+"englishTitle": "The youth of Madame de Longueville, or new revelations of court and convent in the seventeenth century",
+"author": "Cousin, Victor, 1792-1867",
+"authorBirthYear": 1792,
+"languageCode": "fr",
+"language": "French",
+"year": 2013,
+"hasTranslatorCredit": true,
+"confidence": 0.74,
+"subjects": [
+"France -- Court and courtiers",
+"France -- History -- Louis XIV, 1643-1715",
+"Longueville, Anne Geneviève de Bourbon-Condé, duchesse de, 1619-1679"
+]
+},
+{
+"id": "pg-42433-5439",
+"originalId": 42433,
+"englishId": 5439,
+"title": "Warda: Roman uit het oude Egypte",
+"englishTitle": "Uarda : a Romance of Ancient Egypt — Volume 01",
+"author": "Ebers, Georg, 1837-1898",
+"authorBirthYear": 1837,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2013,
+"hasTranslatorCredit": true,
+"confidence": 0.74,
+"subjects": [
+"Egypt -- History -- To 332 B.C. -- Fiction",
+"German fiction -- Translations into Dutch"
+]
+},
+{
+"id": "pg-10819-40656",
+"originalId": 10819,
+"englishId": 40656,
+"title": "De kleine Johannes",
+"englishTitle": "Little Johannes",
+"author": "Eeden, Frederik van, 1860-1932",
+"authorBirthYear": 1860,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.74,
+"subjects": [
+"Dutch fiction"
+]
+},
+{
+"id": "pg-77187-9304",
+"originalId": 77187,
+"englishId": 9304,
+"title": "Initiation philosophique",
+"englishTitle": "Initiation into Philosophy",
+"author": "Faguet, Émile, 1847-1916",
+"authorBirthYear": 1847,
+"languageCode": "fr",
+"language": "French",
+"year": 2025,
+"hasTranslatorCredit": true,
+"confidence": 0.74,
+"subjects": [
+"Philosophy -- Introductions",
+"Philosophy -- History"
+]
+},
+{
+"id": "pg-54200-3160",
+"originalId": 54200,
+"englishId": 3160,
+"title": "Odysseia",
+"englishTitle": "The Odyssey",
+"author": "Homer, 751? BCE-651? BCE",
+"authorBirthYear": -751,
+"languageCode": "sv",
+"language": "Swedish",
+"year": 2017,
+"hasTranslatorCredit": true,
+"confidence": 0.74,
+"subjects": [
+"Odysseus, King of Ithaca (Mythological character) -- Poetry",
+"Epic poetry, Greek -- Translations into Swedish"
+]
+},
+{
+"id": "pg-75739-48731",
+"originalId": 75739,
+"englishId": 48731,
+"title": "Los miserables - Tomo 1 (de 2)",
+"englishTitle": "Les Misérables, v. 1/5: Fantine",
+"author": "Hugo, Victor, 1802-1885",
+"authorBirthYear": 1802,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2025,
+"hasTranslatorCredit": true,
+"confidence": 0.74,
+"subjects": [
+"Historical fiction",
+"Orphans -- Fiction",
+"Paris (France) -- Fiction",
+"Epic literature",
+"Ex-convicts -- Fiction"
+]
+},
+{
+"id": "pg-78068-48732",
+"originalId": 78068,
+"englishId": 48732,
+"title": "Los miserables - Tomo 2 (de 2)",
+"englishTitle": "Les Misérables, v. 2/5: Cosette",
+"author": "Hugo, Victor, 1802-1885",
+"authorBirthYear": 1802,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2026,
+"hasTranslatorCredit": true,
+"confidence": 0.74,
+"subjects": [
+"Historical fiction",
+"Orphans -- Fiction",
+"Paris (France) -- Fiction",
+"Epic literature",
+"Ex-convicts -- Fiction"
+]
+},
+{
+"id": "pg-44506-44818",
+"originalId": 44506,
+"englishId": 44818,
+"title": "Christuslegenden",
+"englishTitle": "Christ Legends",
+"author": "Lagerlöf, Selma, 1858-1940",
+"authorBirthYear": 1858,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2013,
+"hasTranslatorCredit": true,
+"confidence": 0.74,
+"subjects": [
+"Short stories",
+"Jesus Christ -- Fiction",
+"Jesus Christ -- Juvenile fiction"
+]
+},
+{
+"id": "pg-52489-30775",
+"originalId": 52489,
+"englishId": 30775,
+"title": "Traité élémentaire de chimie, tomes 1 & 2\nPrésenté dans un ordre nouveau et d'après les découvertes modernes; avec Figures",
+"englishTitle": "Elements of Chemistry,\nIn a New Systematic Order, Containing all the Modern Discoveries",
+"author": "Lavoisier, Antoine Laurent, 1743-1794",
+"authorBirthYear": 1743,
+"languageCode": "fr",
+"language": "French",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.74,
+"subjects": [
+"Chemistry"
+]
+},
+{
+"id": "pg-44139-48773",
+"originalId": 44139,
+"englishId": 48773,
+"title": "Le Calvaire",
+"englishTitle": "Calvary: A Novel",
+"author": "Mirbeau, Octave, 1848-1917",
+"authorBirthYear": 1848,
+"languageCode": "fr",
+"language": "French",
+"year": 2013,
+"hasTranslatorCredit": true,
+"confidence": 0.74,
+"subjects": [
+"France -- Social life and customs -- 19th century -- Fiction"
+]
+},
+{
+"id": "pg-77857-32762",
+"originalId": 77857,
+"englishId": 32762,
+"title": "Michelangelo élete",
+"englishTitle": "Michelangelo",
+"author": "Rolland, Romain, 1866-1944",
+"authorBirthYear": 1866,
+"languageCode": "hu",
+"language": "Hungarian",
+"year": 2026,
+"hasTranslatorCredit": true,
+"confidence": 0.74,
+"subjects": [
+"Michelangelo Buonarroti, 1475-1564"
+]
+},
+{
+"id": "pg-48670-31662",
+"originalId": 48670,
+"englishId": 31662,
+"title": "Teatro galante",
+"englishTitle": "Their Son; The Necklace",
+"author": "Zamacois, Eduardo, 1873-1971",
+"authorBirthYear": 1873,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2015,
+"hasTranslatorCredit": true,
+"confidence": 0.739,
+"subjects": [
+"Spanish drama"
+]
+},
+{
+"id": "pg-18837-10657",
+"originalId": 18837,
+"englishId": 10657,
+"title": "Commentarii de Bello Gallico, Libri V-VIII",
+"englishTitle": "\"De Bello Gallico\" and Other Commentaries",
+"author": "Caesar, Julius, 100 BCE-44 BCE",
+"authorBirthYear": -100,
+"languageCode": "la",
+"language": "Latin",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.738,
+"subjects": [
+"Gaul -- History -- Gallic Wars, 58-51 B.C."
+]
+},
+{
+"id": "pg-21021-22354",
+"originalId": 21021,
+"englishId": 22354,
+"title": "Die Biene Maja und ihre Abenteuer",
+"englishTitle": "The Adventures of Maya the Bee",
+"author": "Bonsels, Waldemar, 1881?-1952",
+"authorBirthYear": 1881,
+"languageCode": "de",
+"language": "German",
+"year": 2007,
+"hasTranslatorCredit": true,
+"confidence": 0.737,
+"subjects": [
+"Bees -- Juvenile fiction"
+]
+},
+{
+"id": "pg-49884-18466",
+"originalId": 49884,
+"englishId": 18466,
+"title": "The Æneid of Virgil Translated Into Scottish Verse. Volumes 1 & 2",
+"englishTitle": "The Æneid of Virgil, Translated into English Verse",
+"author": "Virgil, 71 BCE-20 BCE",
+"authorBirthYear": null,
+"languageCode": "sco",
+"language": "Scots",
+"year": 2015,
+"hasTranslatorCredit": true,
+"confidence": 0.736,
+"subjects": [
+"Aeneas (Legendary character) -- Poetry",
+"Legends -- Rome -- Poetry",
+"Epic poetry, Latin -- Translations into Scots"
+]
+},
+{
+"id": "pg-39096-20978",
+"originalId": 39096,
+"englishId": 20978,
+"title": "Unkarilainen Nabob: Romaani",
+"englishTitle": "A Hungarian Nabob",
+"author": "Jókai, Mór, 1825-1904",
+"authorBirthYear": 1825,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2012,
+"hasTranslatorCredit": true,
+"confidence": 0.733,
+"subjects": [
+"Aristocracy (Social class) -- Hungary -- Fiction",
+"Hungarian fiction -- Translations into Finnish"
+]
+},
+{
+"id": "pg-39623-913",
+"originalId": 39623,
+"englishId": 913,
+"title": "Der Held unserer Zeit: Kaukasische Lebensbilder",
+"englishTitle": "A Hero of Our Time",
+"author": "Lermontov, Mikhail Iurevich, 1814-1841",
+"authorBirthYear": 1814,
+"languageCode": "de",
+"language": "German",
+"year": 2012,
+"hasTranslatorCredit": true,
+"confidence": 0.733,
+"subjects": [
+"Psychological fiction",
+"Caucasus -- Fiction",
+"Russia -- Social life and customs -- 1533-1917 -- Fiction",
+"Russia -- History, Military -- 1801-1917 -- Fiction"
+]
+},
+{
+"id": "pg-42256-14244",
+"originalId": 42256,
+"englishId": 14244,
+"title": "Le roman de Tristan et Iseut",
+"englishTitle": "The Romance of Tristan and Iseult",
+"author": "Bédier, Joseph, 1864-1938",
+"authorBirthYear": 1864,
+"languageCode": "fr",
+"language": "French",
+"year": 2013,
+"hasTranslatorCredit": true,
+"confidence": 0.731,
+"subjects": [
+"Arthurian romances -- Adaptations",
+"Tristan (Legendary character) -- Romances -- Adaptations",
+"Iseult (Legendary character) -- Romances -- Adaptations"
+]
+},
+{
+"id": "pg-30122-11674",
+"originalId": 30122,
+"englishId": 11674,
+"title": "Entre naranjos",
+"englishTitle": "The Torrent (Entre Naranjos)",
+"author": "Blasco Ibáñez, Vicente, 1867-1928",
+"authorBirthYear": 1867,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2009,
+"hasTranslatorCredit": true,
+"confidence": 0.728,
+"subjects": [
+"Spanish fiction"
+]
+},
+{
+"id": "pg-40247-62519",
+"originalId": 40247,
+"englishId": 62519,
+"title": "Expédition nocturne autour de ma chambre",
+"englishTitle": "A journey round my room",
+"author": "Maistre, Xavier de, 1763-1852",
+"authorBirthYear": 1763,
+"languageCode": "fr",
+"language": "French",
+"year": 2012,
+"hasTranslatorCredit": true,
+"confidence": 0.728,
+"subjects": [
+"French literature"
+]
+},
+{
+"id": "pg-70511-55201",
+"originalId": 70511,
+"englishId": 55201,
+"title": "De republiek van Plato",
+"englishTitle": "The Republic of Plato",
+"author": "Plato, 428? BCE-348? BCE",
+"authorBirthYear": -428,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2023,
+"hasTranslatorCredit": true,
+"confidence": 0.728,
+"subjects": [
+"Political science -- Early works to 1800",
+"Utopias -- Early works to 1800",
+"Justice -- Early works to 1800"
+]
+},
+{
+"id": "pg-78223-70884",
+"originalId": 78223,
+"englishId": 70884,
+"title": "L'homme à la moustache verte",
+"englishTitle": "French without a master",
+"author": "Bernard, Tristan, 1866-1947",
+"authorBirthYear": 1866,
+"languageCode": "fr",
+"language": "French",
+"year": 2026,
+"hasTranslatorCredit": true,
+"confidence": 0.725,
+"subjects": [
+"Short stories, French",
+"French fiction -- 20th century",
+"Humorous stories, French"
+]
+},
+{
+"id": "pg-29497-39640",
+"originalId": 29497,
+"englishId": 39640,
+"title": "Fábulas literarias",
+"englishTitle": "Literary Fables of Yriarte",
+"author": "Iriarte, Tomás de, 1750-1791",
+"authorBirthYear": 1750,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2009,
+"hasTranslatorCredit": true,
+"confidence": 0.725,
+"subjects": [
+"Fables, Spanish"
+]
+},
+{
+"id": "pg-52953-19322",
+"originalId": 52953,
+"englishId": 19322,
+"title": "Antikristus: Arvostelukoe kristinopista",
+"englishTitle": "The Antichrist",
+"author": "Nietzsche, Friedrich Wilhelm, 1844-1900",
+"authorBirthYear": 1844,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.719,
+"subjects": [
+"Christianity -- Controversial literature"
+]
+},
+{
+"id": "pg-320-53489",
+"originalId": 320,
+"englishId": 53489,
+"title": "Vida De Lazarillo De Tormes Y De Sus Fortunas Y Adversidades",
+"englishTitle": "The Life of Lazarillo de Tormes\nHis Fortunes & Adversities; with a Notice of the Mendoza Family, a Short Life of the Author, Don Diego Hurtado De Mendoza, a Notice of the Work, and Some Remarks on the Character of Lazarillo de Tormes",
+"author": "Anonymous",
+"authorBirthYear": null,
+"languageCode": "es",
+"language": "Spanish",
+"year": 1995,
+"hasTranslatorCredit": true,
+"confidence": 0.718,
+"subjects": [
+"Spanish fiction",
+"Spain -- Social conditions -- 16th century -- Fiction",
+"Picaresque literature, Spanish"
+]
+},
+{
+"id": "pg-27574-75683",
+"originalId": 27574,
+"englishId": 75683,
+"title": "Le Téléphone, le Microphone et le Phonographe",
+"englishTitle": "The telephone, the microphone & the phonograph",
+"author": "Du Moncel, Th., comte, 1821-1884",
+"authorBirthYear": 1821,
+"languageCode": "fr",
+"language": "French",
+"year": 2008,
+"hasTranslatorCredit": false,
+"confidence": 0.717,
+"subjects": [
+"Telephone",
+"Microphone",
+"Phonograph"
+]
+},
+{
+"id": "pg-16875-64739",
+"originalId": 16875,
+"englishId": 64739,
+"title": "Paula Monti, Tome I\nou L'Hôtel Lambert - histoire contemporaine",
+"englishTitle": "Paula Monti; or, The Hôtel Lambert",
+"author": "Sue, Eugène, 1804-1857",
+"authorBirthYear": 1804,
+"languageCode": "fr",
+"language": "French",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.717,
+"subjects": [
+"French fiction -- 19th century"
+]
+},
+{
+"id": "pg-23616-66636",
+"originalId": 23616,
+"englishId": 66636,
+"title": "André Cornélis",
+"englishTitle": "The Story of André Cornélis",
+"author": "Bourget, Paul, 1852-1935",
+"authorBirthYear": 1852,
+"languageCode": "fr",
+"language": "French",
+"year": 2007,
+"hasTranslatorCredit": true,
+"confidence": 0.716,
+"subjects": [
+"French fiction -- 19th century"
+]
+},
+{
+"id": "pg-7205-1998",
+"originalId": 7205,
+"englishId": 1998,
+"title": "Also sprach Zarathustra: Ein Buch für Alle und Keinen",
+"englishTitle": "Thus Spake Zarathustra: A Book for All and None",
+"author": "Nietzsche, Friedrich Wilhelm, 1844-1900",
+"authorBirthYear": 1844,
+"languageCode": "de",
+"language": "German",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.716,
+"subjects": [
+"Superman (Philosophical concept)",
+"Philosophy, German"
+]
+},
+{
+"id": "pg-23236-11697",
+"originalId": 23236,
+"englishId": 11697,
+"title": "Mare nostrum",
+"englishTitle": "Mare Nostrum (Our Sea): A Novel",
+"author": "Blasco Ibáñez, Vicente, 1867-1928",
+"authorBirthYear": 1867,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2007,
+"hasTranslatorCredit": true,
+"confidence": 0.713,
+"subjects": [
+"Spanish fiction"
+]
+},
+{
+"id": "pg-226-9776",
+"originalId": 226,
+"englishId": 9776,
+"title": "Cicero's Orations",
+"englishTitle": "Cicero's Brutus or History of Famous Orators; also His Orator, or Accomplished Speaker.",
+"author": "Cicero, Marcus Tullius, 107 BCE-44 BCE",
+"authorBirthYear": -107,
+"languageCode": "la",
+"language": "Latin",
+"year": 1995,
+"hasTranslatorCredit": true,
+"confidence": 0.713,
+"subjects": [
+"Speeches, addresses, etc., Latin",
+"Rome -- History -- 53-44 B.C. -- Sources"
+]
+},
+{
+"id": "pg-66804-33779",
+"originalId": 66804,
+"englishId": 33779,
+"title": "Majesteit",
+"englishTitle": "Majesty: A Novel",
+"author": "Couperus, Louis, 1863-1923",
+"authorBirthYear": 1863,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 0.713,
+"subjects": [
+"Kings and rulers -- Fiction",
+"Princes -- Fiction",
+"Dutch fiction -- 19th century"
+]
+},
+{
+"id": "pg-4708-76646",
+"originalId": 4708,
+"englishId": 76646,
+"title": "Les chansons de Bilitis",
+"englishTitle": "The songs of Bilitis",
+"author": "Louÿs, Pierre, 1870-1925",
+"authorBirthYear": 1870,
+"languageCode": "fr",
+"language": "French",
+"year": 2003,
+"hasTranslatorCredit": true,
+"confidence": 0.713,
+"subjects": [
+"French poetry",
+"Lesbians -- Poetry"
+]
+},
+{
+"id": "pg-64719-48217",
+"originalId": 64719,
+"englishId": 48217,
+"title": "Le trésor des humbles",
+"englishTitle": "The Treasure of the Humble",
+"author": "Maeterlinck, Maurice, 1862-1949",
+"authorBirthYear": 1862,
+"languageCode": "fr",
+"language": "French",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 0.713,
+"subjects": [
+"Philosophy",
+"Aesthetics",
+"Belgian essays (French)"
+]
+},
+{
+"id": "pg-71469-54105",
+"originalId": 71469,
+"englishId": 54105,
+"title": "El cisne de Vilamorta",
+"englishTitle": "The Swan of Vilamorta",
+"author": "Pardo Bazán, Emilia, condesa de, 1852-1921",
+"authorBirthYear": 1852,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2023,
+"hasTranslatorCredit": true,
+"confidence": 0.713,
+"subjects": [
+"Spanish fiction -- 19th century"
+]
+},
+{
+"id": "pg-59435-1636",
+"originalId": 59435,
+"englishId": 1636,
+"title": "Phaidros",
+"englishTitle": "Phaedrus",
+"author": "Plato, 428? BCE-348? BCE",
+"authorBirthYear": -428,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2019,
+"hasTranslatorCredit": true,
+"confidence": 0.713,
+"subjects": [
+"Socrates, 470 BC-399 BC",
+"Rhetoric -- Early works to 1800",
+"Love -- Early works to 1800",
+"Soul -- Early works to 1800"
+]
+},
+{
+"id": "pg-27308-42543",
+"originalId": 27308,
+"englishId": 42543,
+"title": "Les poésies de Sapho de Lesbos",
+"englishTitle": "Sappho: A New Rendering",
+"author": "Sappho",
+"authorBirthYear": null,
+"languageCode": "fr",
+"language": "French",
+"year": 2008,
+"hasTranslatorCredit": true,
+"confidence": 0.712,
+"subjects": [
+"Sappho -- Translations into French",
+"Women -- Greece -- Poetry",
+"Lesbos (Greece : Municipality) -- Poetry"
+]
+},
+{
+"id": "pg-17223-30236",
+"originalId": 17223,
+"englishId": 30236,
+"title": "Pepita Jiménez",
+"englishTitle": "Pepita Ximenez",
+"author": "Valera, Juan, 1824-1905",
+"authorBirthYear": 1824,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2005,
+"hasTranslatorCredit": false,
+"confidence": 0.711,
+"subjects": [
+"Widows -- Fiction",
+"Man-woman relationships -- Fiction",
+"Spain -- Social life and customs -- 19th century -- Fiction",
+"Seminarians -- Fiction"
+]
+},
+{
+"id": "pg-44575-74480",
+"originalId": 44575,
+"englishId": 74480,
+"title": "Das Büchlein vom Leben nach dem Tode",
+"englishTitle": "The little book of life after death",
+"author": "Fechner, Gustav Theodor, 1801-1887",
+"authorBirthYear": 1801,
+"languageCode": "de",
+"language": "German",
+"year": 2014,
+"hasTranslatorCredit": true,
+"confidence": 0.71,
+"subjects": [
+"Immortality"
+]
+},
+{
+"id": "pg-28751-56158",
+"originalId": 28751,
+"englishId": 56158,
+"title": "Gösta Berling: Erzählungen aus dem alten Wermland",
+"englishTitle": "The Story of Gösta Berling",
+"author": "Lagerlöf, Selma, 1858-1940",
+"authorBirthYear": 1858,
+"languageCode": "de",
+"language": "German",
+"year": 2009,
+"hasTranslatorCredit": true,
+"confidence": 0.709,
+"subjects": [
+"Swedish fiction -- Translations into German"
+]
+},
+{
+"id": "pg-31145-76681",
+"originalId": 31145,
+"englishId": 76681,
+"title": "Liljecronas Heimat",
+"englishTitle": "Liliecrona's home",
+"author": "Lagerlöf, Selma, 1858-1940",
+"authorBirthYear": 1858,
+"languageCode": "de",
+"language": "German",
+"year": 2010,
+"hasTranslatorCredit": true,
+"confidence": 0.709,
+"subjects": [
+"Young women -- Fiction",
+"Love stories",
+"Domestic fiction",
+"Household employees -- Fiction",
+"Stepmothers -- Fiction",
+"Swedish fiction -- Translations into German"
+]
+},
+{
+"id": "pg-54282-18397",
+"originalId": 54282,
+"englishId": 18397,
+"title": "Socialismo y ciencia positiva (Darwin-Spencer-Marx)",
+"englishTitle": "Socialism and Modern Science (Darwin, Spencer, Marx)",
+"author": "Ferri, Enrico, 1856-1929",
+"authorBirthYear": 1856,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2017,
+"hasTranslatorCredit": true,
+"confidence": 0.708,
+"subjects": [
+"Socialism",
+"Evolution",
+"Spencer, Herbert, 1820-1903"
+]
+},
+{
+"id": "pg-73210-58371",
+"originalId": 73210,
+"englishId": 58371,
+"title": "Les Parisiens peints par un Chinois",
+"englishTitle": "Chin-Chin; Or, The Chinaman at Home",
+"author": "Tcheng, Ki-tong, 1851-1907",
+"authorBirthYear": 1851,
+"languageCode": "fr",
+"language": "French",
+"year": 2024,
+"hasTranslatorCredit": true,
+"confidence": 0.708,
+"subjects": [
+"Paris (France) -- Social life and customs"
+]
+},
+{
+"id": "pg-17489-135",
+"originalId": 17489,
+"englishId": 135,
+"title": "Les misérables Tome I: Fantine",
+"englishTitle": "Les Misérables",
+"author": "Hugo, Victor, 1802-1885",
+"authorBirthYear": 1802,
+"languageCode": "fr",
+"language": "French",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.707,
+"subjects": [
+"Historical fiction",
+"Orphans -- Fiction",
+"Paris (France) -- Fiction",
+"Epic literature",
+"Ex-convicts -- Fiction"
+]
+},
+{
+"id": "pg-75379-34167",
+"originalId": 75379,
+"englishId": 34167,
+"title": "Les pirates chinois",
+"englishTitle": "A lady's captivity among Chinese pirates in the Chinese seas",
+"author": "Loviot, Fanny",
+"authorBirthYear": null,
+"languageCode": "fr",
+"language": "French",
+"year": 2025,
+"hasTranslatorCredit": true,
+"confidence": 0.707,
+"subjects": [
+"Voyages around the world",
+"Loviot, Fanny -- Travel",
+"Pirates -- China"
+]
+},
+{
+"id": "pg-9828-76142",
+"originalId": 9828,
+"englishId": 76142,
+"title": "Barnen ifrån Frostmofjället",
+"englishTitle": "Children of the moor",
+"author": "Fitinghoff, Laura, 1848-1908",
+"authorBirthYear": 1848,
+"languageCode": "sv",
+"language": "Swedish",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.705,
+"subjects": [
+"Orphans -- Juvenile fiction",
+"Siblings -- Juvenile fiction",
+"Voyages and travels -- Juvenile fiction",
+"Sweden -- Juvenile fiction"
+]
+},
+{
+"id": "pg-59926-11737",
+"originalId": 59926,
+"englishId": 11737,
+"title": "Le blé en herbe: roman",
+"englishTitle": "Barks and Purrs",
+"author": "Colette, 1873-1954",
+"authorBirthYear": 1873,
+"languageCode": "fr",
+"language": "French",
+"year": 2019,
+"hasTranslatorCredit": true,
+"confidence": 0.704,
+"subjects": [
+"France -- Fiction",
+"French fiction -- 20th century"
+]
+},
+{
+"id": "pg-39391-12909",
+"originalId": 39391,
+"englishId": 12909,
+"title": "Der Hasenroman",
+"englishTitle": "Romance of the Rabbit",
+"author": "Jammes, Francis, 1868-1938",
+"authorBirthYear": 1868,
+"languageCode": "de",
+"language": "German",
+"year": 2012,
+"hasTranslatorCredit": true,
+"confidence": 0.704,
+"subjects": [
+"French literature -- Translations into German"
+]
+},
+{
+"id": "pg-48070-50656",
+"originalId": 48070,
+"englishId": 50656,
+"title": "Linguaggio e proverbi marinareschi",
+"englishTitle": "The Conspiracy of Gianluigi Fieschi, or, Genoa in the sixteenth century.",
+"author": "Celesia, Emanuele, 1821-1889",
+"authorBirthYear": 1821,
+"languageCode": "it",
+"language": "Italian",
+"year": 2015,
+"hasTranslatorCredit": true,
+"confidence": 0.703,
+"subjects": [
+"Sailors -- Italy -- Language",
+"Italian language -- Idioms",
+"Proverbs, Italian"
+]
+},
+{
+"id": "pg-53355-53317",
+"originalId": 53355,
+"englishId": 53317,
+"title": "La novela en el tranvía",
+"englishTitle": "The Novel on the Tram",
+"author": "Pérez Galdós, Benito, 1843-1920",
+"authorBirthYear": 1843,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.703,
+"subjects": [
+"Madrid (Spain) -- Fiction",
+"Spanish fiction"
+]
+},
+{
+"id": "pg-14288-48893",
+"originalId": 14288,
+"englishId": 48893,
+"title": "Mademoiselle de Maupin",
+"englishTitle": "Mademoiselle de Maupin, Volume 1 (of 2)",
+"author": "Gautier, Théophile, 1811-1872",
+"authorBirthYear": 1811,
+"languageCode": "fr",
+"language": "French",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.702,
+"subjects": [
+"Triangles (Interpersonal relations) -- Fiction",
+"French fiction -- 19th century",
+"Man-woman relationships -- France -- Fiction",
+"Cross-dressing -- Fiction"
+]
+},
+{
+"id": "pg-17691-59311",
+"originalId": 17691,
+"englishId": 59311,
+"title": "Le tour de France en aéroplane",
+"englishTitle": "Gas and Petroleum Engines",
+"author": "Graffigny, H. de (Henry), 1863-1934",
+"authorBirthYear": 1863,
+"languageCode": "fr",
+"language": "French",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.702,
+"subjects": [
+"France -- Description and travel",
+"Aeronautics -- Flights"
+]
+},
+{
+"id": "pg-55037-40203",
+"originalId": 55037,
+"englishId": 40203,
+"title": "Arsène Lupin taistelussa Sherlock Holmesta vastaan",
+"englishTitle": "Arsène Lupin versus Herlock Sholmes",
+"author": "Leblanc, Maurice, 1864-1941",
+"authorBirthYear": 1864,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2017,
+"hasTranslatorCredit": true,
+"confidence": 0.701,
+"subjects": [
+"Burglars -- Fiction",
+"Lupin, Arsène (Fictitious character) -- Fiction",
+"Doyle, Arthur Conan, 1859-1930 -- Parodies, imitations, etc.",
+"Adventure stories, French -- Translations into Finnish"
+]
+},
+{
+"id": "pg-77899-68557",
+"originalId": 77899,
+"englishId": 68557,
+"title": "Opinions sur le roman",
+"englishTitle": "You no longer count (Tu n'es plus rien!)",
+"author": "Boylesve, René, 1867-1926",
+"authorBirthYear": 1867,
+"languageCode": "fr",
+"language": "French",
+"year": 2026,
+"hasTranslatorCredit": true,
+"confidence": 0.7,
+"subjects": [
+"French literature -- History and criticism",
+"French fiction -- History and criticism"
+]
+},
+{
+"id": "pg-21669-4386",
+"originalId": 21669,
+"englishId": 4386,
+"title": "F. Chopin",
+"englishTitle": "Life of Chopin",
+"author": "Liszt, Franz, 1811-1886",
+"authorBirthYear": 1811,
+"languageCode": "fr",
+"language": "French",
+"year": 2007,
+"hasTranslatorCredit": true,
+"confidence": 0.7,
+"subjects": [
+"Chopin, Frédéric, 1810-1849",
+"Composers -- Biography"
+]
+},
+{
+"id": "pg-78886-46972",
+"originalId": 78886,
+"englishId": 46972,
+"title": "Eskimoleben",
+"englishTitle": "Eskimo Life",
+"author": "Nansen, Fridtjof, 1861-1930",
+"authorBirthYear": 1861,
+"languageCode": "de",
+"language": "German",
+"year": 2026,
+"hasTranslatorCredit": true,
+"confidence": 0.7,
+"subjects": [
+"Inuit -- Greenland"
+]
+},
+{
+"id": "pg-27931-1397",
+"originalId": 27931,
+"englishId": 1397,
+"title": "Les Ruines, ou méditation sur les révolutions des empires",
+"englishTitle": "The Ruins; Or, Meditation on the Revolutions of Empires and the Law of Nature",
+"author": "Volney, C.-F. (Constantin-François), 1757-1820",
+"authorBirthYear": 1757,
+"languageCode": "fr",
+"language": "French",
+"year": 2009,
+"hasTranslatorCredit": false,
+"confidence": 0.7,
+"subjects": [
+"Revolutions",
+"Ethics",
+"History -- Philosophy",
+"Religions",
+"Moral conditions"
+]
+},
+{
+"id": "pg-17516-56987",
+"originalId": 17516,
+"englishId": 56987,
+"title": "L'Argent",
+"englishTitle": "Money (L'Argent)",
+"author": "Zola, Émile, 1840-1902",
+"authorBirthYear": 1840,
+"languageCode": "fr",
+"language": "French",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.7,
+"subjects": [
+"Banks and banking -- France -- History -- 19th -- Fiction"
+]
+},
+{
+"id": "pg-66263-35993",
+"originalId": 66263,
+"englishId": 35993,
+"title": "Don Quijote de la Mancha",
+"englishTitle": "The History of Don Quixote de la Mancha",
+"author": "Cervantes Saavedra, Miguel de, 1547-1616",
+"authorBirthYear": 1547,
+"languageCode": "hu",
+"language": "Hungarian",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 0.698,
+"subjects": [
+"Spain -- Social life and customs -- 16th century -- Fiction",
+"Knights and knighthood -- Spain -- Fiction",
+"Picaresque literature",
+"Romances"
+]
+},
+{
+"id": "pg-10982-52225",
+"originalId": 10982,
+"englishId": 52225,
+"title": "La tentation de Saint Antoine",
+"englishTitle": "The Temptation of St. Anthony",
+"author": "Flaubert, Gustave, 1821-1880",
+"authorBirthYear": 1821,
+"languageCode": "fr",
+"language": "French",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.698,
+"subjects": [
+"Biographical fiction",
+"Christian fiction",
+"Egypt -- Fiction",
+"Anthony, of Egypt, Saint, approximately 250-355 or 356 -- Fiction",
+"Christian saints -- Fiction"
+]
+},
+{
+"id": "pg-47940-30114",
+"originalId": 47940,
+"englishId": 30114,
+"title": "Als U-Boots-Kommandant gegen England",
+"englishTitle": "The Journal of Submarine Commander von Forstner",
+"author": "Forstner, Georg-Günther, Freiherr von, 1882-1940",
+"authorBirthYear": 1882,
+"languageCode": "de",
+"language": "German",
+"year": 2015,
+"hasTranslatorCredit": true,
+"confidence": 0.695,
+"subjects": [
+"World War, 1914-1918 -- Personal narratives",
+"World War, 1914-1918 -- Naval operations -- Submarine",
+"Submarine warfare",
+"Forstner, Georg-Günther, Freiherr von, 1882-1940 -- Diaries",
+"Submarine captains -- Germany -- Biography",
+"World War, 1914-1918 -- Naval operations, German"
+]
+},
+{
+"id": "pg-36488-37242",
+"originalId": 36488,
+"englishId": 37242,
+"title": "Jüdische Geschichten",
+"englishTitle": "Stories and Pictures",
+"author": "Peretz, Isaac Loeb, 1852?-1915",
+"authorBirthYear": 1852,
+"languageCode": "de",
+"language": "German",
+"year": 2011,
+"hasTranslatorCredit": true,
+"confidence": 0.693,
+"subjects": [
+"Fiction",
+"Short stories, Yiddish -- Translations into German"
+]
+},
+{
+"id": "pg-30345-54702",
+"originalId": 30345,
+"englishId": 54702,
+"title": "Octavia Praetexta",
+"englishTitle": "A Translation of Octavia, a Latin Tragedy, with Notes and Introduction",
+"author": "Seneca, Lucius Annaeus, 5? BCE-65 [Dubious author]",
+"authorBirthYear": null,
+"languageCode": "la",
+"language": "Latin",
+"year": 2009,
+"hasTranslatorCredit": true,
+"confidence": 0.69,
+"subjects": [
+"Octavia, consort of Nero, Emperor of Rome, approximately 42-62 -- Drama",
+"Rome -- History -- Nero, 54-68 -- Drama"
+]
+},
+{
+"id": "pg-59758-47935",
+"originalId": 59758,
+"englishId": 47935,
+"title": "Väter und Söhne",
+"englishTitle": "Fathers and Sons",
+"author": "Turgenev, Ivan Sergeevich, 1818-1883",
+"authorBirthYear": 1818,
+"languageCode": "de",
+"language": "German",
+"year": 2019,
+"hasTranslatorCredit": true,
+"confidence": 0.69,
+"subjects": [
+"Historical fiction",
+"Fathers and sons -- Fiction",
+"Domestic fiction",
+"Russia -- Social life and customs -- 1533-1917 -- Fiction",
+"Russia -- Social conditions -- 1801-1917 -- Fiction",
+"Nihilism (Philosophy) -- Fiction"
+]
+},
+{
+"id": "pg-59154-64456",
+"originalId": 59154,
+"englishId": 64456,
+"title": "El Niño de la Bola: Novela",
+"englishTitle": "The Strange Friend of Tito Gil",
+"author": "Alarcón, Pedro Antonio de, 1833-1891",
+"authorBirthYear": 1833,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2019,
+"hasTranslatorCredit": true,
+"confidence": 0.689,
+"subjects": [
+"Spanish fiction -- 19th century"
+]
+},
+{
+"id": "pg-68644-34819",
+"originalId": 68644,
+"englishId": 34819,
+"title": "A falu jegyzője (1. kötet): Regény",
+"englishTitle": "The Village Notary: A Romance of Hungarian Life",
+"author": "Eötvös, József, báró, 1813-1871",
+"authorBirthYear": 1813,
+"languageCode": "hu",
+"language": "Hungarian",
+"year": 2022,
+"hasTranslatorCredit": true,
+"confidence": 0.689,
+"subjects": [
+"Hungarian fiction -- 19th century"
+]
+},
+{
+"id": "pg-13519-63649",
+"originalId": 13519,
+"englishId": 63649,
+"title": "La Tierra de Todos",
+"englishTitle": "The Temptress (La tierra de todos)",
+"author": "Blasco Ibáñez, Vicente, 1867-1928",
+"authorBirthYear": 1867,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.688,
+"subjects": [
+"Man-woman relationships -- Fiction",
+"Aristocracy (Social class) -- Fiction",
+"Spanish fiction",
+"Patagonia (Argentina and Chile) -- Fiction"
+]
+},
+{
+"id": "pg-16824-8117",
+"originalId": 16824,
+"englishId": 8117,
+"title": "Les possédés",
+"englishTitle": "The possessed",
+"author": "Dostoyevsky, Fyodor, 1821-1881",
+"authorBirthYear": 1821,
+"languageCode": "fr",
+"language": "French",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.688,
+"subjects": [
+"Political fiction",
+"Russia -- Social life and customs -- 1533-1917 -- Fiction",
+"Nihilism -- Fiction",
+"Terrorists -- Russia -- Fiction"
+]
+},
+{
+"id": "pg-49433-47769",
+"originalId": 49433,
+"englishId": 47769,
+"title": "Zaragoza",
+"englishTitle": "Saragossa: A Story of Spanish Valor",
+"author": "Pérez Galdós, Benito, 1843-1920",
+"authorBirthYear": 1843,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2015,
+"hasTranslatorCredit": true,
+"confidence": 0.688,
+"subjects": [
+"Historical fiction",
+"Sieges -- Fiction",
+"Zaragoza (Spain) -- History -- Siege, 1808-1809 -- Fiction"
+]
+},
+{
+"id": "pg-35220-34647",
+"originalId": 35220,
+"englishId": 34647,
+"title": "Door duisternis tot licht: Gedachten over en voor het Javaansche volk",
+"englishTitle": "Letters of a Javanese Princess",
+"author": "Kartini, Raden Adjeng, 1879-1904",
+"authorBirthYear": 1879,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2011,
+"hasTranslatorCredit": true,
+"confidence": 0.687,
+"subjects": [
+"Kartini, Raden Adjeng, 1879-1904 -- Correspondence",
+"Feminists -- Indonesia -- Java -- Correspondence",
+"Women -- Indonesia -- Java -- Social conditions"
+]
+},
+{
+"id": "pg-77029-52984",
+"originalId": 77029,
+"englishId": 52984,
+"title": "Le droit à la paresse",
+"englishTitle": "The right to be lazy, and other studies",
+"author": "Lafargue, Paul, 1842-1911",
+"authorBirthYear": 1842,
+"languageCode": "fr",
+"language": "French",
+"year": 2025,
+"hasTranslatorCredit": true,
+"confidence": 0.687,
+"subjects": [
+"Working class",
+"Hours of labor"
+]
+},
+{
+"id": "pg-66483-75490",
+"originalId": 66483,
+"englishId": 75490,
+"title": "Un aventurier au XVIII siècle: Le chevalier d'Éon (1728-1810)",
+"englishTitle": "D'Eon de Beaumont, his life and times",
+"author": "Homberg, Octave, 1876-1941",
+"authorBirthYear": 1876,
+"languageCode": "fr",
+"language": "French",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 0.686,
+"subjects": [
+"Eon de Beaumont, Charles Geneviève Louis Auguste André Timothée d', 1728-1810"
+]
+},
+{
+"id": "pg-14944-38165",
+"originalId": 14944,
+"englishId": 38165,
+"title": "La Barraca",
+"englishTitle": "The Cabin [La barraca]",
+"author": "Blasco Ibáñez, Vicente, 1867-1928",
+"authorBirthYear": 1867,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.685,
+"subjects": [
+"Valencia (Spain : Province) -- Fiction",
+"Tenant farmers -- Fiction",
+"Absentee landlordism -- Fiction"
+]
+},
+{
+"id": "pg-48764-54700",
+"originalId": 48764,
+"englishId": 54700,
+"title": "Herra Oblomov: Romaani maaorjuuden ajoilta",
+"englishTitle": "Oblomov",
+"author": "Goncharov, Ivan Aleksandrovich, 1812-1891",
+"authorBirthYear": 1812,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2015,
+"hasTranslatorCredit": true,
+"confidence": 0.685,
+"subjects": [
+"Russia -- Social life and customs -- 1533-1917 -- Fiction"
+]
+},
+{
+"id": "pg-58788-7967",
+"originalId": 58788,
+"englishId": 7967,
+"title": "Jean-Christophe III\nNuorukainen",
+"englishTitle": "Jean-Christophe Journey's End",
+"author": "Rolland, Romain, 1866-1944",
+"authorBirthYear": 1866,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2019,
+"hasTranslatorCredit": true,
+"confidence": 0.685,
+"subjects": [
+"Psychological fiction",
+"Epic literature",
+"Musicians -- Fiction",
+"French fiction -- Translations into Finnish"
+]
+},
+{
+"id": "pg-57839-17581",
+"originalId": 57839,
+"englishId": 17581,
+"title": "Les Romanesques: comédie en trois actes en vers",
+"englishTitle": "The Romancers: A Comedy in Three Acts",
+"author": "Rostand, Edmond, 1868-1918",
+"authorBirthYear": 1868,
+"languageCode": "fr",
+"language": "French",
+"year": 2018,
+"hasTranslatorCredit": true,
+"confidence": 0.685,
+"subjects": [
+"French drama -- 19th century"
+]
+},
+{
+"id": "pg-15397-69153",
+"originalId": 15397,
+"englishId": 69153,
+"title": "Francia; Un bienfait n'est jamais perdu",
+"englishTitle": "François the waif",
+"author": "Sand, George, 1804-1876",
+"authorBirthYear": 1804,
+"languageCode": "fr",
+"language": "French",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.685,
+"subjects": [
+"French fiction -- 19th century"
+]
+},
+{
+"id": "pg-72184-11945",
+"originalId": 72184,
+"englishId": 11945,
+"title": "Uren met Schopenhauer",
+"englishTitle": "Essays of Schopenhauer",
+"author": "Schopenhauer, Arthur, 1788-1860",
+"authorBirthYear": 1788,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2023,
+"hasTranslatorCredit": true,
+"confidence": 0.684,
+"subjects": [
+"Philosophy",
+"Schopenhauer, Arthur, 1788-1860"
+]
+},
+{
+"id": "pg-78354-42532",
+"originalId": 78354,
+"englishId": 42532,
+"title": "De goudzoekers",
+"englishTitle": "The Gold-Seekers: A Tale of California",
+"author": "Aimard, Gustave, 1818-1883",
+"authorBirthYear": 1818,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2026,
+"hasTranslatorCredit": true,
+"confidence": 0.683,
+"subjects": [
+"Adventure stories",
+"French fiction -- Translations into Dutch"
+]
+},
+{
+"id": "pg-46364-13191",
+"originalId": 46364,
+"englishId": 13191,
+"title": "Essais poétiques",
+"englishTitle": "The Cross of Berny; Or, Irene's Lovers",
+"author": "Girardin, Emile de, Mme, 1804-1855",
+"authorBirthYear": 1804,
+"languageCode": "fr",
+"language": "French",
+"year": 2014,
+"hasTranslatorCredit": true,
+"confidence": 0.683,
+"subjects": [
+"French poetry -- 19th century"
+]
+},
+{
+"id": "pg-65627-42148",
+"originalId": 65627,
+"englishId": 42148,
+"title": "La ragione degli altri: Commedia in tre atti",
+"englishTitle": "Three Plays",
+"author": "Pirandello, Luigi, 1867-1936",
+"authorBirthYear": 1867,
+"languageCode": "it",
+"language": "Italian",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 0.683,
+"subjects": [
+"Italian drama (Comedy)"
+]
+},
+{
+"id": "pg-12367-67460",
+"originalId": 12367,
+"englishId": 67460,
+"title": "Le péché de Monsieur Antoine, Tome 1",
+"englishTitle": "The Sin of Monsieur Antoine, Volume 1 (of 2)",
+"author": "Sand, George, 1804-1876",
+"authorBirthYear": 1804,
+"languageCode": "fr",
+"language": "French",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.683,
+"subjects": [
+"French fiction -- 19th century"
+]
+},
+{
+"id": "pg-63141-3685",
+"originalId": 63141,
+"englishId": 3685,
+"title": "La mort de Philæ",
+"englishTitle": "Egypt (La Mort de Philae)",
+"author": "Loti, Pierre, 1850-1923",
+"authorBirthYear": 1850,
+"languageCode": "fr",
+"language": "French",
+"year": 2020,
+"hasTranslatorCredit": true,
+"confidence": 0.681,
+"subjects": [
+"Egypt -- Description and travel"
+]
+},
+{
+"id": "pg-33692-19488",
+"originalId": 33692,
+"englishId": 19488,
+"title": "Vie de Jeanne d'Arc. Vol. 1 de 2",
+"englishTitle": "The Life of Joan of Arc, Vol. 1 and 2",
+"author": "France, Anatole, 1844-1924",
+"authorBirthYear": 1844,
+"languageCode": "fr",
+"language": "French",
+"year": 2010,
+"hasTranslatorCredit": true,
+"confidence": 0.68,
+"subjects": [
+"Joan, of Arc, Saint, 1412-1431"
+]
+},
+{
+"id": "pg-13507-46051",
+"originalId": 13507,
+"englishId": 46051,
+"title": "Cuentos de Amor de Locura y de Muerte",
+"englishTitle": "South American Jungle Tales",
+"author": "Quiroga, Horacio, 1878-1937",
+"authorBirthYear": 1878,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.68,
+"subjects": [
+"Short stories, Uruguayan",
+"Uruguayan fiction"
+]
+},
+{
+"id": "pg-17161-28847",
+"originalId": 17161,
+"englishId": 28847,
+"title": "Max und Moritz: Eine Bubengeschichte in sieben Streichen",
+"englishTitle": "Max and Maurice: A Juvenile History in Seven Tricks",
+"author": "Busch, Wilhelm, 1832-1908",
+"authorBirthYear": 1832,
+"languageCode": "de",
+"language": "German",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.679,
+"subjects": [
+"Wit and humor",
+"Children's poetry, German",
+"Practical jokes -- Juvenile poetry"
+]
+},
+{
+"id": "pg-31713-53023",
+"originalId": 31713,
+"englishId": 53023,
+"title": "Geschichte der Ilchane, das ist der Mongolen in Persien",
+"englishTitle": "The History of the Assassins, Derived from Oriental Sources",
+"author": "Hammer-Purgstall, Joseph, Freiherr von, 1774-1856",
+"authorBirthYear": 1774,
+"languageCode": "de",
+"language": "German",
+"year": 2010,
+"hasTranslatorCredit": true,
+"confidence": 0.679,
+"subjects": [
+"Ilkhanid dynasty",
+"Mongols -- Iran -- History",
+"Iran -- History -- 640-1500"
+]
+},
+{
+"id": "pg-12120-26386",
+"originalId": 12120,
+"englishId": 26386,
+"title": "Nouveaux contes bleus",
+"englishTitle": "Laboulaye's Fairy Book",
+"author": "Laboulaye, Édouard, 1811-1883",
+"authorBirthYear": 1811,
+"languageCode": "fr",
+"language": "French",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.679,
+"subjects": [
+"Short stories, French",
+"French fiction -- 19th century"
+]
+},
+{
+"id": "pg-52331-41035",
+"originalId": 52331,
+"englishId": 41035,
+"title": "Fer et feu au Soudan, vol. 1 of 2",
+"englishTitle": "Fire and Sword in the Sudan\nA Personal Narrative of Fighting and Serving the Dervishes 1879-1895",
+"author": "Slatin, Rudolf Carl, Freiherr von, 1857-1932",
+"authorBirthYear": 1857,
+"languageCode": "fr",
+"language": "French",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.679,
+"subjects": [
+"Sudan -- History -- 1881-1899",
+"Slatin, Rudolf Carl, Freiherr von, 1857-1932",
+"Soldiers -- Sudan -- Biography",
+"Colonial administrators -- Sudan -- Biography",
+"Austrians -- Sudan -- Biography",
+"Mahdism"
+]
+},
+{
+"id": "pg-23093-29005",
+"originalId": 23093,
+"englishId": 29005,
+"title": "Princo Vanc'",
+"englishTitle": "Prince Vance: The Story of a Prince with a Court in His Box",
+"author": "Putnam, Eleanor, 1856-1886",
+"authorBirthYear": 1856,
+"languageCode": "eo",
+"language": "Esperanto",
+"year": 2007,
+"hasTranslatorCredit": false,
+"confidence": 0.678,
+"subjects": [
+"Fantasy literature",
+"Children -- Conduct of life -- Juvenile fiction",
+"Fairies -- Juvenile fiction",
+"Princes -- Juvenile fiction"
+]
+},
+{
+"id": "pg-67320-3296",
+"originalId": 67320,
+"englishId": 3296,
+"title": "Les confessions de saint Augustin, évêque d'Hippone: précédées de sa vie par S. Possidius, évêque de Calame... ; traduction nouvelle par L. Moreau",
+"englishTitle": "The Confessions of St. Augustine",
+"author": "Augustine, of Hippo, Saint, 354-430",
+"authorBirthYear": 354,
+"languageCode": "fr",
+"language": "French",
+"year": 2022,
+"hasTranslatorCredit": true,
+"confidence": 0.677,
+"subjects": [
+"Augustine, of Hippo, Saint, 354-430"
+]
+},
+{
+"id": "pg-59161-70451",
+"originalId": 59161,
+"englishId": 70451,
+"title": "Eiszeit und Klimawechsel",
+"englishTitle": "Haeckel",
+"author": "Bölsche, Wilhelm, 1861-1939",
+"authorBirthYear": 1861,
+"languageCode": "de",
+"language": "German",
+"year": 2019,
+"hasTranslatorCredit": true,
+"confidence": 0.677,
+"subjects": [
+"Glacial epoch",
+"Climatology"
+]
+},
+{
+"id": "pg-5154-57038",
+"originalId": 5154,
+"englishId": 57038,
+"title": "La Bête humaine",
+"englishTitle": "The Monomaniac (La bête humaine)",
+"author": "Zola, Émile, 1840-1902",
+"authorBirthYear": 1840,
+"languageCode": "fr",
+"language": "French",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.677,
+"subjects": [
+"French fiction -- 19th century"
+]
+},
+{
+"id": "pg-46599-73109",
+"originalId": 46599,
+"englishId": 73109,
+"title": "Le lettere di Michelangelo Buonarroti",
+"englishTitle": "Sonnets and madrigals of Michelangelo Buonarroti",
+"author": "Michelangelo Buonarroti, 1475-1564",
+"authorBirthYear": 1475,
+"languageCode": "it",
+"language": "Italian",
+"year": 2014,
+"hasTranslatorCredit": true,
+"confidence": 0.676,
+"subjects": [
+"Artists -- Correspondence"
+]
+},
+{
+"id": "pg-29769-7990",
+"originalId": 29769,
+"englishId": 7990,
+"title": "Jugurtha",
+"englishTitle": "Conspiracy of Catiline and the Jurgurthine War",
+"author": "Sallust, 87 BCE-35 BCE",
+"authorBirthYear": null,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2009,
+"hasTranslatorCredit": true,
+"confidence": 0.676,
+"subjects": [
+"Jugurthine War, 111-105 B.C."
+]
+},
+{
+"id": "pg-4079-71187",
+"originalId": 4079,
+"englishId": 71187,
+"title": "Agnes Bernauer",
+"englishTitle": "Three plays by Frederic Hebbel",
+"author": "Hebbel, Friedrich, 1813-1863",
+"authorBirthYear": 1813,
+"languageCode": "de",
+"language": "German",
+"year": 2003,
+"hasTranslatorCredit": true,
+"confidence": 0.675,
+"subjects": [
+"Bernauer, Agnes, -1435 -- Drama"
+]
+},
+{
+"id": "pg-47345-46983",
+"originalId": 47345,
+"englishId": 46983,
+"title": "Mémoires d'un Éléphant blanc",
+"englishTitle": "The Memoirs of a White Elephant",
+"author": "Gautier, Judith, 1845-1917",
+"authorBirthYear": 1845,
+"languageCode": "fr",
+"language": "French",
+"year": 2014,
+"hasTranslatorCredit": true,
+"confidence": 0.674,
+"subjects": [
+"Elephants -- Juvenile fiction",
+"Asiatic elephant -- Juvenile fiction"
+]
+},
+{
+"id": "pg-17876-13843",
+"originalId": 17876,
+"englishId": 13843,
+"title": "Come le foglie",
+"englishTitle": "Libretto: La Bohème",
+"author": "Giacosa, Giuseppe, 1847-1906",
+"authorBirthYear": 1847,
+"languageCode": "it",
+"language": "Italian",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.674,
+"subjects": [
+"Italian drama (Comedy) -- 19th century"
+]
+},
+{
+"id": "pg-43821-31873",
+"originalId": 43821,
+"englishId": 31873,
+"title": "Hymnen an die Nacht / Die Christenheit oder Europa",
+"englishTitle": "Henry of Ofterdingen: A Romance.",
+"author": "Novalis, 1772-1801",
+"authorBirthYear": 1772,
+"languageCode": "de",
+"language": "German",
+"year": 2013,
+"hasTranslatorCredit": true,
+"confidence": 0.674,
+"subjects": [
+"German poetry",
+"Christianity in literature"
+]
+},
+{
+"id": "pg-16725-6970",
+"originalId": 16725,
+"englishId": 6970,
+"title": "Sprookjes van Jean Macé",
+"englishTitle": "The history of a mouthful of bread",
+"author": "Macé, Jean, 1815-1894",
+"authorBirthYear": 1815,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.673,
+"subjects": [
+"Fairy tales"
+]
+},
+{
+"id": "pg-60657-54678",
+"originalId": 60657,
+"englishId": 54678,
+"title": "Al fronte (maggio-ottobre 1915)",
+"englishTitle": "The Little Match Man",
+"author": "Barzini, Luigi, 1874-1947",
+"authorBirthYear": 1874,
+"languageCode": "it",
+"language": "Italian",
+"year": 2019,
+"hasTranslatorCredit": true,
+"confidence": 0.671,
+"subjects": [
+"World War, 1914-1918 -- Campaigns -- Italo-Austrian"
+]
+},
+{
+"id": "pg-27208-27179",
+"originalId": 27208,
+"englishId": 27179,
+"title": "Threny",
+"englishTitle": "Laments",
+"author": "Kochanowski, Jan, 1530-1584",
+"authorBirthYear": 1530,
+"languageCode": "pl",
+"language": "Polish",
+"year": 2008,
+"hasTranslatorCredit": true,
+"confidence": 0.669,
+"subjects": [
+"Bereavement -- Poetry"
+]
+},
+{
+"id": "pg-48926-45469",
+"originalId": 48926,
+"englishId": 45469,
+"title": "I primi due secoli della storia di Firenze, v. 1",
+"englishTitle": "The Two First Centuries of Florentine History\nThe Republic and Parties at the Time of Dante. Fourth Impression.",
+"author": "Villari, Pasquale, 1827-1917",
+"authorBirthYear": 1827,
+"languageCode": "it",
+"language": "Italian",
+"year": 2015,
+"hasTranslatorCredit": true,
+"confidence": 0.669,
+"subjects": [
+"Florence (Italy) -- History -- To 1421"
+]
+},
+{
+"id": "pg-56258-38026",
+"originalId": 56258,
+"englishId": 38026,
+"title": "Hans Nielsen Hauge",
+"englishTitle": "Fridtjof Nansen: A Book for the Young",
+"author": "Bull, Jacob B. (Jacob Breda), 1853-1930",
+"authorBirthYear": 1853,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2017,
+"hasTranslatorCredit": true,
+"confidence": 0.667,
+"subjects": [
+"Hauge, Hans Nielsen, 1771-1824 -- Fiction"
+]
+},
+{
+"id": "pg-36294-5482",
+"originalId": 36294,
+"englishId": 5482,
+"title": "Cleopatra: historische roman van George Ebers",
+"englishTitle": "Cleopatra — Complete",
+"author": "Ebers, Georg, 1837-1898",
+"authorBirthYear": 1837,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2011,
+"hasTranslatorCredit": true,
+"confidence": 0.667,
+"subjects": [
+"Biographical fiction",
+"Egypt -- History -- 332-30 B.C. -- Fiction",
+"Cleopatra, Queen of Egypt, -30 B.C. -- Fiction",
+"Queens -- Egypt -- Fiction",
+"German fiction -- Translations into Dutch"
+]
+},
+{
+"id": "pg-23837-7942",
+"originalId": 23837,
+"englishId": 7942,
+"title": "Eta Eyolf",
+"englishTitle": "Little Eyolf",
+"author": "Ibsen, Henrik, 1828-1906",
+"authorBirthYear": 1828,
+"languageCode": "eo",
+"language": "Esperanto",
+"year": 2007,
+"hasTranslatorCredit": true,
+"confidence": 0.667,
+"subjects": [
+"Norwegian drama -- Translations into Esperanto"
+]
+},
+{
+"id": "pg-15669-19018",
+"originalId": 15669,
+"englishId": 19018,
+"title": "Fru Inger til Østråt",
+"englishTitle": "Lady Inger of Ostrat: Henrik Ibsen's Prose Dramas Vol III",
+"author": "Ibsen, Henrik, 1828-1906",
+"authorBirthYear": 1828,
+"languageCode": "no",
+"language": "Norwegian",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.667,
+"subjects": [
+"Inger Ottesdater, -1555 -- Drama"
+]
+},
+{
+"id": "pg-15291-18428",
+"originalId": 15291,
+"englishId": 18428,
+"title": "Gildet på Solhaug",
+"englishTitle": "The Feast at Solhoug",
+"author": "Ibsen, Henrik, 1828-1906",
+"authorBirthYear": 1828,
+"languageCode": "no",
+"language": "Norwegian",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.667,
+"subjects": [
+"Norwegian drama"
+]
+},
+{
+"id": "pg-73562-51847",
+"originalId": 73562,
+"englishId": 51847,
+"title": "Comme va le ruisseau",
+"englishTitle": "Birds and Beasts",
+"author": "Lemonnier, Camille, 1844-1913",
+"authorBirthYear": 1844,
+"languageCode": "fr",
+"language": "French",
+"year": 2024,
+"hasTranslatorCredit": true,
+"confidence": 0.667,
+"subjects": [
+"Belgian fiction (French)"
+]
+},
+{
+"id": "pg-67961-47677",
+"originalId": 67961,
+"englishId": 47677,
+"title": "El arte de amar",
+"englishTitle": "Ars Amatoria; or, The Art Of Love\nLiterally Translated into English Prose, with Copious Notes",
+"author": "Ovid, 44 BCE-18?",
+"authorBirthYear": null,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2022,
+"hasTranslatorCredit": true,
+"confidence": 0.667,
+"subjects": [
+"Seduction -- Poetry",
+"Didactic poetry, Latin -- Translations into Spanish",
+"Erotic poetry, Latin -- Translations into Spanish",
+"Ovid, 43 B.C.-17 A.D. or 18 A.D. -- Translations into Spanish",
+"Love poetry, Latin -- Translations into Spanish",
+"Man-woman relationships -- Rome -- Poetry"
+]
+},
+{
+"id": "pg-53321-5225",
+"originalId": 53321,
+"englishId": 5225,
+"title": "Le Satyricon",
+"englishTitle": "The Satyricon — Complete",
+"author": "Petronius Arbiter, 20-66",
+"authorBirthYear": null,
+"languageCode": "fr",
+"language": "French",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.667,
+"subjects": [
+"Rome -- Fiction",
+"Satire, Latin -- Translations into French"
+]
+},
+{
+"id": "pg-61876-7979",
+"originalId": 61876,
+"englishId": 7979,
+"title": "Jean-Christophe, Volume 2\nLa Révolte, La Foire sur la Place",
+"englishTitle": "Jean-Christophe, Volume I",
+"author": "Rolland, Romain, 1866-1944",
+"authorBirthYear": 1866,
+"languageCode": "fr",
+"language": "French",
+"year": 2020,
+"hasTranslatorCredit": true,
+"confidence": 0.667,
+"subjects": [
+"Psychological fiction",
+"Epic literature",
+"Musicians -- Fiction",
+"French fiction -- 20th century"
+]
+},
+{
+"id": "pg-37951-49435",
+"originalId": 37951,
+"englishId": 49435,
+"title": "Vie de Tolstoï",
+"englishTitle": "Tolstoy",
+"author": "Rolland, Romain, 1866-1944",
+"authorBirthYear": 1866,
+"languageCode": "fr",
+"language": "French",
+"year": 2011,
+"hasTranslatorCredit": true,
+"confidence": 0.667,
+"subjects": [
+"Tolstoy, Leo, graf, 1828-1910",
+"Novelists, Russian -- 19th century -- Biography"
+]
+},
+{
+"id": "pg-13025-63083",
+"originalId": 13025,
+"englishId": 63083,
+"title": "La Marquise",
+"englishTitle": "The Marquis de Villemer",
+"author": "Sand, George, 1804-1876",
+"authorBirthYear": 1804,
+"languageCode": "fr",
+"language": "French",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.667,
+"subjects": [
+"France -- Fiction",
+"Women -- France -- Fiction"
+]
+},
+{
+"id": "pg-45668-6787",
+"originalId": 45668,
+"englishId": 6787,
+"title": "Wallenstein 1: Wallensteinin leiri; Piccolominit\nRunomittainen näytelmä",
+"englishTitle": "The Death of Wallenstein",
+"author": "Schiller, Friedrich, 1759-1805",
+"authorBirthYear": 1759,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2014,
+"hasTranslatorCredit": true,
+"confidence": 0.667,
+"subjects": [
+"Wallenstein, Albrecht Wenzel Eusebius von, Herzog von Friedland, 1583-1634 -- Drama"
+]
+},
+{
+"id": "pg-57741-48912",
+"originalId": 57741,
+"englishId": 48912,
+"title": "Der kleine Dämon",
+"englishTitle": "The Little Demon",
+"author": "Sologub, Fyodor, 1863-1927",
+"authorBirthYear": 1863,
+"languageCode": "de",
+"language": "German",
+"year": 2018,
+"hasTranslatorCredit": true,
+"confidence": 0.667,
+"subjects": [
+"Teachers -- Fiction",
+"Russia -- Fiction",
+"Mental illness -- Fiction",
+"Russian fiction -- Translations into German"
+]
+},
+{
+"id": "pg-53552-50044",
+"originalId": 53552,
+"englishId": 50044,
+"title": "Obras escogidas",
+"englishTitle": "Romantic legends of Spain",
+"author": "Bécquer, Gustavo Adolfo, 1836-1870",
+"authorBirthYear": 1836,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.665,
+"subjects": [
+"Spanish literature -- 19th century"
+]
+},
+{
+"id": "pg-40085-45587",
+"originalId": 40085,
+"englishId": 45587,
+"title": "Le Bilan du Divorce",
+"englishTitle": "Acrobats and Mountebanks",
+"author": "Le Roux, Hugues, 1860-1925",
+"authorBirthYear": 1860,
+"languageCode": "fr",
+"language": "French",
+"year": 2012,
+"hasTranslatorCredit": true,
+"confidence": 0.665,
+"subjects": [
+"Divorce"
+]
+},
+{
+"id": "pg-11048-51716",
+"originalId": 11048,
+"englishId": 51716,
+"title": "La Presse Clandestine dans la Belgique Occupée",
+"englishTitle": "Belgians Under the German Eagle",
+"author": "Massart, Jean, 1865-1925",
+"authorBirthYear": 1865,
+"languageCode": "fr",
+"language": "French",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.664,
+"subjects": [
+"Belgium -- History -- German occupation, 1914-1918",
+"Press -- Belgium"
+]
+},
+{
+"id": "pg-20937-20936",
+"originalId": 20937,
+"englishId": 20936,
+"title": "Cannes und Genua: Vier Reden zum Reparationsproblem",
+"englishTitle": "The New Society",
+"author": "Rathenau, Walther, 1867-1922",
+"authorBirthYear": 1867,
+"languageCode": "de",
+"language": "German",
+"year": 2007,
+"hasTranslatorCredit": true,
+"confidence": 0.663,
+"subjects": [
+"Speeches, addresses, etc.",
+"World War, 1914-1918 -- Reparations"
+]
+},
+{
+"id": "pg-11925-25387",
+"originalId": 11925,
+"englishId": 25387,
+"title": "Elementare Arithmetik und Algebra",
+"englishTitle": "Mathematical Essays and Recreations",
+"author": "Schubert, Hermann, 1848-1911",
+"authorBirthYear": 1848,
+"languageCode": "de",
+"language": "German",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.662,
+"subjects": [
+"Mathematics",
+"Algebra"
+]
+},
+{
+"id": "pg-78190-70133",
+"originalId": 78190,
+"englishId": 70133,
+"title": "Die Geschichte der Diphtherie",
+"englishTitle": "The suppression of tuberculosis",
+"author": "Behring, Emil von, 1854-1917",
+"authorBirthYear": 1854,
+"languageCode": "de",
+"language": "German",
+"year": 2026,
+"hasTranslatorCredit": true,
+"confidence": 0.66,
+"subjects": [
+"Diphtheria",
+"Diphtheria -- Immunological aspects"
+]
+},
+{
+"id": "pg-37201-47902",
+"originalId": 37201,
+"englishId": 47902,
+"title": "Le Roman de Léonard de Vinci: La résurrection des Dieux",
+"englishTitle": "The Romance of Leonardo da Vinci, the Forerunner",
+"author": "Merezhkovsky, Dmitry Sergeyevich, 1865-1941",
+"authorBirthYear": 1865,
+"languageCode": "fr",
+"language": "French",
+"year": 2011,
+"hasTranslatorCredit": true,
+"confidence": 0.66,
+"subjects": [
+"Biographical fiction",
+"Italy -- Fiction",
+"Artists -- Fiction",
+"Leonardo, da Vinci, 1452-1519 -- Fiction"
+]
+},
+{
+"id": "pg-796-66374",
+"originalId": 796,
+"englishId": 66374,
+"title": "La Chartreuse De Parme",
+"englishTitle": "The Charterhouse of Parma, Volume 1",
+"author": "Stendhal, 1783-1842",
+"authorBirthYear": 1783,
+"languageCode": "fr",
+"language": "French",
+"year": 1997,
+"hasTranslatorCredit": true,
+"confidence": 0.659,
+"subjects": [
+"Love stories",
+"Political fiction",
+"Parma (Italy) -- Fiction",
+"Italy -- Social life and customs -- 19th century -- Fiction",
+"Young men -- Italy -- Parma -- Fiction"
+]
+},
+{
+"id": "pg-51573-689",
+"originalId": 51573,
+"englishId": 689,
+"title": "Kreuzer-sonaatti",
+"englishTitle": "The Kreutzer Sonata and Other Stories",
+"author": "Tolstoy, Leo, graf, 1828-1910",
+"authorBirthYear": 1828,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.659,
+"subjects": [
+"Murder -- Fiction",
+"Jealousy -- Fiction"
+]
+},
+{
+"id": "pg-65697-43473",
+"originalId": 65697,
+"englishId": 43473,
+"title": "De pelsjagers van de Arkansas: Tafereelen uit de wouden en prairien van Amerika",
+"englishTitle": "The Trappers of Arkansas; or, The Loyal Heart",
+"author": "Aimard, Gustave, 1818-1883",
+"authorBirthYear": 1818,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 0.658,
+"subjects": [
+"Western stories",
+"Frontier and pioneer life -- West (U.S.) -- Fiction",
+"Arkansas -- Fiction",
+"Trappers -- Fiction"
+]
+},
+{
+"id": "pg-39328-61308",
+"originalId": 39328,
+"englishId": 61308,
+"title": "Histoire de la Littérature Anglaise (Volume 1 de 5)",
+"englishTitle": "History of English Literature Volume 1 (of 3)",
+"author": "Taine, Hippolyte, 1828-1893",
+"authorBirthYear": 1828,
+"languageCode": "fr",
+"language": "French",
+"year": 2012,
+"hasTranslatorCredit": true,
+"confidence": 0.658,
+"subjects": [
+"English literature -- History and criticism"
+]
+},
+{
+"id": "pg-41087-61382",
+"originalId": 41087,
+"englishId": 61382,
+"title": "Histoire de la Littérature Anglaise (Volume 2 de 5)",
+"englishTitle": "History of English Literature Volume 2 (of 3)",
+"author": "Taine, Hippolyte, 1828-1893",
+"authorBirthYear": 1828,
+"languageCode": "fr",
+"language": "French",
+"year": 2012,
+"hasTranslatorCredit": true,
+"confidence": 0.658,
+"subjects": [
+"English literature -- History and criticism"
+]
+},
+{
+"id": "pg-41101-61510",
+"originalId": 41101,
+"englishId": 61510,
+"title": "Histoire de la Littérature Anglaise (Volume 3 de 5)",
+"englishTitle": "History of English Literature Volume 3 (of 3)",
+"author": "Taine, Hippolyte, 1828-1893",
+"authorBirthYear": 1828,
+"languageCode": "fr",
+"language": "French",
+"year": 2012,
+"hasTranslatorCredit": true,
+"confidence": 0.658,
+"subjects": [
+"English literature -- History and criticism"
+]
+},
+{
+"id": "pg-14159-71923",
+"originalId": 14159,
+"englishId": 71923,
+"title": "Les Roquevillard",
+"englishTitle": "The will to live (Les Roquevillard)",
+"author": "Bordeaux, Henry, 1870-1963",
+"authorBirthYear": 1870,
+"languageCode": "fr",
+"language": "French",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.657,
+"subjects": [
+"France -- Fiction",
+"Elopement -- Fiction",
+"Families -- Fiction",
+"French fiction -- 20th century"
+]
+},
+{
+"id": "pg-19540-54705",
+"originalId": 19540,
+"englishId": 54705,
+"title": "La Tosca: Drame en cinq actes",
+"englishTitle": "The Sorceress: A Drama in Five Acts",
+"author": "Sardou, Victorien, 1831-1908",
+"authorBirthYear": 1831,
+"languageCode": "fr",
+"language": "French",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.657,
+"subjects": [
+"French drama -- 19th century",
+"Tragedies (Drama)"
+]
+},
+{
+"id": "pg-18148-9310",
+"originalId": 18148,
+"englishId": 9310,
+"title": "Casanovas Heimfahrt",
+"englishTitle": "Casanova's Homecoming",
+"author": "Schnitzler, Arthur, 1862-1931",
+"authorBirthYear": 1862,
+"languageCode": "de",
+"language": "German",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.657,
+"subjects": [
+"Biographical fiction",
+"Adventure stories",
+"Europe -- Fiction",
+"Casanova, Giacomo, 1725-1798 -- Fiction",
+"Sex customs -- Fiction"
+]
+},
+{
+"id": "pg-45468-45470",
+"originalId": 45468,
+"englishId": 45470,
+"title": "Les Heures du Soir - Précédées de les Heures claires, Les Heures d'après-midi",
+"englishTitle": "The Love Poems\n(From Les Heures claires, Les Heures d'après-midi, Les Heures du Soir)",
+"author": "Verhaeren, Emile, 1855-1916",
+"authorBirthYear": 1855,
+"languageCode": "fr",
+"language": "French",
+"year": 2014,
+"hasTranslatorCredit": true,
+"confidence": 0.655,
+"subjects": [
+"Belgian poetry (French)"
+]
+},
+{
+"id": "pg-65051-1411",
+"originalId": 65051,
+"englishId": 1411,
+"title": "La pace domestica; L'elisir di lunga vita; La borsa: Racconti scelti",
+"englishTitle": "Domestic Peace",
+"author": "Balzac, Honoré de, 1799-1850",
+"authorBirthYear": 1799,
+"languageCode": "it",
+"language": "Italian",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 0.654,
+"subjects": [
+"French fiction -- Translations into Italian"
+]
+},
+{
+"id": "pg-41746-29577",
+"originalId": 41746,
+"englishId": 29577,
+"title": "Flor de mayo",
+"englishTitle": "Mayflower (Flor de mayo): A Tale of the Valencian Seashore",
+"author": "Blasco Ibáñez, Vicente, 1867-1928",
+"authorBirthYear": 1867,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2012,
+"hasTranslatorCredit": true,
+"confidence": 0.654,
+"subjects": [
+"Spanish fiction"
+]
+},
+{
+"id": "pg-26961-7403",
+"originalId": 26961,
+"englishId": 7403,
+"title": "Libro della divina dottrina: Dialogo della divina provvidenza",
+"englishTitle": "Letters of Catherine Benincasa",
+"author": "Catherine, of Siena, Saint, 1347-1380",
+"authorBirthYear": 1347,
+"languageCode": "it",
+"language": "Italian",
+"year": 2008,
+"hasTranslatorCredit": true,
+"confidence": 0.654,
+"subjects": [
+"Mysticism -- Catholic Church"
+]
+},
+{
+"id": "pg-997-41537",
+"originalId": 997,
+"englishId": 41537,
+"title": "Divina Commedia di Dante: Inferno",
+"englishTitle": "The Divine Comedy of Dante Alighieri: The Inferno",
+"author": "Dante Alighieri, 1265-1321",
+"authorBirthYear": 1265,
+"languageCode": "it",
+"language": "Italian",
+"year": 1997,
+"hasTranslatorCredit": true,
+"confidence": 0.654,
+"subjects": [
+"Italian poetry -- To 1400",
+"Hell",
+"Epic poetry, Italian"
+]
+},
+{
+"id": "pg-60137-54796",
+"originalId": 60137,
+"englishId": 54796,
+"title": "Una Cristiana",
+"englishTitle": "A Christian Woman",
+"author": "Pardo Bazán, Emilia, condesa de, 1852-1921",
+"authorBirthYear": 1852,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2019,
+"hasTranslatorCredit": true,
+"confidence": 0.654,
+"subjects": [
+"Spanish fiction -- 19th century"
+]
+},
+{
+"id": "pg-8074-67558",
+"originalId": 8074,
+"englishId": 67558,
+"title": "La Cité Antique\nÉtude sur Le Culte, Le Droit, Les Institutions de la Grèce et de Rome",
+"englishTitle": "The Origin of Property in Land\nWith an introductory chapter on the English manor by W. J. Ashley",
+"author": "Fustel de Coulanges, 1830-1889",
+"authorBirthYear": 1830,
+"languageCode": "fr",
+"language": "French",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.653,
+"subjects": [
+"Cities and towns, Ancient",
+"Greece -- Politics and government",
+"Rome -- Politics and government",
+"Civilization, Greco-Roman"
+]
+},
+{
+"id": "pg-72215-78363",
+"originalId": 72215,
+"englishId": 78363,
+"title": "Valittuja sivuja",
+"englishTitle": "Martin Birck's youth",
+"author": "Söderberg, Hjalmar, 1869-1941",
+"authorBirthYear": 1869,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2023,
+"hasTranslatorCredit": true,
+"confidence": 0.653,
+"subjects": [
+"Swedish fiction -- Translations into Finnish",
+"Short stories, Swedish -- Translations into Finnish"
+]
+},
+{
+"id": "pg-26515-45761",
+"originalId": 26515,
+"englishId": 45761,
+"title": "L'isthme de Panama\nExamen historique et géographique des différentes directions suivant lesquelles on pourrait le percer et des moyens à y employer; suivi d'un aperçu sur l'isthme de Suez.",
+"englishTitle": "Society, Manners and Politics in the United States\nBeing a Series of Letters on North America",
+"author": "Chevalier, Michel, 1806-1879",
+"authorBirthYear": 1806,
+"languageCode": "fr",
+"language": "French",
+"year": 2008,
+"hasTranslatorCredit": true,
+"confidence": 0.652,
+"subjects": [
+"Canals, Interoceanic",
+"Canals -- Panama",
+"Canals -- Nicaragua",
+"Canals -- Egypt"
+]
+},
+{
+"id": "pg-77952-31550",
+"originalId": 77952,
+"englishId": 31550,
+"title": "Journal de la société de 1789 - Nº I",
+"englishTitle": "The first essay on the political rights of women",
+"author": "Condorcet, Jean-Antoine-Nicolas de Caritat, marquis de, 1743-1794",
+"authorBirthYear": 1743,
+"languageCode": "fr",
+"language": "French",
+"year": 2026,
+"hasTranslatorCredit": true,
+"confidence": 0.652,
+"subjects": [
+"France -- History -- Revolution, 1789-1799 -- Periodicals"
+]
+},
+{
+"id": "pg-42861-5499",
+"originalId": 42861,
+"englishId": 5499,
+"title": "Homo sum: Roman",
+"englishTitle": "Homo Sum — Complete",
+"author": "Ebers, Georg, 1837-1898",
+"authorBirthYear": 1837,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2013,
+"hasTranslatorCredit": true,
+"confidence": 0.652,
+"subjects": [
+"Church history -- 4th century -- Fiction",
+"German fiction -- Translations into Dutch"
+]
+},
+{
+"id": "pg-57103-5063",
+"originalId": 57103,
+"englishId": 5063,
+"title": "Iphigeneia i Aulis",
+"englishTitle": "The Iphigenia in Tauris of Euripides",
+"author": "Euripides, 481? BCE-407 BCE",
+"authorBirthYear": -481,
+"languageCode": "sv",
+"language": "Swedish",
+"year": 2018,
+"hasTranslatorCredit": true,
+"confidence": 0.652,
+"subjects": [
+"Tragedies (Drama)",
+"Iphigenia (Mythological character) -- Drama"
+]
+},
+{
+"id": "pg-39816-15772",
+"originalId": 39816,
+"englishId": 15772,
+"title": "Macchiavellis Buch vom Fürsten",
+"englishTitle": "Machiavelli, Volume I",
+"author": "Machiavelli, Niccolò, 1469-1527",
+"authorBirthYear": 1469,
+"languageCode": "de",
+"language": "German",
+"year": 2012,
+"hasTranslatorCredit": true,
+"confidence": 0.652,
+"subjects": [
+"State, The -- Early works to 1800",
+"Political science -- Philosophy -- Early works to 1800",
+"Political ethics -- Early works to 1800"
+]
+},
+{
+"id": "pg-19650-49696",
+"originalId": 19650,
+"englishId": 49696,
+"title": "Aksel ja Valpuri: Murhenäytelmä viidessä näytöksessä",
+"englishTitle": "The Gods of the North: an epic poem",
+"author": "Oehlenschläger, Adam, 1779-1850",
+"authorBirthYear": 1779,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.652,
+"subjects": [
+"Danish drama -- Translations into Finnish"
+]
+},
+{
+"id": "pg-9860-9383",
+"originalId": 9860,
+"englishId": 9383,
+"title": "Moni der Geißbub",
+"englishTitle": "Moni the Goat-Boy",
+"author": "Spyri, Johanna, 1827-1901",
+"authorBirthYear": 1827,
+"languageCode": "de",
+"language": "German",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.652,
+"subjects": [
+"Mountain life -- Juvenile fiction",
+"Switzerland -- Juvenile fiction",
+"Goat farmers -- Juvenile fiction"
+]
+},
+{
+"id": "pg-46203-5321",
+"originalId": 46203,
+"englishId": 5321,
+"title": "Über das Geistige in der Kunst, Insbesondere in der Malerei",
+"englishTitle": "Concerning the Spiritual in Art",
+"author": "Kandinsky, Wassily, 1866-1944",
+"authorBirthYear": 1866,
+"languageCode": "de",
+"language": "German",
+"year": 2014,
+"hasTranslatorCredit": true,
+"confidence": 0.651,
+"subjects": [
+"Aesthetics",
+"Painting"
+]
+},
+{
+"id": "pg-78140-6763",
+"originalId": 78140,
+"englishId": 6763,
+"title": "Aristoteles' Poetik",
+"englishTitle": "Aristotle on the art of poetry",
+"author": "Aristotle, 385 BCE-323 BCE",
+"authorBirthYear": -385,
+"languageCode": "de",
+"language": "German",
+"year": 2026,
+"hasTranslatorCredit": true,
+"confidence": 0.65,
+"subjects": [
+"Poetry -- Early works to 1800",
+"Aesthetics -- Early works to 1800",
+"Catharsis"
+]
+},
+{
+"id": "pg-59803-77146",
+"originalId": 59803,
+"englishId": 77146,
+"title": "Aus dem Reiche des Buddha: Sieben Erzählungen",
+"englishTitle": "Buddhism & science",
+"author": "Dahlke, Paul, 1865-1928",
+"authorBirthYear": 1865,
+"languageCode": "de",
+"language": "German",
+"year": 2019,
+"hasTranslatorCredit": true,
+"confidence": 0.649,
+"subjects": [
+"Short stories, German",
+"Buddhism -- Fiction",
+"German fiction -- 20th century"
+]
+},
+{
+"id": "pg-69309-72961",
+"originalId": 69309,
+"englishId": 72961,
+"title": "Buddenbrookit 1: Erään suvun rappeutumistarina",
+"englishTitle": "Buddenbrooks, volume 1 of 2",
+"author": "Mann, Thomas, 1875-1955",
+"authorBirthYear": 1875,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2022,
+"hasTranslatorCredit": true,
+"confidence": 0.649,
+"subjects": [
+"Germany -- Fiction",
+"Domestic fiction",
+"Families -- Fiction"
+]
+},
+{
+"id": "pg-75946-43791",
+"originalId": 75946,
+"englishId": 43791,
+"title": "Feltalálók, felfedezők, nagy emberek",
+"englishTitle": "Natural Philosophy",
+"author": "Ostwald, Wilhelm, 1853-1932",
+"authorBirthYear": 1853,
+"languageCode": "hu",
+"language": "Hungarian",
+"year": 2025,
+"hasTranslatorCredit": true,
+"confidence": 0.648,
+"subjects": [
+"Social psychology",
+"Inventors"
+]
+},
+{
+"id": "pg-37384-33900",
+"originalId": 37384,
+"englishId": 33900,
+"title": "Ma vie musicale",
+"englishTitle": "Principles of Orchestration, with Musical Examples Drawn from His Own Works",
+"author": "Rimsky-Korsakov, Nikolay, 1844-1908",
+"authorBirthYear": 1844,
+"languageCode": "fr",
+"language": "French",
+"year": 2011,
+"hasTranslatorCredit": true,
+"confidence": 0.648,
+"subjects": [
+"Composers -- Russia -- Biography",
+"Rimsky-Korsakov, Nikolay, 1844-1908"
+]
+},
+{
+"id": "pg-17363-61613",
+"originalId": 17363,
+"englishId": 61613,
+"title": "Israël en Égypte: Étude sur un oratorio de G.F. Hændel",
+"englishTitle": "A Christmas Tale: in One Act",
+"author": "Bouchor, Maurice, 1855-1929",
+"authorBirthYear": 1855,
+"languageCode": "fr",
+"language": "French",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.647,
+"subjects": [
+"Handel, George Frideric, 1685-1759. Oratorios"
+]
+},
+{
+"id": "pg-16439-29728",
+"originalId": 16439,
+"englishId": 29728,
+"title": "Apicii librorum X qui dicuntur De re coquinaria quae extant",
+"englishTitle": "Cookery and Dining in Imperial Rome",
+"author": "Apicius",
+"authorBirthYear": null,
+"languageCode": "la",
+"language": "Latin",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.645,
+"subjects": [
+"Cooking, Roman -- Early works to 1800"
+]
+},
+{
+"id": "pg-19233-25407",
+"originalId": 19233,
+"englishId": 25407,
+"title": "Les opinions de M. Jérôme Coignard\nRecueillies par Jacques Tournebroche",
+"englishTitle": "The Merrie Tales of Jacques Tournebroche",
+"author": "France, Anatole, 1844-1924",
+"authorBirthYear": 1844,
+"languageCode": "fr",
+"language": "French",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.644,
+"subjects": [
+"French fiction -- 19th century"
+]
+},
+{
+"id": "pg-53540-73661",
+"originalId": 53540,
+"englishId": 73661,
+"title": "Introduction à la vie dévote",
+"englishTitle": "Maxims and counsels of St. Francis de Sales for every day of the year",
+"author": "Francis, de Sales, Saint, 1567-1622",
+"authorBirthYear": 1567,
+"languageCode": "fr",
+"language": "French",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.644,
+"subjects": [
+"Meditations -- Early works to 1800"
+]
+},
+{
+"id": "pg-48231-54296",
+"originalId": 48231,
+"englishId": 54296,
+"title": "Het Duitsche Witboek: Documenten aangaande het uitbreken van den oorlog",
+"englishTitle": "The German Army in Belgium, the White Book of May 1915",
+"author": "Germany. Auswärtiges Amt",
+"authorBirthYear": null,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2015,
+"hasTranslatorCredit": true,
+"confidence": 0.644,
+"subjects": [
+"World War, 1914-1918 -- Diplomatic history"
+]
+},
+{
+"id": "pg-56265-44430",
+"originalId": 56265,
+"englishId": 44430,
+"title": "La mythologie du Rhin",
+"englishTitle": "Myths of the Rhine",
+"author": "Saintine, X.-B. (Xavier-Boniface), 1798-1865",
+"authorBirthYear": 1798,
+"languageCode": "fr",
+"language": "French",
+"year": 2017,
+"hasTranslatorCredit": true,
+"confidence": 0.644,
+"subjects": [
+"Mythology, Germanic",
+"Folklore -- Germany -- Rhine Valley"
+]
+},
+{
+"id": "pg-13346-45656",
+"originalId": 13346,
+"englishId": 45656,
+"title": "Reis naar Yucatan\nDe Aarde en haar Volken, 1886",
+"englishTitle": "The Ancient Cities of the New World\nBeing Travels and Explorations in Mexico and Central America From 1857-1882",
+"author": "Charnay, Désiré, 1828-1915",
+"authorBirthYear": 1828,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.643,
+"subjects": [
+"Yucatán (Mexico : State) -- Description and travel"
+]
+},
+{
+"id": "pg-72549-41360",
+"originalId": 72549,
+"englishId": 41360,
+"title": "A szociológia módszere",
+"englishTitle": "The Elementary Forms of the Religious Life",
+"author": "Durkheim, Émile, 1858-1917",
+"authorBirthYear": 1858,
+"languageCode": "hu",
+"language": "Hungarian",
+"year": 2023,
+"hasTranslatorCredit": true,
+"confidence": 0.643,
+"subjects": [
+"Sociology -- Methodology"
+]
+},
+{
+"id": "pg-63063-27472",
+"originalId": 63063,
+"englishId": 27472,
+"title": "Les Industriels: Métiers et professions en France",
+"englishTitle": "The Story of a Cat",
+"author": "La Bédollière, Emile de, 1812-1883",
+"authorBirthYear": 1812,
+"languageCode": "fr",
+"language": "French",
+"year": 2020,
+"hasTranslatorCredit": true,
+"confidence": 0.643,
+"subjects": [
+"Working class -- France",
+"Labor movement -- France",
+"Labor -- France",
+"Professions -- France"
+]
+},
+{
+"id": "pg-63161-43086",
+"originalId": 63161,
+"englishId": 43086,
+"title": "Autour des trônes que j'ai vu tomber",
+"englishTitle": "My Own Affairs",
+"author": "Louise, Princess of Belgium, 1858-1924",
+"authorBirthYear": 1858,
+"languageCode": "fr",
+"language": "French",
+"year": 2020,
+"hasTranslatorCredit": true,
+"confidence": 0.643,
+"subjects": [
+"Courts and courtiers"
+]
+},
+{
+"id": "pg-37139-38458",
+"originalId": 37139,
+"englishId": 38458,
+"title": "Los enemigos de la mujer",
+"englishTitle": "The Enemies of Women (Los enemigos de la mujer)",
+"author": "Blasco Ibáñez, Vicente, 1867-1928",
+"authorBirthYear": 1867,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2011,
+"hasTranslatorCredit": true,
+"confidence": 0.642,
+"subjects": [
+"Spanish fiction"
+]
+},
+{
+"id": "pg-18427-62667",
+"originalId": 18427,
+"englishId": 62667,
+"title": "Mon frère Yves",
+"englishTitle": "A Tale of Brittany (Mon frère Yves)",
+"author": "Loti, Pierre, 1850-1923",
+"authorBirthYear": 1850,
+"languageCode": "fr",
+"language": "French",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.642,
+"subjects": [
+"Brittany (France) -- Fiction"
+]
+},
+{
+"id": "pg-48529-3581",
+"originalId": 48529,
+"englishId": 3581,
+"title": "Essais de Montaigne (self-édition) - Volume I",
+"englishTitle": "Essays of Michel de Montaigne — Volume 01",
+"author": "Montaigne, Michel de, 1533-1592",
+"authorBirthYear": 1533,
+"languageCode": "fr",
+"language": "French",
+"year": 2015,
+"hasTranslatorCredit": true,
+"confidence": 0.642,
+"subjects": [
+"French essays"
+]
+},
+{
+"id": "pg-42727-38293",
+"originalId": 42727,
+"englishId": 38293,
+"title": "La alegría del capitán Ribot",
+"englishTitle": "The Joy of Captain Ribot",
+"author": "Palacio Valdés, Armando, 1853-1938",
+"authorBirthYear": 1853,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2013,
+"hasTranslatorCredit": true,
+"confidence": 0.642,
+"subjects": [
+"Spanish fiction"
+]
+},
+{
+"id": "pg-52123-33792",
+"originalId": 52123,
+"englishId": 33792,
+"title": "Poèmes (nouvelle série): Les soirs, Les débacles, Les flambeaux noirs",
+"englishTitle": "Poems of Emile Verhaeren",
+"author": "Verhaeren, Emile, 1855-1916",
+"authorBirthYear": 1855,
+"languageCode": "fr",
+"language": "French",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.642,
+"subjects": [
+"Belgian poetry (French)"
+]
+},
+{
+"id": "pg-28485-73429",
+"originalId": 28485,
+"englishId": 73429,
+"title": "Voyage autour du monde par la frégate du roi La Boudeuse et la flûte L'Étoile, en 1766, 1767, 1768 & 1769.",
+"englishTitle": "A voyage round the world",
+"author": "Bougainville, Louis-Antoine de, comte, 1729-1811",
+"authorBirthYear": 1729,
+"languageCode": "fr",
+"language": "French",
+"year": 2009,
+"hasTranslatorCredit": true,
+"confidence": 0.641,
+"subjects": [
+"Boudeuse (Frigate) -- Early works to 1800",
+"Etoile (Ship) -- Early works to 1800",
+"Voyages around the world -- Early works to 1800",
+"Oceania -- Description and travel -- Early works to 1800",
+"Bougainville, Louis-Antoine de, comte, 1729-1811 -- Travel -- Early works to 1800"
+]
+},
+{
+"id": "pg-12108-66073",
+"originalId": 12108,
+"englishId": 66073,
+"title": "Der Tod in Venedig",
+"englishTitle": "Death in Venice",
+"author": "Mann, Thomas, 1875-1955",
+"authorBirthYear": 1875,
+"languageCode": "de",
+"language": "German",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.641,
+"subjects": [
+"Venice (Italy) -- Fiction",
+"Psychological fiction",
+"Parables",
+"Homosexuality -- Fiction",
+"Middle age -- Fiction"
+]
+},
+{
+"id": "pg-76563-7791",
+"originalId": 76563,
+"englishId": 7791,
+"title": "Pelle Erobreren 1: Barndom",
+"englishTitle": "Pelle the Conqueror — Volume 01",
+"author": "Andersen Nexø, Martin, 1869-1954",
+"authorBirthYear": 1869,
+"languageCode": "da",
+"language": "Danish",
+"year": 2025,
+"hasTranslatorCredit": true,
+"confidence": 0.64,
+"subjects": [
+"Fathers and sons -- Fiction",
+"Immigrants -- Denmark -- Fiction"
+]
+},
+{
+"id": "pg-76723-7792",
+"originalId": 76723,
+"englishId": 7792,
+"title": "Pelle Erobreren 2: Læreaar",
+"englishTitle": "Pelle the Conqueror — Volume 02",
+"author": "Andersen Nexø, Martin, 1869-1954",
+"authorBirthYear": 1869,
+"languageCode": "da",
+"language": "Danish",
+"year": 2025,
+"hasTranslatorCredit": true,
+"confidence": 0.64,
+"subjects": [
+"Fathers and sons -- Fiction",
+"Immigrants -- Denmark -- Fiction"
+]
+},
+{
+"id": "pg-76883-7793",
+"originalId": 76883,
+"englishId": 7793,
+"title": "Pelle Erobreren 3: Den store Kamp",
+"englishTitle": "Pelle the Conqueror — Volume 03",
+"author": "Andersen Nexø, Martin, 1869-1954",
+"authorBirthYear": 1869,
+"languageCode": "da",
+"language": "Danish",
+"year": 2025,
+"hasTranslatorCredit": true,
+"confidence": 0.64,
+"subjects": [
+"Fathers and sons -- Fiction",
+"Immigrants -- Denmark -- Fiction"
+]
+},
+{
+"id": "pg-77037-7794",
+"originalId": 77037,
+"englishId": 7794,
+"title": "Pelle Erobreren 4: Gryet",
+"englishTitle": "Pelle the Conqueror — Volume 04",
+"author": "Andersen Nexø, Martin, 1869-1954",
+"authorBirthYear": 1869,
+"languageCode": "da",
+"language": "Danish",
+"year": 2025,
+"hasTranslatorCredit": true,
+"confidence": 0.64,
+"subjects": [
+"Fathers and sons -- Fiction",
+"Immigrants -- Denmark -- Fiction"
+]
+},
+{
+"id": "pg-63037-49264",
+"originalId": 63037,
+"englishId": 49264,
+"title": "Die Abenteuer des Fliegers von Tsingtau: Meine Erlebnisse in drei Erdteilen",
+"englishTitle": "My Escape from Donington Hall, Preceded by an Account of the Siege of Kiao-Chow in 1915",
+"author": "Plüschow, Gunther, 1886-1931",
+"authorBirthYear": 1886,
+"languageCode": "de",
+"language": "German",
+"year": 2020,
+"hasTranslatorCredit": true,
+"confidence": 0.64,
+"subjects": [
+"World War, 1914-1918 -- Personal narratives, German",
+"World War, 1914-1918 -- Aerial operations",
+"World War, 1914-1918 -- Prisoners and prisons, British"
+]
+},
+{
+"id": "pg-8712-56860",
+"originalId": 8712,
+"englishId": 56860,
+"title": "La Conquête de Plassans",
+"englishTitle": "The Conquest of Plassans (La Conquête de Plassans)",
+"author": "Zola, Émile, 1840-1902",
+"authorBirthYear": 1840,
+"languageCode": "fr",
+"language": "French",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.64,
+"subjects": [
+"France -- Social life and customs -- 19th century -- Fiction",
+"Clergy -- France -- Fiction",
+"France -- History -- Second Empire, 1852-1870 -- Fiction",
+"Insanity (Law) -- France -- Fiction",
+"Psychiatric hospitals -- France -- Fiction",
+"Confessors -- France -- Fiction"
+]
+},
+{
+"id": "pg-5139-65029",
+"originalId": 5139,
+"englishId": 65029,
+"title": "Tales",
+"englishTitle": "Two-Legs",
+"author": "Ewald, Carl, 1856-1908",
+"authorBirthYear": 1856,
+"languageCode": "he",
+"language": "Hebrew",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.638,
+"subjects": [
+"Danish fiction -- Translations into Hebrew"
+]
+},
+{
+"id": "pg-11645-6571",
+"originalId": 11645,
+"englishId": 6571,
+"title": "La rôtisserie de la Reine Pédauque",
+"englishTitle": "The Queen Pedauque",
+"author": "France, Anatole, 1844-1924",
+"authorBirthYear": 1844,
+"languageCode": "fr",
+"language": "French",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.638,
+"subjects": [
+"Bildungsromans",
+"Egypt -- Fiction",
+"Christian women saints -- Fiction",
+"Mary, of Egypt, Saint -- Fiction",
+"Picaresque fiction"
+]
+},
+{
+"id": "pg-57065-39318",
+"originalId": 57065,
+"englishId": 39318,
+"title": "Der Bucheinband: Seine Technik und seine Geschichte",
+"englishTitle": "Practical Bookbinding",
+"author": "Adam, Paul, 1849-1931",
+"authorBirthYear": 1849,
+"languageCode": "de",
+"language": "German",
+"year": 2018,
+"hasTranslatorCredit": true,
+"confidence": 0.637,
+"subjects": [
+"Bookbinding -- History"
+]
+},
+{
+"id": "pg-38074-71884",
+"originalId": 38074,
+"englishId": 71884,
+"title": "Victor Hugo, son oeuvre poétique",
+"englishTitle": "The great masters of Russian literature in the nineteenth century",
+"author": "Dupuy, Ernest, 1849-1918",
+"authorBirthYear": 1849,
+"languageCode": "fr",
+"language": "French",
+"year": 2011,
+"hasTranslatorCredit": true,
+"confidence": 0.637,
+"subjects": [
+"Hugo, Victor, 1802-1885",
+"Hugo, Victor, 1802-1885 -- Criticism and interpretation"
+]
+},
+{
+"id": "pg-64859-64807",
+"originalId": 64859,
+"englishId": 64807,
+"title": "Török népmesék",
+"englishTitle": "Turkish fairy tales and folk tales",
+"author": "Kúnos, Ignácz, 1862-1945 [Compiler]",
+"authorBirthYear": 1862,
+"languageCode": "hu",
+"language": "Hungarian",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 0.637,
+"subjects": [
+"Fairy tales",
+"Tales -- Turkey",
+"Folklore -- Turkey",
+"Folklore -- Romania",
+"Tales -- Romania"
+]
+},
+{
+"id": "pg-77042-72344",
+"originalId": 77042,
+"englishId": 72344,
+"title": "Der Untergang des Abendlandes, Erster Band",
+"englishTitle": "The decline of the West",
+"author": "Spengler, Oswald, 1880-1936",
+"authorBirthYear": 1880,
+"languageCode": "de",
+"language": "German",
+"year": 2025,
+"hasTranslatorCredit": true,
+"confidence": 0.637,
+"subjects": [
+"Civilization -- History"
+]
+},
+{
+"id": "pg-44088-45350",
+"originalId": 44088,
+"englishId": 45350,
+"title": "Het Eiland Urk: Zijn Bodem, voortbrengselen en bewoners",
+"englishTitle": "Anno Domini 2071\nTranslated from the Dutch Original",
+"author": "Harting, Pieter, 1812-1885",
+"authorBirthYear": 1812,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2013,
+"hasTranslatorCredit": true,
+"confidence": 0.635,
+"subjects": [
+"Urk (Netherlands)"
+]
+},
+{
+"id": "pg-17831-56799",
+"originalId": 17831,
+"englishId": 56799,
+"title": "La Débâcle",
+"englishTitle": "The Downfall (La Débâcle): A Story of the Horrors of War",
+"author": "Zola, Émile, 1840-1902",
+"authorBirthYear": 1840,
+"languageCode": "fr",
+"language": "French",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.635,
+"subjects": [
+"Franco-Prussian War, 1870-1871 -- Fiction"
+]
+},
+{
+"id": "pg-39492-1484",
+"originalId": 39492,
+"englishId": 1484,
+"title": "Les quatre cavaliers de l'apocalypse",
+"englishTitle": "The Four Horsemen of the Apocalypse",
+"author": "Blasco Ibáñez, Vicente, 1867-1928",
+"authorBirthYear": 1867,
+"languageCode": "fr",
+"language": "French",
+"year": 2012,
+"hasTranslatorCredit": true,
+"confidence": 0.634,
+"subjects": [
+"World War, 1914-1918 -- Fiction",
+"War stories",
+"Spanish fiction -- Translations into French"
+]
+},
+{
+"id": "pg-49764-7700",
+"originalId": 49764,
+"englishId": 7700,
+"title": "Aristophanis Lysistrata",
+"englishTitle": "Lysistrata",
+"author": "Aristophanes, 447? BCE-386? BCE",
+"authorBirthYear": -447,
+"languageCode": "la",
+"language": "Latin",
+"year": 2015,
+"hasTranslatorCredit": true,
+"confidence": 0.633,
+"subjects": [
+"Comedy plays",
+"Lysistrata (Fictitious character) -- Drama",
+"Peace movements -- Drama",
+"Women and peace -- Drama",
+"Greece -- History -- Peloponnesian War, 431-404 B.C. -- Drama",
+"Greek drama (Comedy) -- Translations into Latin"
+]
+},
+{
+"id": "pg-35569-76288",
+"originalId": 35569,
+"englishId": 76288,
+"title": "Die Stadt ohne Juden: Ein Roman von übermorgen",
+"englishTitle": "The city without Jews",
+"author": "Bettauer, Hugo, 1872-1925",
+"authorBirthYear": 1872,
+"languageCode": "de",
+"language": "German",
+"year": 2011,
+"hasTranslatorCredit": true,
+"confidence": 0.633,
+"subjects": [
+"Antisemitism -- Austria -- Fiction",
+"Jews -- Austria -- Fiction"
+]
+},
+{
+"id": "pg-17590-45920",
+"originalId": 17590,
+"englishId": 45920,
+"title": "Lettres à Sixtine",
+"englishTitle": "Very woman (Sixtine)",
+"author": "Gourmont, Remy de, 1858-1915",
+"authorBirthYear": 1858,
+"languageCode": "fr",
+"language": "French",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.633,
+"subjects": [
+"French fiction -- 20th century"
+]
+},
+{
+"id": "pg-48632-76750",
+"originalId": 48632,
+"englishId": 76750,
+"title": "Kunnanlapsi",
+"englishTitle": "The two countesses",
+"author": "Ebner-Eschenbach, Marie von, 1830-1916",
+"authorBirthYear": 1830,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2015,
+"hasTranslatorCredit": true,
+"confidence": 0.632,
+"subjects": [
+"Orphans -- Fiction",
+"Didactic fiction",
+"Village communities -- Fiction",
+"Moravia (Czech Republic) -- Fiction",
+"Austrian fiction -- Translations into Finnish"
+]
+},
+{
+"id": "pg-72773-42096",
+"originalId": 72773,
+"englishId": 42096,
+"title": "Le roi des montagnes",
+"englishTitle": "The King of the Mountains",
+"author": "About, Edmond, 1828-1885",
+"authorBirthYear": 1828,
+"languageCode": "fr",
+"language": "French",
+"year": 2024,
+"hasTranslatorCredit": true,
+"confidence": 0.63,
+"subjects": [
+"Brigands and robbers -- Fiction"
+]
+},
+{
+"id": "pg-70312-16775",
+"originalId": 70312,
+"englishId": 16775,
+"title": "Histoire de ma jeunesse",
+"englishTitle": "Biographies of distinguished scientific men. First series",
+"author": "Arago, F. (François), 1786-1853",
+"authorBirthYear": 1786,
+"languageCode": "fr",
+"language": "French",
+"year": 2023,
+"hasTranslatorCredit": true,
+"confidence": 0.63,
+"subjects": [
+"Arago, F. (François), 1786-1853",
+"Physicists -- France -- Biography"
+]
+},
+{
+"id": "pg-52918-1954",
+"originalId": 52918,
+"englishId": 1954,
+"title": "Eversti Chabert",
+"englishTitle": "Colonel Chabert",
+"author": "Balzac, Honoré de, 1799-1850",
+"authorBirthYear": 1799,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.63,
+"subjects": [
+"Historical fiction",
+"France -- Fiction",
+"Legal stories",
+"French fiction -- Translations into Finnish",
+"Napoleonic Wars, 1800-1815 -- Veterans -- Fiction",
+"Justice, Administration of -- Political aspects -- France -- Fiction"
+]
+},
+{
+"id": "pg-17539-8437",
+"originalId": 17539,
+"englishId": 8437,
+"title": "Dagen",
+"englishTitle": "The Path of Life",
+"author": "Streuvels, Stijn, 1871-1969",
+"authorBirthYear": 1871,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.629,
+"subjects": [
+"Fiction"
+]
+},
+{
+"id": "pg-63926-21943",
+"originalId": 63926,
+"englishId": 21943,
+"title": "La mirinda historio de Petro Schlemihl",
+"englishTitle": "Peter Schlemihl",
+"author": "Chamisso, Adelbert von, 1781-1838",
+"authorBirthYear": 1781,
+"languageCode": "eo",
+"language": "Esperanto",
+"year": 2020,
+"hasTranslatorCredit": true,
+"confidence": 0.628,
+"subjects": [
+"Fables"
+]
+},
+{
+"id": "pg-50398-3154",
+"originalId": 50398,
+"englishId": 3154,
+"title": "Aventures de Baron de Münchausen",
+"englishTitle": "The Surprising Adventures of Baron Munchausen",
+"author": "Raspe, Rudolf Erich, 1737-1794",
+"authorBirthYear": 1737,
+"languageCode": "fr",
+"language": "French",
+"year": 2015,
+"hasTranslatorCredit": false,
+"confidence": 0.627,
+"subjects": [
+"Humorous stories",
+"Voyages and travels -- Fiction",
+"Voyages, Imaginary -- Fiction",
+"Tall tales"
+]
+},
+{
+"id": "pg-16670-12041",
+"originalId": 16670,
+"englishId": 12041,
+"title": "La Catedral",
+"englishTitle": "The Shadow of the Cathedral",
+"author": "Blasco Ibáñez, Vicente, 1867-1928",
+"authorBirthYear": 1867,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.626,
+"subjects": [
+"Toledo (Spain) -- Fiction",
+"Catedral de Toledo -- Fiction"
+]
+},
+{
+"id": "pg-27487-34725",
+"originalId": 27487,
+"englishId": 34725,
+"title": "Jan en Florence",
+"englishTitle": "The Hidden Force: A Story of Modern Java",
+"author": "Couperus, Louis, 1863-1923",
+"authorBirthYear": 1863,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2008,
+"hasTranslatorCredit": true,
+"confidence": 0.626,
+"subjects": [
+"Essays"
+]
+},
+{
+"id": "pg-52643-7166",
+"originalId": 52643,
+"englishId": 7166,
+"title": "Das Heim und die Welt",
+"englishTitle": "The Home and the World",
+"author": "Tagore, Rabindranath, 1861-1941",
+"authorBirthYear": 1861,
+"languageCode": "de",
+"language": "German",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.626,
+"subjects": [
+"India -- History -- Autonomy and independence movements -- Fiction"
+]
+},
+{
+"id": "pg-5126-8991",
+"originalId": 5126,
+"englishId": 8991,
+"title": "Robur-le-conquérant",
+"englishTitle": "The Fur Country: Or, Seventy Degrees North Latitude",
+"author": "Verne, Jules, 1828-1905",
+"authorBirthYear": 1828,
+"languageCode": "fr",
+"language": "French",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.626,
+"subjects": [
+"Science fiction",
+"Aeronautics -- Fiction"
+]
+},
+{
+"id": "pg-19248-74713",
+"originalId": 19248,
+"englishId": 74713,
+"title": "Opinions sociales",
+"englishTitle": "The opinions of Jérôme Coignard",
+"author": "France, Anatole, 1844-1924",
+"authorBirthYear": 1844,
+"languageCode": "fr",
+"language": "French",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.625,
+"subjects": [
+"Socialism",
+"France -- Social conditions"
+]
+},
+{
+"id": "pg-2335-36483",
+"originalId": 2335,
+"englishId": 36483,
+"title": "Wilhelm Meisters Lehrjahre — Band 1",
+"englishTitle": "Wilhelm Meister's apprenticeship and travels, vol. 1 (of 2)",
+"author": "Goethe, Johann Wolfgang von, 1749-1832",
+"authorBirthYear": 1749,
+"languageCode": "de",
+"language": "German",
+"year": 2000,
+"hasTranslatorCredit": true,
+"confidence": 0.625,
+"subjects": [
+"Bildungsromans",
+"Theater, Traveling -- Fiction"
+]
+},
+{
+"id": "pg-68819-21020",
+"originalId": 68819,
+"englishId": 21020,
+"title": "Het leemen wagentje: Indisch tooneelspel uit Sanskṛt en Prākṛt in het Nederlandsch vertaald",
+"englishTitle": "The Little Clay Cart [Mṛcchakaṭika]",
+"author": "Sūdraka",
+"authorBirthYear": null,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2022,
+"hasTranslatorCredit": true,
+"confidence": 0.625,
+"subjects": [
+"Indic drama",
+"Thesis (Ph. D.)",
+"Sanskrit drama -- Translations into Dutch"
+]
+},
+{
+"id": "pg-20613-15489",
+"originalId": 20613,
+"englishId": 15489,
+"title": "Über Psychoanalyse: Fünf Vorlesungen",
+"englishTitle": "Dream Psychology: Psychoanalysis for Beginners",
+"author": "Freud, Sigmund, 1856-1939",
+"authorBirthYear": 1856,
+"languageCode": "de",
+"language": "German",
+"year": 2007,
+"hasTranslatorCredit": true,
+"confidence": 0.624,
+"subjects": [
+"Psychoanalysis"
+]
+},
+{
+"id": "pg-13793-27690",
+"originalId": 13793,
+"englishId": 27690,
+"title": "En famille",
+"englishTitle": "Nobody's Girl\n(En Famille)",
+"author": "Malot, Hector, 1830-1907",
+"authorBirthYear": 1830,
+"languageCode": "fr",
+"language": "French",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.624,
+"subjects": [
+"Orphans -- Fiction",
+"Grandfathers -- Fiction",
+"Adventure and adventurers -- Fiction",
+"France -- History -- 19th century -- Fiction"
+]
+},
+{
+"id": "pg-53441-29305",
+"originalId": 53441,
+"englishId": 29305,
+"title": "Anielka I",
+"englishTitle": "Sielanka: An Idyll",
+"author": "Sienkiewicz, Henryk, 1846-1916",
+"authorBirthYear": 1846,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.624,
+"subjects": [
+"Poland -- Fiction"
+]
+},
+{
+"id": "pg-43030-18876",
+"originalId": 43030,
+"englishId": 18876,
+"title": "La maja desnuda",
+"englishTitle": "Woman Triumphant (La Maja Desnuda)",
+"author": "Blasco Ibáñez, Vicente, 1867-1928",
+"authorBirthYear": 1867,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2013,
+"hasTranslatorCredit": true,
+"confidence": 0.622,
+"subjects": [
+"Madrid (Spain) -- Fiction",
+"Widowers -- Fiction",
+"Man-woman relationships -- Fiction",
+"Husband and wife -- Fiction",
+"Painters -- Fiction"
+]
+},
+{
+"id": "pg-60684-23220",
+"originalId": 60684,
+"englishId": 23220,
+"title": "Die Bären von Hohen-Esp: Roman",
+"englishTitle": "The Gray Nun",
+"author": "Eschstruth, Nataly von, 1860-1939",
+"authorBirthYear": 1860,
+"languageCode": "de",
+"language": "German",
+"year": 2019,
+"hasTranslatorCredit": true,
+"confidence": 0.622,
+"subjects": [
+"German fiction -- 20th century"
+]
+},
+{
+"id": "pg-55657-2026",
+"originalId": 55657,
+"englishId": 2026,
+"title": "Pieter Maritz, der Buernsohn von Transvaal",
+"englishTitle": "The Coming Conquest of England",
+"author": "Niemann, August, 1839-1919",
+"authorBirthYear": 1839,
+"languageCode": "de",
+"language": "German",
+"year": 2017,
+"hasTranslatorCredit": true,
+"confidence": 0.622,
+"subjects": [
+"Transvaal (South Africa) -- History -- War of 1880-1881 -- Fiction"
+]
+},
+{
+"id": "pg-30514-815",
+"originalId": 30514,
+"englishId": 815,
+"title": "De la Démocratie en Amérique, tome deuxième",
+"englishTitle": "Democracy in America — Volume 1",
+"author": "Tocqueville, Alexis de, 1805-1859",
+"authorBirthYear": 1805,
+"languageCode": "fr",
+"language": "French",
+"year": 2009,
+"hasTranslatorCredit": true,
+"confidence": 0.622,
+"subjects": [
+"United States -- Politics and government",
+"United States -- Social conditions",
+"Democracy -- United States"
+]
+},
+{
+"id": "pg-61438-31821",
+"originalId": 61438,
+"englishId": 31821,
+"title": "Sónnica la cortesana: Novela",
+"englishTitle": "Sónnica",
+"author": "Blasco Ibáñez, Vicente, 1867-1928",
+"authorBirthYear": 1867,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2020,
+"hasTranslatorCredit": true,
+"confidence": 0.621,
+"subjects": [
+"Sagunto (Spain) -- History -- Siege, 219-218 B.C. -- Fiction"
+]
+},
+{
+"id": "pg-11176-59489",
+"originalId": 11176,
+"englishId": 59489,
+"title": "Mémoires du sergent Bourgogne",
+"englishTitle": "Memoirs of Sergeant Bourgogne, 1812-1813",
+"author": "Bourgogne, Adrien-Jean-Baptiste-François, 1785-1867",
+"authorBirthYear": 1785,
+"languageCode": "fr",
+"language": "French",
+"year": 2004,
+"hasTranslatorCredit": false,
+"confidence": 0.621,
+"subjects": [
+"Napoleonic Wars, 1800-1815 -- Personal narratives, French",
+"Napoleon I, Emperor of the French, 1769-1821 -- Contemporaries",
+"France. Armée -- Biography",
+"Napoleonic Wars, 1800-1815 -- Campaigns -- Russia -- Personal narratives, French",
+"Bourgogne, Adrien-Jean-Baptiste-François, 1785-1867",
+"Soldiers -- France -- Biography"
+]
+},
+{
+"id": "pg-16043-45723",
+"originalId": 16043,
+"englishId": 45723,
+"title": "Mythen & Legenden van Japan",
+"englishTitle": "Myths & Legends of Japan",
+"author": "Davis, F. Hadland (Frederick Hadland), 1882-1956",
+"authorBirthYear": 1882,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2005,
+"hasTranslatorCredit": false,
+"confidence": 0.621,
+"subjects": [
+"Folklore -- Japan",
+"Legends -- Japan",
+"Mythology, Japanese"
+]
+},
+{
+"id": "pg-62022-31886",
+"originalId": 62022,
+"englishId": 31886,
+"title": "Szép Mikhál: Regény",
+"englishTitle": "Pretty Michal",
+"author": "Jókai, Mór, 1825-1904",
+"authorBirthYear": 1825,
+"languageCode": "hu",
+"language": "Hungarian",
+"year": 2020,
+"hasTranslatorCredit": true,
+"confidence": 0.621,
+"subjects": [
+"Hungarian fiction -- 19th century"
+]
+},
+{
+"id": "pg-53293-1600",
+"originalId": 53293,
+"englishId": 1600,
+"title": "Pidot (Symposion)",
+"englishTitle": "Symposium",
+"author": "Plato, 428? BCE-348? BCE",
+"authorBirthYear": -428,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.621,
+"subjects": [
+"Classical literature",
+"Socrates, 470 BC-399 BC",
+"Philosophy, Ancient",
+"Love -- Early works to 1800"
+]
+},
+{
+"id": "pg-53782-7363",
+"originalId": 53782,
+"englishId": 7363,
+"title": "Mestari Olavi: Viisinäytöksinen näytelmä",
+"englishTitle": "Master Olof: A Drama in Five Acts",
+"author": "Strindberg, August, 1849-1912",
+"authorBirthYear": 1849,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.621,
+"subjects": [
+"Historical drama",
+"Swedish drama -- Translations into Finnish"
+]
+},
+{
+"id": "pg-30843-35877",
+"originalId": 30843,
+"englishId": 35877,
+"title": "Massenpsychologie und Ich-Analyse",
+"englishTitle": "Group Psychology and The Analysis of The Ego",
+"author": "Freud, Sigmund, 1856-1939",
+"authorBirthYear": 1856,
+"languageCode": "de",
+"language": "German",
+"year": 2010,
+"hasTranslatorCredit": true,
+"confidence": 0.619,
+"subjects": [
+"Social psychology",
+"Psychoanalysis",
+"Ego (Psychology)"
+]
+},
+{
+"id": "pg-7206-51356",
+"originalId": 7206,
+"englishId": 51356,
+"title": "Die Geburt der Tragödie: Versuch einer Selbstkritik",
+"englishTitle": "The Birth of Tragedy; or, Hellenism and Pessimism",
+"author": "Nietzsche, Friedrich Wilhelm, 1844-1900",
+"authorBirthYear": 1844,
+"languageCode": "de",
+"language": "German",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.619,
+"subjects": [
+"Aesthetics",
+"Music -- Philosophy and aesthetics",
+"Tragedy",
+"Philosophy, German",
+"Greek drama (Tragedy) -- History and criticism -- Theory, etc.",
+"Mythology, Greek, in literature"
+]
+},
+{
+"id": "pg-66337-21765",
+"originalId": 66337,
+"englishId": 21765,
+"title": "Metamorfóseos o Transformaciones (1 de 4)",
+"englishTitle": "The Metamorphoses of Ovid, Books I-VII",
+"author": "Ovid, 44 BCE-18?",
+"authorBirthYear": null,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 0.619,
+"subjects": [
+"Classical literature",
+"Mythology, Classical",
+"Fables, Latin -- Translations into Spanish",
+"Metamorphosis -- Mythology"
+]
+},
+{
+"id": "pg-66866-7142",
+"originalId": 66866,
+"englishId": 7142,
+"title": "Historia de la guerra del Peloponeso (1 de 2)",
+"englishTitle": "The History of the Peloponnesian War",
+"author": "Thucydides, 456? BCE-396 BCE",
+"authorBirthYear": -456,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 0.619,
+"subjects": [
+"Greece -- History -- Peloponnesian War, 431-404 B.C."
+]
+},
+{
+"id": "pg-32364-37969",
+"originalId": 32364,
+"englishId": 37969,
+"title": "Marta y María: novela de costumbres",
+"englishTitle": "The Marquis of Peñalta (Marta y María): A Realistic Social Novel",
+"author": "Palacio Valdés, Armando, 1853-1938",
+"authorBirthYear": 1853,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2010,
+"hasTranslatorCredit": true,
+"confidence": 0.618,
+"subjects": [
+"Spanish fiction"
+]
+},
+{
+"id": "pg-45579-45605",
+"originalId": 45579,
+"englishId": 45605,
+"title": "Auguste Rodin\nMit 96 Vollbildern",
+"englishTitle": "Auguste Rodin",
+"author": "Rilke, Rainer Maria, 1875-1926",
+"authorBirthYear": 1875,
+"languageCode": "de",
+"language": "German",
+"year": 2014,
+"hasTranslatorCredit": true,
+"confidence": 0.618,
+"subjects": [
+"Rodin, Auguste, 1840-1917"
+]
+},
+{
+"id": "pg-53665-7955",
+"originalId": 53665,
+"englishId": 7955,
+"title": "Historiallisia pikakuvia",
+"englishTitle": "Historical Miniatures",
+"author": "Strindberg, August, 1849-1912",
+"authorBirthYear": 1849,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.618,
+"subjects": [
+"Short stories",
+"Manners and customs -- Fiction"
+]
+},
+{
+"id": "pg-75455-34300",
+"originalId": 75455,
+"englishId": 34300,
+"title": "Eine Kindheitserinnerung des Leonardo da Vinci",
+"englishTitle": "Leonardo da Vinci: A Psychosexual Study of an Infantile Reminiscence",
+"author": "Freud, Sigmund, 1856-1939",
+"authorBirthYear": 1856,
+"languageCode": "de",
+"language": "German",
+"year": 2025,
+"hasTranslatorCredit": true,
+"confidence": 0.617,
+"subjects": [
+"Leonardo, da Vinci, 1452-1519",
+"Psychoanalysis -- Case studies",
+"Painters -- Italy -- Biography"
+]
+},
+{
+"id": "pg-26964-41405",
+"originalId": 26964,
+"englishId": 41405,
+"title": "Briefe aus dem Gefängnis",
+"englishTitle": "The Accumulation of Capital",
+"author": "Luxemburg, Rosa, 1871-1919",
+"authorBirthYear": 1871,
+"languageCode": "de",
+"language": "German",
+"year": 2008,
+"hasTranslatorCredit": true,
+"confidence": 0.617,
+"subjects": [
+"Luxemburg, Rosa, 1871-1919",
+"Communists -- Germany -- Correspondence"
+]
+},
+{
+"id": "pg-25593-41990",
+"originalId": 25593,
+"englishId": 41990,
+"title": "Contos escolhidos de D. Antonio de Trueba",
+"englishTitle": "The Cid Campeador: A Historical Romance",
+"author": "Trueba, Antonio de, 1819-1889",
+"authorBirthYear": 1819,
+"languageCode": "pt",
+"language": "Portuguese",
+"year": 2008,
+"hasTranslatorCredit": true,
+"confidence": 0.617,
+"subjects": [
+"Essays"
+]
+},
+{
+"id": "pg-59744-72095",
+"originalId": 59744,
+"englishId": 72095,
+"title": "De Wonderbouw der Wereld",
+"englishTitle": "Marxism and Darwinism",
+"author": "Pannekoek, Anton, 1873-1960",
+"authorBirthYear": 1873,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2019,
+"hasTranslatorCredit": true,
+"confidence": 0.616,
+"subjects": [
+"Astronomy -- History"
+]
+},
+{
+"id": "pg-66535-66687",
+"originalId": 66535,
+"englishId": 66687,
+"title": "Der Tempel: Roman",
+"englishTitle": "Fairy Tales for Workers' Children",
+"author": "Zur Mühlen, Hermynia, 1883-1951",
+"authorBirthYear": 1883,
+"languageCode": "de",
+"language": "German",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 0.616,
+"subjects": [
+"Historical fiction",
+"Austrian fiction -- 20th century"
+]
+},
+{
+"id": "pg-68505-59751",
+"originalId": 68505,
+"englishId": 59751,
+"title": "Rehti-Jaakko",
+"englishTitle": "Arnold of Winkelried, the Hero of Sempach",
+"author": "Höcker, Gustav, 1832-1911",
+"authorBirthYear": 1832,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2022,
+"hasTranslatorCredit": true,
+"confidence": 0.615,
+"subjects": [
+"Sea stories",
+"Orphans -- Juvenile fiction",
+"Picaresque literature",
+"Seafaring life -- Juvenile fiction",
+"Great Britain. Royal Navy -- Officers -- Juvenile fiction",
+"Great Britain -- History, Naval -- 19th century -- Juvenile fiction"
+]
+},
+{
+"id": "pg-43174-72271",
+"originalId": 43174,
+"englishId": 72271,
+"title": "Il Regno d'Etruria\nLa vita italiana durante la Rivoluzione francese e l'Impero",
+"englishTitle": "The Russian novelists",
+"author": "Vogüé, Eugène-Melchior, vicomte de, 1848-1910",
+"authorBirthYear": 1848,
+"languageCode": "it",
+"language": "Italian",
+"year": 2013,
+"hasTranslatorCredit": true,
+"confidence": 0.615,
+"subjects": [
+"Italy -- Civilization",
+"France -- History -- 1789-1815",
+"Italy -- History -- 1789-1815",
+"Italy -- Social conditions"
+]
+},
+{
+"id": "pg-77904-1957",
+"originalId": 77904,
+"englishId": 1957,
+"title": "Théâtre",
+"englishTitle": "Beatrix",
+"author": "Balzac, Honoré de, 1799-1850",
+"authorBirthYear": 1799,
+"languageCode": "fr",
+"language": "French",
+"year": 2026,
+"hasTranslatorCredit": true,
+"confidence": 0.614,
+"subjects": [
+"French drama -- 19th century"
+]
+},
+{
+"id": "pg-6099-36098",
+"originalId": 6099,
+"englishId": 36098,
+"title": "Les Fleurs du Mal",
+"englishTitle": "The Flowers of Evil",
+"author": "Baudelaire, Charles, 1821-1867",
+"authorBirthYear": 1821,
+"languageCode": "fr",
+"language": "French",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.614,
+"subjects": [
+"French poetry -- 19th century"
+]
+},
+{
+"id": "pg-42513-67313",
+"originalId": 42513,
+"englishId": 67313,
+"title": "Le vergini delle rocce",
+"englishTitle": "The Virgins of the Rocks",
+"author": "D'Annunzio, Gabriele, 1863-1938",
+"authorBirthYear": 1863,
+"languageCode": "it",
+"language": "Italian",
+"year": 2013,
+"hasTranslatorCredit": true,
+"confidence": 0.614,
+"subjects": [
+"Italy -- Fiction"
+]
+},
+{
+"id": "pg-11770-30442",
+"originalId": 11770,
+"englishId": 30442,
+"title": "Lettres de mon moulin",
+"englishTitle": "Letters from My Windmill",
+"author": "Daudet, Alphonse, 1840-1897",
+"authorBirthYear": 1840,
+"languageCode": "fr",
+"language": "French",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.614,
+"subjects": [
+"France -- Social life and customs -- Fiction"
+]
+},
+{
+"id": "pg-23306-4391",
+"originalId": 23306,
+"englishId": 4391,
+"title": "Meditationes de prima philosophia",
+"englishTitle": "Selections from the Principles of Philosophy",
+"author": "Descartes, René, 1596-1650",
+"authorBirthYear": 1596,
+"languageCode": "la",
+"language": "Latin",
+"year": 2007,
+"hasTranslatorCredit": true,
+"confidence": 0.614,
+"subjects": [
+"First philosophy",
+"God -- Proof, Ontological"
+]
+},
+{
+"id": "pg-68090-36016",
+"originalId": 68090,
+"englishId": 36016,
+"title": "Il tulipano nero",
+"englishTitle": "The Prussian Terror",
+"author": "Dumas, Alexandre, 1802-1870",
+"authorBirthYear": 1802,
+"languageCode": "it",
+"language": "Italian",
+"year": 2022,
+"hasTranslatorCredit": true,
+"confidence": 0.614,
+"subjects": [
+"Tulip Mania, 1634-1637 -- Fiction",
+"Witt, Johan de, 1625-1672 -- Fiction",
+"Netherlands -- History -- 1648-1714 -- Fiction"
+]
+},
+{
+"id": "pg-48919-2527",
+"originalId": 48919,
+"englishId": 2527,
+"title": "Goethe und Werther: Briefe Goethe's, meistens aus seiner Jugendzeit",
+"englishTitle": "The Sorrows of Young Werther",
+"author": "Goethe, Johann Wolfgang von, 1749-1832",
+"authorBirthYear": 1749,
+"languageCode": "de",
+"language": "German",
+"year": 2015,
+"hasTranslatorCredit": true,
+"confidence": 0.614,
+"subjects": [
+"Goethe, Johann Wolfgang von, 1749-1832 -- Correspondence",
+"Authors, German -- 18th century -- Correspondence",
+"Goethe, Johann Wolfgang von, 1749-1832. Werther",
+"Kestner, Johann Christian, 1741-1800",
+"Kestner, Charlotte Buff, 1753-1828"
+]
+},
+{
+"id": "pg-65403-44384",
+"originalId": 65403,
+"englishId": 44384,
+"title": "La fin de l'art",
+"englishTitle": "A Virgin Heart: A Novel",
+"author": "Gourmont, Remy de, 1858-1915",
+"authorBirthYear": 1858,
+"languageCode": "fr",
+"language": "French",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 0.614,
+"subjects": [
+"French essays"
+]
+},
+{
+"id": "pg-27170-42022",
+"originalId": 27170,
+"englishId": 42022,
+"title": "Jeppe sur la Monto; aŭ la Transformita Kamparano",
+"englishTitle": "Jeppe on the Hill; Or, The Transformed Peasant: A Comedy in Five Acts",
+"author": "Holberg, Ludvig, 1684-1754",
+"authorBirthYear": 1684,
+"languageCode": "eo",
+"language": "Esperanto",
+"year": 2008,
+"hasTranslatorCredit": true,
+"confidence": 0.614,
+"subjects": [
+"Comedy plays",
+"Danish drama -- Translations into Esperanto"
+]
+},
+{
+"id": "pg-57505-46915",
+"originalId": 57505,
+"englishId": 46915,
+"title": "El tratado de la pintura",
+"englishTitle": "A Treatise on Painting",
+"author": "Leonardo, da Vinci, 1452-1519",
+"authorBirthYear": 1452,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2018,
+"hasTranslatorCredit": true,
+"confidence": 0.614,
+"subjects": [
+"Leonardo, da Vinci, 1452-1519",
+"Painting -- Early works to 1800",
+"Alberti, Leon Battista, 1404-1472"
+]
+},
+{
+"id": "pg-76130-15877",
+"originalId": 76130,
+"englishId": 15877,
+"title": "Marc. Aurel. Antoninus elmélkedései",
+"englishTitle": "Thoughts of Marcus Aurelius Antoninus",
+"author": "Marcus Aurelius, Emperor of Rome, 121-180",
+"authorBirthYear": 121,
+"languageCode": "hu",
+"language": "Hungarian",
+"year": 2025,
+"hasTranslatorCredit": true,
+"confidence": 0.614,
+"subjects": [
+"Stoics",
+"Ethics",
+"Life"
+]
+},
+{
+"id": "pg-13016-63445",
+"originalId": 13016,
+"englishId": 63445,
+"title": "Lavinia",
+"englishTitle": "Indiana",
+"author": "Sand, George, 1804-1876",
+"authorBirthYear": 1804,
+"languageCode": "fr",
+"language": "French",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.614,
+"subjects": [
+"French fiction -- 19th century"
+]
+},
+{
+"id": "pg-14125-77820",
+"originalId": 14125,
+"englishId": 77820,
+"title": "Amerikan löytöretken päiväkirja",
+"englishTitle": "Select letters of Christopher Columbus",
+"author": "Columbus, Christopher, 1451-1506",
+"authorBirthYear": 1451,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.612,
+"subjects": [
+"America -- Discovery and exploration -- Spanish",
+"Columbus, Christopher, 1451-1506 -- Diaries",
+"Explorers -- America -- Diaries",
+"Explorers -- Spain -- Diaries"
+]
+},
+{
+"id": "pg-17225-62338",
+"originalId": 17225,
+"englishId": 62338,
+"title": "La comtesse de Rudolstadt",
+"englishTitle": "The Countess of Rudolstadt\nA Sequel to \"Consuelo\"",
+"author": "Sand, George, 1804-1876",
+"authorBirthYear": 1804,
+"languageCode": "fr",
+"language": "French",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.612,
+"subjects": [
+"French fiction -- 19th century"
+]
+},
+{
+"id": "pg-54201-62656",
+"originalId": 54201,
+"englishId": 62656,
+"title": "William Wilberforce, der Sklavenfreund\nEin Lebensbild, für die deutsche Jugend und das deutsche Volk gezeichnet",
+"englishTitle": "William Penn",
+"author": "Oertel, Hugo",
+"authorBirthYear": null,
+"languageCode": "de",
+"language": "German",
+"year": 2017,
+"hasTranslatorCredit": true,
+"confidence": 0.611,
+"subjects": [
+"Politicians -- Great Britain -- Biography",
+"Wilberforce, William, 1759-1833",
+"Abolitionists -- Great Britain -- Biography"
+]
+},
+{
+"id": "pg-7858-33583",
+"originalId": 7858,
+"englishId": 33583,
+"title": "L'Arrabbiata",
+"englishTitle": "L'Arrabiata and Other Tales",
+"author": "Heyse, Paul, 1830-1914",
+"authorBirthYear": 1830,
+"languageCode": "de",
+"language": "German",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.61,
+"subjects": [
+"Italy -- Fiction"
+]
+},
+{
+"id": "pg-24766-64931",
+"originalId": 24766,
+"englishId": 64931,
+"title": "Étude Médico-Légale: Psychopathia Sexualis\navec recherches spéciales sur l'inversion sexuelle",
+"englishTitle": "Psychopathia sexualis: With especial reference to contrary sexual instinct\nA medico-legal study",
+"author": "Krafft-Ebing, R. von (Richard), 1840-1902",
+"authorBirthYear": 1840,
+"languageCode": "fr",
+"language": "French",
+"year": 2008,
+"hasTranslatorCredit": true,
+"confidence": 0.61,
+"subjects": [
+"Paraphilias"
+]
+},
+{
+"id": "pg-31310-77045",
+"originalId": 31310,
+"englishId": 77045,
+"title": "Beginselen der dierkunde",
+"englishTitle": "Agricultural zoology",
+"author": "Ritzema Bos, J. (Jan), 1850-1928",
+"authorBirthYear": 1850,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2010,
+"hasTranslatorCredit": true,
+"confidence": 0.61,
+"subjects": [
+"Animals",
+"Anatomy",
+"Zoology, Economic"
+]
+},
+{
+"id": "pg-57019-50113",
+"originalId": 57019,
+"englishId": 50113,
+"title": "Mémoires de Garibaldi, tome 1/2",
+"englishTitle": "My Memoirs, Vol. II, 1822 to 1825",
+"author": "Dumas, Alexandre, 1802-1870",
+"authorBirthYear": 1802,
+"languageCode": "fr",
+"language": "French",
+"year": 2018,
+"hasTranslatorCredit": true,
+"confidence": 0.609,
+"subjects": [
+"Garibaldi, Giuseppe, 1807-1882",
+"Statesmen -- Italy -- Biography",
+"Italy -- History -- 1815-1870",
+"Revolutionaries -- Italy -- Biography",
+"Generals -- Italy -- Biography"
+]
+},
+{
+"id": "pg-73236-16324",
+"originalId": 73236,
+"englishId": 16324,
+"title": "Le donne dei Cesari",
+"englishTitle": "The women of the Caesars",
+"author": "Ferrero, Guglielmo, 1871-1942",
+"authorBirthYear": 1871,
+"languageCode": "it",
+"language": "Italian",
+"year": 2024,
+"hasTranslatorCredit": true,
+"confidence": 0.609,
+"subjects": [
+"Women -- Rome -- Biography",
+"Empresses -- Rome -- Biography",
+"Princesses -- Rome -- Biography"
+]
+},
+{
+"id": "pg-30831-69839",
+"originalId": 30831,
+"englishId": 69839,
+"title": "Le Piccinino",
+"englishTitle": "The Piccinino, Volume 1 (of 2)",
+"author": "Sand, George, 1804-1876",
+"authorBirthYear": 1804,
+"languageCode": "fr",
+"language": "French",
+"year": 2010,
+"hasTranslatorCredit": true,
+"confidence": 0.609,
+"subjects": [
+"French fiction -- 19th century"
+]
+},
+{
+"id": "pg-11318-32972",
+"originalId": 11318,
+"englishId": 32972,
+"title": "De reis om de wereld in tachtig dagen",
+"englishTitle": "Round the World in Eighty Days",
+"author": "Verne, Jules, 1828-1905",
+"authorBirthYear": 1828,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2004,
+"hasTranslatorCredit": true,
+"confidence": 0.609,
+"subjects": [
+"Adventure stories",
+"Voyages around the world -- Fiction"
+]
+},
+{
+"id": "pg-52109-60333",
+"originalId": 52109,
+"englishId": 60333,
+"title": "Viettelijän päiväkirja",
+"englishTitle": "Selections from the Writings of Kierkegaard",
+"author": "Kierkegaard, Søren, 1813-1855",
+"authorBirthYear": 1813,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.608,
+"subjects": [
+"Kierkegaard, Søren, 1813-1855 -- Translations into Finnish"
+]
+},
+{
+"id": "pg-74844-19711",
+"originalId": 74844,
+"englishId": 19711,
+"title": "La vie des termites",
+"englishTitle": "The Buried Temple",
+"author": "Maeterlinck, Maurice, 1862-1949",
+"authorBirthYear": 1862,
+"languageCode": "fr",
+"language": "French",
+"year": 2024,
+"hasTranslatorCredit": true,
+"confidence": 0.608,
+"subjects": [
+"Termites"
+]
+},
+{
+"id": "pg-68634-10747",
+"originalId": 68634,
+"englishId": 10747,
+"title": "Le Cantique de l'Aile",
+"englishTitle": "Chantecler: Play in Four Acts",
+"author": "Rostand, Edmond, 1868-1918",
+"authorBirthYear": 1868,
+"languageCode": "fr",
+"language": "French",
+"year": 2022,
+"hasTranslatorCredit": true,
+"confidence": 0.608,
+"subjects": [
+"French poetry"
+]
+},
+{
+"id": "pg-73599-77541",
+"originalId": 73599,
+"englishId": 77541,
+"title": "Kurzgefaßte Symbolik der Freimaurerei.",
+"englishTitle": "Mysteria",
+"author": "Henne am Rhyn, Otto, 1828-1914",
+"authorBirthYear": 1828,
+"languageCode": "de",
+"language": "German",
+"year": 2024,
+"hasTranslatorCredit": true,
+"confidence": 0.607,
+"subjects": [
+"Freemasonry -- Symbolism"
+]
+},
+{
+"id": "pg-17942-7241",
+"originalId": 17942,
+"englishId": 7241,
+"title": "Fables de La Fontaine. Tome Second",
+"englishTitle": "Fables of La Fontaine — a New Edition, with Notes",
+"author": "La Fontaine, Jean de, 1621-1695",
+"authorBirthYear": 1621,
+"languageCode": "fr",
+"language": "French",
+"year": 2006,
+"hasTranslatorCredit": true,
+"confidence": 0.607,
+"subjects": [
+"Fables, French"
+]
+},
+{
+"id": "pg-52955-1432",
+"originalId": 52955,
+"englishId": 1432,
+"title": "Perijätär",
+"englishTitle": "Seraphita",
+"author": "Balzac, Honoré de, 1799-1850",
+"authorBirthYear": 1799,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.606,
+"subjects": [
+"France -- Social life and customs -- 19th century -- Fiction",
+"French fiction -- Translations into Finnish"
+]
+},
+{
+"id": "pg-43047-47697",
+"originalId": 43047,
+"englishId": 47697,
+"title": "Mademoiselle de Bressier",
+"englishTitle": "Odette's Marriage\nA Novel, from the French of Albert Delpit, Translated from the \"Revue des Deux Mondes,\" by Emily Prescott",
+"author": "Delpit, Albert, 1849-1893",
+"authorBirthYear": 1849,
+"languageCode": "fr",
+"language": "French",
+"year": 2013,
+"hasTranslatorCredit": true,
+"confidence": 0.606,
+"subjects": [
+"French fiction -- 19th century"
+]
+},
+{
+"id": "pg-77678-37221",
+"originalId": 77678,
+"englishId": 37221,
+"title": "Die Zelle und die Gewebe (Vol. 1/2)",
+"englishTitle": "The Biological Problem of To-day: Preformation Or Epigenesis?\nThe Basis of a Theory of Organic Development",
+"author": "Hertwig, Oscar, 1849-1922",
+"authorBirthYear": 1849,
+"languageCode": "de",
+"language": "German",
+"year": 2026,
+"hasTranslatorCredit": true,
+"confidence": 0.606,
+"subjects": [
+"Physiology",
+"Anatomy",
+"Cells"
+]
+},
+{
+"id": "pg-59064-32644",
+"originalId": 59064,
+"englishId": 32644,
+"title": "Socrate",
+"englishTitle": "Essays on the Materialistic Conception of History",
+"author": "Labriola, Antonio, 1843-1904",
+"authorBirthYear": 1843,
+"languageCode": "it",
+"language": "Italian",
+"year": 2019,
+"hasTranslatorCredit": true,
+"confidence": 0.606,
+"subjects": [
+"Socrates, 470 BC-399 BC"
+]
+},
+{
+"id": "pg-46931-40492",
+"originalId": 46931,
+"englishId": 40492,
+"title": "Voyage en Orient, Volume 1: Les femmes de Caire; Druses et Maronites",
+"englishTitle": "Sylvie: souvenirs du Valois",
+"author": "Nerval, Gérard de, 1808-1855",
+"authorBirthYear": 1808,
+"languageCode": "fr",
+"language": "French",
+"year": 2014,
+"hasTranslatorCredit": true,
+"confidence": 0.606,
+"subjects": [
+"Middle East -- Description and travel",
+"Middle East -- Social life and customs"
+]
+},
+{
+"id": "pg-15804-4683",
+"originalId": 15804,
+"englishId": 4683,
+"title": "La mort de César: Tragédie",
+"englishTitle": "Socrates",
+"author": "Voltaire, 1694-1778",
+"authorBirthYear": 1694,
+"languageCode": "fr",
+"language": "French",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.606,
+"subjects": [
+"Caesar, Julius -- Drama",
+"Tragedies (Drama)"
+]
+},
+{
+"id": "pg-51348-5432",
+"originalId": 51348,
+"englishId": 5432,
+"title": "Oodit, Karmen-Seekulaare ja Epoodit",
+"englishTitle": "The Odes and Carmen Saeculare of Horace",
+"author": "Horace, 66 BCE-9 BCE",
+"authorBirthYear": null,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.603,
+"subjects": [
+"Horace -- Translations into Finnish",
+"Latin poetry -- Translations into Finnish"
+]
+},
+{
+"id": "pg-34514-15864",
+"originalId": 34514,
+"englishId": 15864,
+"title": "Laivuri Worse",
+"englishTitle": "Garman and Worse: A Norwegian Novel",
+"author": "Kielland, Alexander Lange, 1849-1906",
+"authorBirthYear": 1849,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2010,
+"hasTranslatorCredit": true,
+"confidence": 0.603,
+"subjects": [
+"Norway -- Fiction"
+]
+},
+{
+"id": "pg-75591-23221",
+"originalId": 75591,
+"englishId": 23221,
+"title": "Das Lagerkind",
+"englishTitle": "The Story of the Little Mamsell",
+"author": "Niese, Charlotte, 1854-1935",
+"authorBirthYear": 1854,
+"languageCode": "de",
+"language": "German",
+"year": 2025,
+"hasTranslatorCredit": true,
+"confidence": 0.603,
+"subjects": [
+"Thirty Years' War, 1618-1648 -- Juvenile fiction"
+]
+},
+{
+"id": "pg-39687-16467",
+"originalId": 39687,
+"englishId": 16467,
+"title": "Musiciens d'autrefois",
+"englishTitle": "Musicians of to-day",
+"author": "Rolland, Romain, 1866-1944",
+"authorBirthYear": 1866,
+"languageCode": "fr",
+"language": "French",
+"year": 2012,
+"hasTranslatorCredit": true,
+"confidence": 0.603,
+"subjects": [
+"Musicians",
+"Opera",
+"Composers"
+]
+},
+{
+"id": "pg-55521-63985",
+"originalId": 55521,
+"englishId": 63985,
+"title": "Albrecht Dürer: Een levensbeeld",
+"englishTitle": "Katharine von Bora: Dr. Martin Luther's Wife",
+"author": "Stein, Armin, 1840-1929",
+"authorBirthYear": 1840,
+"languageCode": "nl",
+"language": "Dutch",
+"year": 2017,
+"hasTranslatorCredit": true,
+"confidence": 0.603,
+"subjects": [
+"Dürer, Albrecht, 1471-1528 -- Fiction"
+]
+},
+{
+"id": "pg-65082-44429",
+"originalId": 65082,
+"englishId": 44429,
+"title": "Voyage aux Pyrénées",
+"englishTitle": "A Tour Through the Pyrenees",
+"author": "Taine, Hippolyte, 1828-1893",
+"authorBirthYear": 1828,
+"languageCode": "fr",
+"language": "French",
+"year": 2021,
+"hasTranslatorCredit": true,
+"confidence": 0.603,
+"subjects": [
+"Pyrenees -- Description and travel"
+]
+},
+{
+"id": "pg-15203-13527",
+"originalId": 15203,
+"englishId": 13527,
+"title": "Un billet de loterie\n(Le numéro 9672)",
+"englishTitle": "Ticket No. \"9672\"",
+"author": "Verne, Jules, 1828-1905",
+"authorBirthYear": 1828,
+"languageCode": "fr",
+"language": "French",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.603,
+"subjects": [
+"Lotteries -- Fiction"
+]
+},
+{
+"id": "pg-55103-29682",
+"originalId": 55103,
+"englishId": 29682,
+"title": "Erdgeist",
+"englishTitle": "Erdgeist (Earth-Spirit): A Tragedy in Four Acts",
+"author": "Wedekind, Frank, 1864-1918",
+"authorBirthYear": 1864,
+"languageCode": "de",
+"language": "German",
+"year": 2017,
+"hasTranslatorCredit": true,
+"confidence": 0.603,
+"subjects": [
+"Tragedies (Drama)",
+"German drama -- 19th century"
+]
+},
+{
+"id": "pg-8416-63819",
+"originalId": 8416,
+"englishId": 63819,
+"title": "Nouveaux Contes à Ninon",
+"englishTitle": "Claude's Confession",
+"author": "Zola, Émile, 1840-1902",
+"authorBirthYear": 1840,
+"languageCode": "fr",
+"language": "French",
+"year": 2005,
+"hasTranslatorCredit": true,
+"confidence": 0.603,
+"subjects": [
+"Short stories, French",
+"French fiction -- 19th century"
+]
+},
+{
+"id": "pg-52711-1437",
+"originalId": 52711,
+"englishId": 1437,
+"title": "Kapina",
+"englishTitle": "Juana",
+"author": "Balzac, Honoré de, 1799-1850",
+"authorBirthYear": 1799,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2016,
+"hasTranslatorCredit": true,
+"confidence": 0.6,
+"subjects": [
+"French fiction -- Translations into Finnish",
+"Chouans -- Fiction"
+]
+},
+{
+"id": "pg-21593-7849",
+"originalId": 21593,
+"englishId": 7849,
+"title": "Das Urteil: Eine Geschichte",
+"englishTitle": "The Trial",
+"author": "Kafka, Franz, 1883-1924",
+"authorBirthYear": 1883,
+"languageCode": "de",
+"language": "German",
+"year": 2007,
+"hasTranslatorCredit": true,
+"confidence": 0.6,
+"subjects": [
+"Fathers and sons -- Fiction",
+"Conflict of generations -- Fiction"
+]
+},
+{
+"id": "pg-55210-4014",
+"originalId": 55210,
+"englishId": 4014,
+"title": "Arsène Lupin miljoonaperillisenä",
+"englishTitle": "Arsène Lupin",
+"author": "Leblanc, Maurice, 1864-1941",
+"authorBirthYear": 1864,
+"languageCode": "fi",
+"language": "Finnish",
+"year": 2017,
+"hasTranslatorCredit": true,
+"confidence": 0.6,
+"subjects": [
+"Detective and mystery stories",
+"Lupin, Arsène (Fictitious character) -- Fiction"
+]
+},
+{
+"id": "pg-4572-77416",
+"originalId": 4572,
+"englishId": 77416,
+"title": "粉妝樓1-10回",
+"englishTitle": "San kuo; or, Romance of the three kingdoms (volume 1 of 2)",
+"author": "Luo, Guanzhong, 1330?-1400?",
+"authorBirthYear": 1330,
+"languageCode": "zh",
+"language": "Chinese",
+"year": 2003,
+"hasTranslatorCredit": true,
+"confidence": 0.6,
+"subjects": [
+"China -- History -- Tang dynasty, 618-907 -- Fiction"
+]
+},
+{
+"id": "pg-75814-54577",
+"originalId": 75814,
+"englishId": 54577,
+"title": "En tranvía",
+"englishTitle": "A Wedding Trip",
+"author": "Pardo Bazán, Emilia, condesa de, 1852-1921",
+"authorBirthYear": 1852,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2025,
+"hasTranslatorCredit": true,
+"confidence": 0.6,
+"subjects": [
+"Short stories, Spanish",
+"Spanish fiction -- 19th century"
+]
+},
+{
+"id": "pg-48091-48752",
+"originalId": 48091,
+"englishId": 48752,
+"title": "La familia de León Roch, Tomo 1",
+"englishTitle": "Leon Roch: A Romance, vol. 1 (of 2)",
+"author": "Pérez Galdós, Benito, 1843-1920",
+"authorBirthYear": 1843,
+"languageCode": "es",
+"language": "Spanish",
+"year": 2015,
+"hasTranslatorCredit": true,
+"confidence": 0.6,
+"subjects": [
+"Spanish fiction"
+]
+}
+]

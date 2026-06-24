@@ -26,6 +26,13 @@ export interface CuratedWork {
   /** Author name inverted for citations, e.g. "Alighieri, Dante". */
   authorSort: string;
   spreads: Spread[];
+  /** Provenance for auto-ingested Gutenberg pairs (absent on curated works). */
+  originalId?: number;
+  englishId?: number;
+  /** Pairing confidence in [0,1] for auto-ingested works. */
+  confidence?: number;
+  /** "manual" for hand-aligned curated works, "auto" for ingested pairs. */
+  aligned?: "manual" | "auto";
 }
 
 /** Lightweight catalog metadata, safe to ship to the client without the full text. */

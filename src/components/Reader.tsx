@@ -516,8 +516,37 @@ export function Reader({ work }: ReaderProps) {
               {work.originalSource}
             </EditionRow>
             <EditionRow dark={isDark} term="Source">
-              {work.source}
+              {work.originalId && work.englishId ? (
+                <>
+                  Project Gutenberg{" "}
+                  <a
+                    href={`https://www.gutenberg.org/ebooks/${work.originalId}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline decoration-dotted underline-offset-2 hover:text-accent"
+                  >
+                    #{work.originalId}
+                  </a>{" "}
+                  ·{" "}
+                  <a
+                    href={`https://www.gutenberg.org/ebooks/${work.englishId}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline decoration-dotted underline-offset-2 hover:text-accent"
+                  >
+                    #{work.englishId}
+                  </a>
+                </>
+              ) : (
+                work.source
+              )}
             </EditionRow>
+            {work.aligned === "auto" && (
+              <EditionRow dark={isDark} term="Alignment">
+                Auto-aligned (beta) — facing pages track proportionally, not yet
+                line-by-line.
+              </EditionRow>
+            )}
           </dl>
         </div>
       </main>
