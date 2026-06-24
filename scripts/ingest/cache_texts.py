@@ -24,6 +24,8 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
+import align
+
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parent.parent
 RAW_CSV = HERE / "pg_catalog.csv"
@@ -93,43 +95,6 @@ def to_paragraphs(body: str) -> list[str]:
     return [p for p in paragraphs if p]
 
 
-def paginate(paragraphs: list[str], target: int) -> list[list[str]]:
-    """Greedily group whole paragraphs into pages of ~`target` characters."""
-    pages: list[list[str]] = []
-    cur: list[str] = []
-    size = 0
-    for p in paragraphs:
-        cur.append(p)
-        size += len(p)
-        if size >= target:
-            pages.append(cur)
-            cur, size = [], 0
-    if cur:
-        pages.append(cur)
-    return pages or [[]]
-
-
-def slice_proportional(paragraphs: list[str], n_pages: int) -> list[list[str]]:
-    """Split paragraphs into exactly n_pages proportional chunks."""
-    out: list[list[str]] = []
-    total = len(paragraphs)
-    for i in range(n_pages):
-        lo = round(i / n_pages * total)
-        hi = round((i + 1) / n_pages * total)
-        out.append(paragraphs[lo:hi])
-    return out
-
-
-def build_spreads(orig_paras: list[str], eng_paras: list[str]) -> list[dict]:
-    orig_pages = paginate(orig_paras, TARGET_CHARS)
-    n = len(orig_pages)
-    eng_pages = slice_proportional(eng_paras, n)
-    spreads = []
-    for o, e in zip(orig_pages, eng_pages):
-        spreads.append({"original": "\n\n".join(o), "english": "\n\n".join(e)})
-    return spreads
-
-
 def clean_person(name: str) -> str:
     """`Balzac, Honoré de, 1799-1850` -> `Honoré de Balzac`; `Voltaire` -> `Voltaire`."""
     name = DATE_TAIL_RE.sub("", name).strip().rstrip(",")
@@ -167,7 +132,7 @@ def build_work(pair: dict, catalog: dict[int, dict]) -> dict | None:
     if len(orig_paras) < 3 or len(eng_paras) < 3:
         return None
 
-    spreads = build_spreads(orig_paras, eng_paras)
+    spreads, align_method = align.build_spreads(orig_paras, eng_paras)
     eng_row = catalog.get(pair["englishId"], {})
     translator = find_translator(eng_row.get("Authors", "")) or "Uncredited"
     author_display = clean_person(pair["author"])
@@ -198,6 +163,7 @@ def build_work(pair: dict, catalog: dict[int, dict]) -> dict | None:
         "englishId": pair["englishId"],
         "confidence": pair["confidence"],
         "aligned": "auto",
+        "alignMethod": align_method,
         "spreads": spreads,
     }
 

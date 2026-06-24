@@ -33,6 +33,13 @@ export interface CuratedWork {
   confidence?: number;
   /** "manual" for hand-aligned curated works, "auto" for ingested pairs. */
   aligned?: "manual" | "auto";
+  /**
+   * How an auto-ingested pair was aligned:
+   * - "structural": anchored on shared chapter/canto/part headings.
+   * - "proportional+trim": front matter dropped, then proportional.
+   * - "proportional": whole-text proportional (no shared structure found).
+   */
+  alignMethod?: "structural" | "proportional+trim" | "proportional";
 }
 
 /** Lightweight catalog metadata, safe to ship to the client without the full text. */

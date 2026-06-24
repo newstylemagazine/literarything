@@ -543,8 +543,11 @@ export function Reader({ work }: ReaderProps) {
             </EditionRow>
             {work.aligned === "auto" && (
               <EditionRow dark={isDark} term="Alignment">
-                Auto-aligned (beta) — facing pages track proportionally, not yet
-                line-by-line.
+                {work.alignMethod === "structural"
+                  ? "Auto-aligned (beta) — anchored on shared chapter/canto headings; pages track proportionally within each chapter."
+                  : work.alignMethod === "proportional+trim"
+                    ? "Auto-aligned (beta) — front matter removed, then facing pages track proportionally."
+                    : "Auto-aligned (beta) — facing pages track proportionally, not yet line-by-line."}
               </EditionRow>
             )}
           </dl>
