@@ -29,7 +29,6 @@ const MAX_FONT = 28;
 
 interface ReaderProps {
   work: CuratedWork;
-  initialPage: number;
 }
 
 interface GlossState {
@@ -45,9 +44,9 @@ function toParagraphs(text: string): string[] {
     .filter(Boolean);
 }
 
-export function Reader({ work, initialPage }: ReaderProps) {
+export function Reader({ work }: ReaderProps) {
   const [mounted, setMounted] = useState(false);
-  const [pageIndex, setPageIndex] = useState(initialPage);
+  const [pageIndex, setPageIndex] = useState(0);
   const [gloss, setGloss] = useState<GlossState | null>(null);
   const [exporting, setExporting] = useState(false);
 
@@ -65,10 +64,18 @@ export function Reader({ work, initialPage }: ReaderProps) {
   const total = work.spreads.length;
   const spread = work.spreads[pageIndex];
 
+  // Read the deep-linked opening from the URL on mount (static-export safe).
   useEffect(() => {
-    const raf = requestAnimationFrame(() => setMounted(true));
+    const raf = requestAnimationFrame(() => {
+      const param = new URLSearchParams(window.location.search).get("page");
+      const parsed = Number.parseInt(param ?? "", 10);
+      if (Number.isFinite(parsed) && parsed >= 1 && parsed <= work.spreads.length) {
+        setPageIndex(parsed - 1);
+      }
+      setMounted(true);
+    });
     return () => cancelAnimationFrame(raf);
-  }, []);
+  }, [work.spreads.length]);
 
   useEffect(() => {
     pageIndexRef.current = pageIndex;
