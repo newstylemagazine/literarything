@@ -21,6 +21,10 @@ export interface CuratedWork {
   englishLabel: string;
   originalSource: string;
   englishSource: string;
+  /** Translator of the English edition, surfaced prominently in the reader. */
+  translator: string;
+  /** Author name inverted for citations, e.g. "Alighieri, Dante". */
+  authorSort: string;
   spreads: Spread[];
 }
 

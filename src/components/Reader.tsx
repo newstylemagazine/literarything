@@ -5,6 +5,7 @@ import Link from "next/link";
 import type { CuratedWork } from "@/lib/catalog";
 import { useReaderStore } from "@/lib/store";
 import { cn, formatYear } from "@/lib/utils";
+import { CitationDialog } from "@/components/CitationDialog";
 
 const FONT_MAP: Record<string, string> = {
   garamond: 'var(--font-serif), "EB Garamond", Garamond, serif',
@@ -49,16 +50,20 @@ export function Reader({ work }: ReaderProps) {
   const [pageIndex, setPageIndex] = useState(0);
   const [gloss, setGloss] = useState<GlossState | null>(null);
   const [exporting, setExporting] = useState(false);
+  const [showCite, setShowCite] = useState(false);
 
   const theme = useReaderStore((s) => s.theme);
   const fontSize = useReaderStore((s) => s.fontSize);
   const fontFamily = useReaderStore((s) => s.fontFamily);
+  const scrollSync = useReaderStore((s) => s.scrollSync);
   const setTheme = useReaderStore((s) => s.setTheme);
   const setFontSize = useReaderStore((s) => s.setFontSize);
   const setFontFamily = useReaderStore((s) => s.setFontFamily);
+  const setScrollSync = useReaderStore((s) => s.setScrollSync);
 
   const versoRef = useRef<HTMLDivElement>(null);
   const rectoRef = useRef<HTMLDivElement>(null);
+  const syncingRef = useRef(false);
   const pageIndexRef = useRef(pageIndex);
 
   const total = work.spreads.length;
@@ -143,9 +148,39 @@ export function Reader({ work }: ReaderProps) {
     return () => document.removeEventListener("mousedown", onDown);
   }, []);
 
+  // Mirror scrolling between the two columns, proportional to each column's
+  // length (original and translation rarely match in height).
+  useEffect(() => {
+    if (!scrollSync) return;
+    const verso = versoRef.current;
+    const recto = rectoRef.current;
+    if (!verso || !recto) return;
+
+    const mirror = (src: HTMLDivElement, dst: HTMLDivElement) => () => {
+      if (syncingRef.current) return;
+      syncingRef.current = true;
+      const srcMax = src.scrollHeight - src.clientHeight;
+      const dstMax = dst.scrollHeight - dst.clientHeight;
+      dst.scrollTop = srcMax > 0 ? (src.scrollTop / srcMax) * dstMax : 0;
+      requestAnimationFrame(() => {
+        syncingRef.current = false;
+      });
+    };
+
+    const onVerso = mirror(verso, recto);
+    const onRecto = mirror(recto, verso);
+    verso.addEventListener("scroll", onVerso, { passive: true });
+    recto.addEventListener("scroll", onRecto, { passive: true });
+    return () => {
+      verso.removeEventListener("scroll", onVerso);
+      recto.removeEventListener("scroll", onRecto);
+    };
+  }, [scrollSync, pageIndex]);
+
   const effectiveTheme = mounted ? theme : "light";
   const effectiveFontSize = mounted ? fontSize : 19;
   const effectiveFont = mounted ? fontFamily : "garamond";
+  const effectiveScrollSync = mounted ? scrollSync : true;
 
   const isDark = effectiveTheme === "dark";
 
@@ -274,27 +309,54 @@ export function Reader({ work }: ReaderProps) {
             </div>
           </div>
 
-          <button
-            type="button"
-            onClick={exportPdf}
-            disabled={exporting}
-            className="inline-flex items-center gap-2 rounded-full bg-accent px-4 py-2 text-sm font-semibold text-paper transition-colors hover:bg-accent-hover disabled:opacity-60"
-          >
-            <svg
-              className="h-4 w-4"
-              viewBox="0 0 20 20"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth={1.7}
+          <div className="flex items-center gap-2">
+            <button
+              type="button"
+              onClick={() => setShowCite(true)}
+              className={cn(
+                "inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-semibold transition-colors",
+                isDark
+                  ? "border-night-line text-night-ink hover:border-night-soft"
+                  : "border-line-strong text-ink hover:border-ink-faint",
+              )}
             >
-              <path
-                d="M10 3v9m0 0 3.5-3.5M10 12 6.5 8.5M4 15.5h12"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-            {exporting ? "Preparing…" : "PDF"}
-          </button>
+              <svg
+                className="h-4 w-4"
+                viewBox="0 0 20 20"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.7}
+              >
+                <path
+                  d="M7 7H5.5A1.5 1.5 0 0 0 4 8.5v2A1.5 1.5 0 0 0 5.5 12H7V8c0-.6.2-1 .5-1.4M14.5 7H13a1.5 1.5 0 0 0-1.5 1.5v2A1.5 1.5 0 0 0 13 12h1.5V8c0-.6.2-1 .5-1.4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+              Cite
+            </button>
+            <button
+              type="button"
+              onClick={exportPdf}
+              disabled={exporting}
+              className="inline-flex items-center gap-2 rounded-full bg-accent px-4 py-2 text-sm font-semibold text-paper transition-colors hover:bg-accent-hover disabled:opacity-60"
+            >
+              <svg
+                className="h-4 w-4"
+                viewBox="0 0 20 20"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.7}
+              >
+                <path
+                  d="M10 3v9m0 0 3.5-3.5M10 12 6.5 8.5M4 15.5h12"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+              {exporting ? "Preparing…" : "PDF"}
+            </button>
+          </div>
         </div>
 
         {/* Settings */}
@@ -378,6 +440,7 @@ export function Reader({ work }: ReaderProps) {
             <Page
               ref={rectoRef}
               label={work.englishLabel}
+              sublabel={`Translated by ${work.translator}`}
               lang="English"
               paragraphs={englishParagraphs}
               fontFamily={FONT_MAP[effectiveFont] ?? FONT_MAP.garamond}
@@ -427,16 +490,79 @@ export function Reader({ work }: ReaderProps) {
           />
         </div>
 
-        <p
+        <div
           className={cn(
-            "mt-6 text-center text-xs",
-            isDark ? "text-night-soft" : "text-ink-faint",
+            "mx-auto mt-8 max-w-xl rounded-xl border p-5",
+            isDark
+              ? "border-night-line bg-night-card/60"
+              : "border-line bg-paper-card/70",
           )}
         >
-          {work.originalSource} · trans. {work.englishSource} · Source:{" "}
-          {work.source}
-        </p>
+          <p
+            className={cn(
+              "text-[11px] font-semibold uppercase tracking-[0.16em]",
+              isDark ? "text-night-soft" : "text-ink-faint",
+            )}
+          >
+            About this edition
+          </p>
+          <dl className="mt-3 grid gap-2 text-sm sm:grid-cols-[7rem_1fr]">
+            <EditionRow dark={isDark} term="Translator" emphasize>
+              {work.translator}
+            </EditionRow>
+            <EditionRow dark={isDark} term="Original">
+              {work.originalSource}
+            </EditionRow>
+            <EditionRow dark={isDark} term="Source">
+              {work.source}
+            </EditionRow>
+          </dl>
+        </div>
       </main>
+
+      {/* Scroll-sync toggle */}
+      <button
+        type="button"
+        onClick={() => setScrollSync(!scrollSync)}
+        aria-pressed={effectiveScrollSync}
+        className={cn(
+          "fixed bottom-5 right-5 z-40 inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-semibold shadow-card backdrop-blur-md transition-colors",
+          isDark
+            ? "border-night-line bg-night/85 text-night-ink hover:border-night-soft"
+            : "border-line-strong bg-paper/90 text-ink hover:border-ink-faint",
+        )}
+      >
+        <svg
+          className="h-4 w-4"
+          viewBox="0 0 20 20"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth={1.7}
+        >
+          {effectiveScrollSync ? (
+            <path
+              d="M7 6 4 9l3 3M13 6l3 3-3 3M4 9h12"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          ) : (
+            <path
+              d="M7 6 4 9l3 3M13 6l3 3-3 3M4 9h4m4 0h4"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          )}
+        </svg>
+        {effectiveScrollSync ? "Unsync scroll" : "Sync scroll"}
+      </button>
+
+      {showCite && (
+        <CitationDialog
+          work={work}
+          dark={isDark}
+          onClose={() => setShowCite(false)}
+        />
+      )}
 
       {/* Gloss popup — placeholder for future word-by-word glossing */}
       {gloss && (
@@ -459,6 +585,7 @@ export function Reader({ work }: ReaderProps) {
 
 interface PageProps {
   label: string;
+  sublabel?: string;
   lang: string;
   paragraphs: string[];
   fontFamily: string;
@@ -469,6 +596,7 @@ interface PageProps {
 const Page = ({
   ref,
   label,
+  sublabel,
   lang,
   paragraphs,
   fontFamily,
@@ -486,13 +614,25 @@ const Page = ({
       style={{ borderColor: "var(--page-line)" }}
     >
       <div
-        className="flex items-center justify-between px-6 pt-6 sm:px-9"
+        className="flex items-start justify-between px-6 pt-6 sm:px-9"
         style={{ color: "var(--page-muted)" }}
       >
-        <span className="text-[11px] font-semibold uppercase tracking-[0.16em]">
-          {label}
+        <div className="min-w-0">
+          <span className="block text-[11px] font-semibold uppercase tracking-[0.16em]">
+            {label}
+          </span>
+          {sublabel && (
+            <span
+              className="mt-0.5 block truncate font-serif text-sm italic"
+              style={{ color: "var(--page-ink)" }}
+            >
+              {sublabel}
+            </span>
+          )}
+        </div>
+        <span className="shrink-0 text-[11px] uppercase tracking-[0.12em]">
+          {lang}
         </span>
-        <span className="text-[11px] uppercase tracking-[0.12em]">{lang}</span>
       </div>
       <div
         ref={ref}
@@ -513,6 +653,42 @@ const Page = ({
   );
 };
 Page.displayName = "Page";
+
+function EditionRow({
+  term,
+  dark,
+  emphasize,
+  children,
+}: {
+  term: string;
+  dark: boolean;
+  emphasize?: boolean;
+  children: React.ReactNode;
+}) {
+  return (
+    <>
+      <dt
+        className={cn(
+          "text-[11px] font-semibold uppercase tracking-wider sm:pt-0.5",
+          dark ? "text-night-soft" : "text-ink-faint",
+        )}
+      >
+        {term}
+      </dt>
+      <dd
+        className={cn(
+          emphasize
+            ? cn("font-serif text-base", dark ? "text-night-ink" : "text-ink")
+            : dark
+              ? "text-night-soft"
+              : "text-ink-soft",
+        )}
+      >
+        {children}
+      </dd>
+    </>
+  );
+}
 
 function ControlGroup({
   label,

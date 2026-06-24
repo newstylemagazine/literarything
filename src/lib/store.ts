@@ -3,9 +3,11 @@ import { persist } from 'zustand/middleware';
 import type { ReaderState, CatalogEntry, WorkAlignment } from '@/types/alignment';
 
 interface ReaderStore extends ReaderState {
+  scrollSync: boolean;
   setTheme: (theme: "light" | "sepia" | "dark") => void;
   setFontSize: (size: number) => void;
   setFontFamily: (font: string) => void;
+  setScrollSync: (scrollSync: boolean) => void;
   setShowLineNumbers: (show: boolean) => void;
   setHighlightAlignment: (highlight: boolean) => void;
   setCurrentSegmentIndex: (index: number) => void;
@@ -45,9 +47,11 @@ export const useReaderStore = create<ReaderStore>()(
   persist(
     (set) => ({
       ...defaultReaderState,
+      scrollSync: true,
       setTheme: (theme) => set({ theme }),
       setFontSize: (fontSize) => set({ fontSize }),
       setFontFamily: (fontFamily) => set({ fontFamily }),
+      setScrollSync: (scrollSync) => set({ scrollSync }),
       setShowLineNumbers: (showLineNumbers) => set({ showLineNumbers }),
       setHighlightAlignment: (highlightAlignment) => set({ highlightAlignment }),
       setCurrentSegmentIndex: (currentSegmentIndex) => set({ currentSegmentIndex }),
