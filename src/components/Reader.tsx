@@ -228,15 +228,17 @@ export function Reader({ work }: ReaderProps) {
         doc.setFontSize(11);
         let y = top + 18;
         const maxY = pageH - margin;
-        for (const para of paragraphs) {
-          const lines = doc.splitTextToSize(para, colW) as string[];
-          for (const line of lines) {
-            if (y > maxY) break;
-            doc.text(line, x, y);
+        const indent = 14;
+        paragraphs.forEach((para, paraIndex) => {
+          const offset = paraIndex === 0 ? 0 : indent;
+          const lines = doc.splitTextToSize(para, colW - offset) as string[];
+          lines.forEach((line, lineIndex) => {
+            if (y > maxY) return;
+            doc.text(line, x + (lineIndex === 0 ? offset : 0), y);
             y += 15;
-          }
+          });
           y += 8;
-        }
+        });
       };
 
       drawColumn(margin, work.originalLabel, originalParagraphs);
@@ -643,7 +645,11 @@ const Page = ({
           <p
             key={index}
             className="mb-[0.9em] last:mb-0"
-            style={{ textAlign: "justify", hyphens: "auto" }}
+            style={{
+              textAlign: "justify",
+              hyphens: "auto",
+              textIndent: index === 0 ? 0 : "1.6em",
+            }}
           >
             {para}
           </p>
